@@ -1,0 +1,7 @@
+{"path_root":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\",
+"data_pairs_path":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Sentence Similarity Data\\Sentence Similarities Final\\",
+"data_nonpaired_path":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Neuroimaging Data\\",
+"sims_path":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Analysis Results\\Sentence Similarities\\",
+"embeddings_path":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Analysis Results\\Sentence Embeddings\\",
+"parses_path":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Analysis Results\\Sentence Parses\\",
+"stop_words_path":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Frames and Structured Data\\FrameNet\\nltk_data\\corpora\\stopwords\\english.txt"}

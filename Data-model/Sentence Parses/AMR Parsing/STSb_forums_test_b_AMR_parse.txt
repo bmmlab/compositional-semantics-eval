@@ -1,0 +1,2195 @@
+# ::snt-1 I remained under the banyan tree, exhausted by my daily ritual of herding the cats every two hours.
+(z1 / remain-01
+      :ARG1 (z2 / i)
+      :location (z3 / under
+            :op1 (z4 / tree
+                  :mod (z5 / banyan)))
+      :ARG1-of (z6 / cause-01
+            :ARG0 (z7 / exhaust-01
+                  :ARG0 (z8 / ritual
+                        :frequency (z9 / rate-entity-91
+                              :ARG3 (z10 / temporal-quantity
+                                    :quant 1
+                                    :unit (z11 / day)))
+                        :poss z2
+                        :mod (z12 / herd-01
+                              :ARG0 z2
+                              :ARG1 (z13 / cat)
+                              :frequency (z14 / rate-entity-91
+                                    :ARG3 (z15 / temporal-quantity
+                                          :quant 2
+                                          :unit (z16 / hour))))))
+            :ARG1 z2))
+
+# ::snt-2 It really depends on the school and the program.
+(z1 / depend-01
+      :ARG0 (z2 / it)
+      :ARG1 (z3 / and
+            :op1 (z4 / school)
+            :op2 (z5 / program))
+      :degree (z6 / really))
+
+# ::snt-3 There is also a Youtube-Version of the film.
+(z1 / version
+      :medium (z2 / publication
+            :name (z3 / name
+                  :op1 "YouTube"))
+      :mod (z4 / also)
+      :mod (z5 / film))
+
+# ::snt-4 You can do it, but you might not be a professor.
+(z1 / contrast-01
+      :ARG1 (z2 / possible-01
+            :ARG1 (z3 / do-02
+                  :ARG0 (z4 / you)
+                  :ARG1 (z5 / it)))
+      :ARG2 (z6 / possible-01
+            :ARG1 (z7 / professor
+                  :polarity -
+                  :domain z4)))
+
+# ::snt-5 I have this habit as well.
+(z1 / have-03
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / habit
+            :mod (z4 / this))
+      :mod (z5 / as-well))
+
+# ::snt-6 You may want it, but the process given to you is what you have to work within.
+(z1 / contrast-01
+      :ARG1 (z2 / possible-01
+            :ARG1 (z3 / want-01
+                  :ARG0 (z4 / you)
+                  :ARG1 (z5 / it))))
+
+# ::snt-7 You don't have to worry.
+(z1 / obligate-01
+      :polarity -
+      :ARG1 (z2 / you)
+      :ARG2 (z3 / worry-02
+            :ARG0 z2))
+
+# ::snt-8 You should do what it says.
+(z1 / recommend-01
+      :ARG1 (z2 / do-02
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / thing
+                  :ARG1-of (z5 / say-01
+                        :ARG0 (z6 / it))))
+      :ARG2 z3)
+
+# ::snt-9 You should listen to your boss, because you're not paid to tell the boss what to do.
+(z1 / cause-01
+      :ARG0 (z2 / pay-01
+            :polarity -
+            :ARG2 (z3 / you)
+            :ARG3 (z4 / tell-01
+                  :ARG0 z3
+                  :ARG1 (z5 / thing
+                        :ARG1-of (z6 / do-02
+                              :ARG0 (z7 / boss
+                                    :ARG2-of z4))))))
+
+# ::snt-10 You have to decide how much you want to demand, and what unmet demands you can live with.
+(z1 / obligate-01
+      :ARG1 (z2 / you)
+      :ARG2 (z3 / decide-01
+            :ARG0 z2
+            :ARG1 (z4 / and
+                  :op1 (z5 / monetary-quantity
+                        :ARG1-of (z6 / demand-01
+                              :ARG0 z2
+                              :ARG1-of (z7 / want-01
+                                    :ARG0 z2)))
+                  :op2 (z8 / monetary-quantity
+                        :ARG1-of (z9 / demand-01
+                              :ARG1-of (z10 / meet-01
+                                    :polarity -))
+                        :ARG2-of (z11 / live-01
+                              :ARG0 z2
+                              :ARG1-of (z12 / possible-01))))))
+
+# ::snt-11 i think it depends what you want:
+(z1 / think-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / depend-01
+            :ARG0 (z4 / it)
+            :ARG1 (z5 / thing
+                  :ARG1-of (z6 / want-01
+                        :ARG0 (z7 / you)))))
+
+# ::snt-12 Yes, you can do it.
+(z1 / possible-01
+      :ARG1 (z2 / do-02
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / it)))
+
+# ::snt-13 You can do it, too.
+(z1 / possible-01
+      :ARG1 (z2 / do-02
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / it)
+            :mod (z5 / too)))
+
+# ::snt-14 You have to know what you want to do.
+(z1 / obligate-01
+      :ARG2 (z2 / know-01
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / thing
+                  :ARG1-of (z5 / do-02
+                        :ARG0 z3
+                        :ARG1-of (z6 / want-01
+                              :ARG0 z3)))))
+
+# ::snt-15 I have two suggestions for you:
+(z1 / suggest-01
+      :quant 2
+      :ARG0 (z2 / i)
+      :ARG2 (z3 / you))
+
+# ::snt-16 You will have to start with the clinic, and maybe move on to the insurance company.
+(z1 / and
+      :op1 (z2 / obligate-01
+            :ARG2 (z3 / start-01
+                  :ARG0 (z4 / you)
+                  :ARG2 (z5 / clinic)))
+      :op2 (z6 / possible-01
+            :ARG1 (z7 / move-01
+                  :ARG0 z4
+                  :ARG2 (z8 / company
+                        :ARG0-of (z9 / insure-02))
+                  :direction (z10 / on))))
+
+# ::snt-17 The key thing you need to do in this meeting is listen.
+(z1 / thing
+      :ARG1-of (z2 / key-02)
+      :ARG1-of (z3 / do-02
+            :ARG0 (z4 / you)
+            :time (z5 / meet-03
+                  :mod (z6 / this))
+            :ARG1-of (z7 / need-01
+                  :ARG0 z4))
+      :domain (z8 / listen-01
+            :ARG0 z4))
+
+# ::snt-18 My answer to your question is "Probably Not".
+(z1 / answer-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / question-01
+            :ARG0 (z4 / you))
+      :ARG2 (z5 / probable
+            :op1 (z6 / have-polarity-91
+                  :ARG2 -)))
+
+# ::snt-19 Start them as early as possible.
+(z1 / start-01
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / they)
+      :time (z4 / early
+            :ARG2-of (z5 / have-degree-91
+                  :ARG1 z1
+                  :ARG3 (z6 / equal)
+                  :ARG4 (z7 / possible-01
+                        :ARG1 z1))))
+
+# ::snt-20 It depends on what you want to do next, and where you want to do it.
+(z1 / depend-01
+      :ARG0 (z2 / it)
+      :ARG1 (z3 / and
+            :op1 (z4 / thing
+                  :ARG1-of (z5 / do-02
+                        :ARG0 (z6 / you)
+                        :time (z7 / next)
+                        :ARG1-of (z8 / want-01
+                              :ARG0 z6)))
+            :op2 (z9 / thing
+                  :location-of (z10 / do-02
+                        :ARG0 z6
+                        :ARG1 z4))))
+
+# ::snt-21 The answer to both of your questions is yes.
+(z1 / yes
+      :ARG2-of (z2 / answer-01
+            :ARG1 (z3 / question-01
+                  :ARG0 (z4 / you)
+                  :mod (z5 / both))))
+
+# ::snt-22 I'll answer this question:
+(z1 / answer-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / question-01
+            :mod (z4 / this)))
+
+# ::snt-23 Sorry, I don't know the answer to your question.
+(z1 / sorry-01
+      :ARG1 (z2 / i)
+      :ARG2 (z3 / know-01
+            :polarity -
+            :ARG0 z2
+            :ARG1 (z4 / answer-01
+                  :ARG1 (z5 / thing
+                        :ARG1-of (z6 / question-01
+                              :ARG0 (z7 / you))))))
+
+# ::snt-24 I always go by the rule "When in doubt, throw it out!
+(z1 / rule-01
+      :ARG1 (z2 / throw-out-06
+            :mode imperative
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / it)
+            :condition (z5 / doubt-01
+                  :ARG0 z3)))
+
+# ::snt-25 This sound like a very bad idea.
+(z1 / sound-01
+      :ARG1 (z2 / this)
+      :ARG2 (z3 / idea
+            :ARG1-of (z4 / bad-07
+                  :degree (z5 / very))))
+
+# ::snt-26 It's a good idea.
+(z1 / idea
+      :ARG1-of (z2 / good-02)
+      :domain (z3 / it))
+
+# ::snt-27 It depends on the meat and how it's cut.
+(z1 / depend-01
+      :ARG0 (z2 / it)
+      :ARG1 (z3 / and
+            :op1 (z4 / meat)
+            :op2 (z5 / thing
+                  :manner-of (z6 / cut-01
+                        :ARG1 z4))))
+
+# ::snt-28 It's a good question.
+(z1 / thing
+      :ARG1-of (z2 / question-01)
+      :ARG1-of (z3 / good-02)
+      :domain (z4 / it))
+
+# ::snt-29 It's much better to ask.
+(z1 / have-degree-91
+      :ARG1 (z2 / ask-01)
+      :ARG2 (z3 / good-02
+            :ARG1 z2)
+      :ARG3 (z4 / more
+            :quant (z5 / much)))
+
+# ::snt-30 Yes, that is exactly what it means.
+(z1 / mean-01
+      :ARG1 (z2 / it)
+      :ARG2 (z3 / that)
+      :mod (z4 / exact))
+
+# ::snt-31 Have you tried asking?
+(z1 / try-01
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / ask-01
+            :ARG0 z2)
+      :polarity (z4 / amr-unknown))
+
+# ::snt-32 You are making this too complicated.
+(z1 / complicate-01
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / this)
+      :ARG2-of (z4 / have-degree-91
+            :ARG1 z3
+            :ARG3 (z5 / too)))
+
+# ::snt-33 You have no need to do anything.
+(z1 / need-01
+      :polarity -
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / do-02
+            :ARG0 z2
+            :ARG1 (z4 / anything)))
+
+# ::snt-34 There are two possible causes for this:
+(z1 / possible-01
+      :ARG1 (z2 / cause-01
+            :quant 2
+            :ARG1 (z3 / this)))
+
+# ::snt-35 It seems to work.
+(z1 / seem-01
+      :ARG1 (z2 / work-09
+            :ARG1 (z3 / it)))
+
+# ::snt-36 You can buy it on ebay for $25 and up.
+(z1 / possible-01
+      :ARG1 (z2 / buy-01
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / it)
+            :ARG3 (z5 / company
+                  :name (z6 / name
+                        :op1 "eBay"))
+            :ARG4 (z7 / at-least
+                  :op1 (z8 / monetary-quantity
+                        :quant 25
+                        :unit (z9 / dollar)))))
+
+# ::snt-37 One idea is cleaning the coffee residue from the coffee pot.
+(z1 / idea
+      :quant 1
+      :domain (z2 / clean-01
+            :ARG1 (z3 / residue
+                  :mod (z4 / coffee)
+                  :source (z5 / pot
+                        :mod z4))))
+
+# ::snt-38 There are two traditional ways to bend wood:
+(z1 / way
+      :quant 2
+      :manner-of (z2 / bend-01
+            :ARG1 (z3 / wood))
+      :mod (z4 / tradition))
+
+# ::snt-39 My advice would be to try a variety of coffees that you can afford and find one you like.
+(z1 / advise-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / and
+            :op1 (z4 / try-01
+                  :ARG0 (z5 / you)
+                  :ARG1 (z6 / coffee
+                        :mod (z7 / variety)
+                        :ARG1-of (z8 / afford-01
+                              :ARG0 z5
+                              :ARG1-of (z9 / possible-01))))
+            :op2 (z10 / find-01
+                  :ARG0 z5
+                  :ARG1 (z11 / coffee
+                        :ARG1-of (z12 / like-01
+                              :ARG0 z5)))))
+
+# ::snt-40 It is not a good idea.
+(z1 / idea
+      :ARG1-of (z2 / good-02
+            :polarity -)
+      :domain (z3 / it))
+
+# ::snt-41 They can, but the way to do it depends on what you have available.
+(z1 / contrast-01
+      :ARG1 (z2 / possible-01
+            :ARG1 (z3 / do-02
+                  :ARG0 (z4 / they)))
+      :ARG2 (z5 / depend-01
+            :ARG0 (z6 / way
+                  :manner-of (z7 / do-02
+                        :ARG1 (z8 / it)))
+            :ARG1 (z9 / have-03
+                  :ARG0 (z10 / you)
+                  :ARG1 (z11 / thing
+                        :ARG2-of (z12 / available-02)))))
+
+# ::snt-42 Yes, you should mention it.
+(z1 / recommend-01
+      :ARG1 (z2 / mention-01
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / it)))
+
+# ::snt-43 Can you do this?
+(z1 / possible-01
+      :ARG1 (z2 / do-02
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / this))
+      :polarity (z5 / amr-unknown))
+
+# ::snt-44 Take a look at this: 
+(z1 / look-01
+      :mode imperative
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / this))
+
+# ::snt-45 I'd say it depends on the ultimate outcome you want?
+(z1 / say-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / depend-01
+            :ARG0 (z4 / it)
+            :ARG1 (z5 / outcome
+                  :mod (z6 / ultimate)
+                  :ARG1-of (z7 / want-01
+                        :ARG0 (z8 / you)))
+            :polarity (z9 / amr-unknown)))
+
+# ::snt-46 Not much you can do besides:
+(z1 / possible-01
+      :polarity -
+      :ARG1 (z2 / do-02
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / much
+                  :mod (z5 / besides))))
+
+# ::snt-47 But it is not a good idea.
+(z1 / contrast-01
+      :ARG2 (z2 / idea
+            :ARG1-of (z3 / good-02
+                  :polarity -)
+            :domain (z4 / it)))
+
+# ::snt-48 You have a lot of answers already, but I'd like to add Curries as another solutions.
+(z1 / contrast-01
+      :ARG1 (z2 / have-03
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / answer
+                  :quant (z5 / lot))
+            :time (z6 / already))
+      :ARG2 (z7 / like-02
+            :ARG0 (z8 / i)
+            :ARG1 (z9 / add-02
+                  :ARG0 z8
+                  :ARG1 (z10 / curry
+                        :prep-as (z11 / solution
+                              :mod (z12 / another))))))
+
+# ::snt-49 I had a similar situation.
+(z1 / have-03
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / situation
+            :ARG1-of (z4 / resemble-01)))
+
+# ::snt-50 I had this same problem.
+(z1 / have-03
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / problem
+            :ARG1-of (z4 / same-01)
+            :mod (z5 / this)))
+
+# ::snt-51 There is no quarantine period.
+(z1 / period
+      :polarity -
+      :mod (z2 / quarantine))
+
+# ::snt-52 I am not sure this question would have made much sense to the Romans themselves.
+(z1 / sure-02
+      :polarity -
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / sense-02
+            :ARG1 (z4 / question-01
+                  :mod (z5 / this))
+            :ARG2 (z6 / person
+                  :mod (z7 / country
+                        :name (z8 / name
+                              :op1 "Rome")))
+            :degree (z9 / much)))
+
+# ::snt-53 In other words, it depends on where you go, when you do there and how.
+(z1 / depend-01
+      :ARG0 (z2 / it)
+      :ARG1 (z3 / and
+            :op1 (z4 / location
+                  :ARG4-of (z5 / go-02
+                        :ARG0 (z6 / you)))
+            :op2 (z7 / time
+                  :time-of (z8 / do-02
+                        :ARG0 z6
+                        :location z4))
+            :op3 (z9 / thing
+                  :manner-of z8)))
+
+# ::snt-54 Yes, you should create a portfolio site to showcase what you can do and what you've done.
+(z1 / recommend-01
+      :ARG1 (z2 / create-01
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / site
+                  :mod (z5 / portfolio))
+            :purpose (z6 / showcase-01
+                  :ARG0 z4
+                  :ARG1 (z7 / and
+                        :op1 (z8 / thing
+                              :ARG1-of (z9 / do-02
+                                    :ARG0 z3
+                                    :ARG1-of (z10 / possible-01)))
+                        :op2 (z11 / thing
+                              :ARG1-of (z12 / do-02
+                                    :ARG0 z3))))))
+
+# ::snt-55 No you are not.
+(z1 / have-polarity-91
+      :ARG1 (z2 / you)
+      :ARG2 -)
+
+# ::snt-56 I guess it depends on what you're going to do.
+(z1 / guess-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / depend-01
+            :ARG0 (z4 / it)
+            :ARG1 (z5 / thing
+                  :ARG1-of (z6 / do-02
+                        :ARG0 (z7 / you)))))
+
+# ::snt-57 It is his job to see that you have what you need to do your job.
+(z1 / job
+      :poss (z2 / he)
+      :domain (z3 / see-01
+            :ARG0 z2
+            :ARG1 (z4 / have-03
+                  :ARG0 (z5 / you)
+                  :ARG1 (z6 / thing
+                        :ARG1-of (z7 / need-01
+                              :ARG0 z5
+                              :purpose (z8 / do-02
+                                    :ARG0 z5
+                                    :ARG1 z1))))))
+
+# ::snt-58 It depends on what you want to achieve.
+(z1 / depend-01
+      :ARG0 (z2 / it)
+      :ARG1 (z3 / thing
+            :ARG1-of (z4 / achieve-01
+                  :ARG0 (z5 / you)
+                  :ARG1-of (z6 / want-01
+                        :ARG0 z5))))
+
+# ::snt-59 This is a big problem.
+(z1 / problem
+      :mod (z2 / big)
+      :domain (z3 / this))
+
+# ::snt-60 This sounds a bit unusual.
+(z1 / sound-01
+      :ARG1 (z2 / this)
+      :ARG2 (z3 / usual
+            :polarity -
+            :degree (z4 / bit)))
+
+# ::snt-61 I think it depends very much on the area.
+(z1 / think-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / depend-01
+            :ARG0 (z4 / it)
+            :ARG1 (z5 / area)
+            :degree (z6 / much
+                  :degree (z7 / very))))
+
+# ::snt-62 I have had the same problem.
+(z1 / have-03
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / problem
+            :ARG1-of (z4 / same-01)))
+
+# ::snt-63 No it is not.
+(z1 / have-polarity-91
+      :ARG1 (z2 / it)
+      :ARG2 -)
+
+# ::snt-64 I think that the short  answer to your question is: No.
+(z1 / think-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / answer-01
+            :ARG1 (z4 / question-01
+                  :ARG0 (z5 / you))
+            :ARG2 (z6 / no)
+            :ARG1-of (z7 / short-07)))
+
+# ::snt-65 I don't think it makes much difference.
+(z1 / think-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / make-01
+            :polarity -
+            :ARG0 (z4 / it)
+            :ARG1 (z5 / differ-02
+                  :quant (z6 / much))))
+
+# ::snt-66 It depends on what they are evaluating, and how.
+(z1 / depend-01
+      :ARG0 (z2 / it)
+      :ARG1 (z3 / and
+            :op1 (z4 / evaluate-01
+                  :ARG0 (z5 / they)
+                  :ARG1 (z6 / thing))
+            :op2 (z7 / evaluate-01
+                  :ARG0 z5
+                  :manner (z8 / amr-unknown))))
+
+# ::snt-67 There's not that much that you can do with a sourdough starter.
+(z1 / much
+      :polarity -
+      :ARG1-of (z2 / do-02
+            :ARG0 (z3 / you)
+            :ARG1-of (z4 / possible-01)
+            :instrument (z5 / starter
+                  :mod (z6 / sourdough))))
+
+# ::snt-68 You have answered your own question.
+(z1 / answer-01
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / question-01
+            :ARG0 z2))
+
+# ::snt-69 Th answer to you problem is that you dont actually know what you're getting in .
+(z1 / answer-01
+      :ARG1 (z2 / problem
+            :poss (z3 / you))
+      :ARG2 (z4 / know-01
+            :polarity -
+            :ARG0 z3
+            :ARG1 (z5 / thing
+                  :ARG2-of (z6 / get-05
+                        :ARG1 z3))
+            :ARG1-of (z7 / actual-02)))
+
+# ::snt-70 This is probably not a good idea but I will suggest it anyhow.
+(z1 / have-concession-91
+      :ARG1 (z2 / suggest-01
+            :ARG0 (z3 / i)
+            :ARG1 (z4 / idea
+                  :ARG1-of (z5 / good-02
+                        :polarity -
+                        :mod (z6 / probable))
+                  :domain (z7 / this))
+            :mod (z8 / anyway)))
+
+# ::snt-71 My recommendation is not to say anything, and do the best you can.
+(z1 / recommend-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / and
+            :op1 (z4 / say-01
+                  :polarity -
+                  :ARG0 (z5 / you)
+                  :ARG1 (z6 / anything))
+            :op2 (z7 / do-02
+                  :ARG0 z5
+                  :ARG1 (z8 / thing
+                        :ARG1-of (z9 / have-degree-91
+                              :ARG2 (z10 / good-03
+                                    :ARG1 z8)
+                              :ARG3 (z11 / most))
+                        :ARG1-of (z12 / possible-01)))))
+
+# ::snt-72 I'd say it depends what conditions you have.
+(z1 / say-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / depend-01
+            :ARG0 (z4 / it)
+            :ARG1 (z5 / have-03
+                  :ARG0 (z6 / you)
+                  :ARG1 (z7 / condition))))
+
+# ::snt-73 You don't have to do anything to season it.
+(z1 / obligate-01
+      :polarity -
+      :ARG1 (z2 / you)
+      :ARG2 (z3 / do-02
+            :ARG0 z2
+            :ARG1 (z4 / anything)
+            :purpose (z5 / season-01
+                  :ARG0 z2
+                  :ARG1 (z6 / it))))
+
+# ::snt-74 I have the same situation and have traveled extensively.
+(z1 / and
+      :op1 (z2 / have-03
+            :ARG0 (z3 / i)
+            :ARG1 (z4 / situation
+                  :ARG1-of (z5 / same-01)))
+      :op2 (z6 / travel-01
+            :ARG0 z3
+            :ARG1-of (z7 / extensive-03)))
+
+# ::snt-75 I do not think it's a good idea.
+(z1 / think-01
+      :polarity -
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / idea
+            :ARG1-of (z4 / good-02)
+            :domain (z5 / it)))
+
+# ::snt-76 You are right on the mark.
+(z1 / be-located-at-91
+      :ARG1 (z2 / you)
+      :ARG2 (z3 / mark
+            :mod (z4 / right)))
+
+# ::snt-77 This is a part answer to your question
+(z1 / answer-01
+      :ARG1 (z2 / question-01
+            :ARG0 (z3 / you))
+      :ARG2 (z4 / this)
+      :mod (z5 / part))
+
+# ::snt-78 So how should I do this?
+(z1 / cause-01
+      :ARG1 (z2 / recommend-01
+            :ARG1 (z3 / do-02
+                  :ARG0 (z4 / i)
+                  :ARG1 (z5 / this)
+                  :manner (z6 / amr-unknown))
+            :ARG2 z4))
+
+# ::snt-79 Does this answer your questions?
+(z1 / answer-01
+      :ARG0 (z2 / this)
+      :ARG1 (z3 / question-01
+            :ARG0 (z4 / you))
+      :polarity (z5 / amr-unknown))
+
+# ::snt-80 You can still use it for practice.
+(z1 / possible-01
+      :ARG1 (z2 / use-01
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / it)
+            :ARG2 (z5 / practice-01
+                  :ARG0 z3))
+      :mod (z6 / still))
+
+# ::snt-81 It depends how you're stating it.
+(z1 / depend-01
+      :ARG0 (z2 / it)
+      :ARG1 (z3 / have-manner-91
+            :ARG1 (z4 / state-01
+                  :ARG0 (z5 / you)
+                  :ARG1 z2)))
+
+# ::snt-82 I've had this problem while working in a pubs.
+(z1 / have-03
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / problem
+            :mod (z4 / this))
+      :time (z5 / work-01
+            :ARG0 z2
+            :ARG2 (z6 / pub)))
+
+# ::snt-83 You should tell a good story and sometimes you have to tweak reality/history to do so.
+(z1 / and
+      :op1 (z2 / recommend-01
+            :ARG1 (z3 / tell-01
+                  :ARG0 (z4 / you)
+                  :ARG1 (z5 / story
+                        :ARG1-of (z6 / good-02))))
+      :op2 (z7 / obligate-01
+            :ARG1 z4
+            :ARG2 (z8 / tweak-01
+                  :ARG0 z4
+                  :ARG1 (z9 / and
+                        :op1 (z10 / reality)
+                        :op2 (z11 / history))
+                  :purpose z3)
+            :frequency (z12 / sometimes)))
+
+# ::snt-84 It depends on what you want to be able to do.
+(z1 / depend-01
+      :ARG0 (z2 / it)
+      :ARG1 (z3 / thing
+            :ARG1-of (z4 / do-02
+                  :ARG0 (z5 / you)
+                  :ARG1-of (z6 / want-01
+                        :ARG0 z5)
+                  :ARG1-of (z7 / possible-01))))
+
+# ::snt-85 You are not required to file a tax return in Canada if you have no taxable income.
+(z1 / require-01
+      :polarity -
+      :ARG1 (z2 / file-01
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / return
+                  :mod (z5 / tax-01))
+            :location (z6 / country
+                  :name (z7 / name
+                        :op1 "Canada")))
+      :ARG2 z3
+      :condition (z8 / have-03
+            :polarity -
+            :ARG0 z3
+            :ARG1 (z9 / income
+                  :ARG1-of (z10 / tax-01))))
+
+# ::snt-86 I don't see why that should be a problem.
+(z1 / see-01
+      :polarity -
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / thing
+            :ARG0-of (z4 / cause-01
+                  :ARG1 (z5 / recommend-01
+                        :ARG1 (z6 / problem
+                              :domain (z7 / that))))))
+
+# ::snt-87 If what you are looking for is much higher, they get the picture.
+(z1 / get-01
+      :ARG0 (z2 / they)
+      :ARG1 (z3 / picture)
+      :condition (z4 / look-01
+            :ARG0 (z5 / you)
+            :ARG1 (z6 / thing
+                  :ARG1-of (z7 / have-degree-91
+                        :ARG2 (z8 / high-02
+                              :ARG1 z6)
+                        :ARG3 (z9 / more
+                              :quant (z10 / much))))))
+
+# ::snt-88 The best thing to do is to overcome the fussiness.
+(z1 / overcome-01
+      :ARG1 (z2 / fuss-01))
+
+# ::snt-89 It depends on the sauce and the result you want.
+(z1 / depend-01
+      :ARG0 (z2 / it)
+      :ARG1 (z3 / and
+            :op1 (z4 / sauce)
+            :op2 (z5 / result
+                  :ARG1-of (z6 / want-01
+                        :ARG0 (z7 / you)))))
+
+# ::snt-90 You have to do what is right for you.
+(z1 / obligate-01
+      :ARG2 (z2 / do-02
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / thing
+                  :ARG1-of (z5 / right-02
+                        :ARG2 z3))))
+
+# ::snt-91 Saying "thanks, I don't have any questions at the moment".
+(z1 / say-01
+      :ARG1 (z2 / and
+            :op1 (z3 / thank-01
+                  :ARG0 (z4 / i)
+                  :ARG1 (z5 / you))
+            :op2 (z6 / have-03
+                  :polarity -
+                  :ARG0 z4
+                  :ARG1 (z7 / thing
+                        :ARG1-of (z8 / question-01
+                              :ARG0 z4))
+                  :time (z9 / moment))))
+
+# ::snt-92 It doesn't matter unless it is really far off.
+(z1 / have-condition-91
+      :ARG1 (z2 / matter-01
+            :polarity -
+            :ARG1 (z3 / it))
+      :ARG2 (z4 / far-off
+            :domain z3
+            :ARG1-of (z5 / real-04)))
+
+# ::snt-93 You don't have to know.
+(z1 / obligate-01
+      :polarity -
+      :ARG2 (z2 / know-01
+            :ARG0 (z3 / you)))
+
+# ::snt-94 I think you're looking for the movie
+(z1 / think-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / look-01
+            :ARG0 (z4 / you)
+            :ARG1 (z5 / movie)))
+
+# ::snt-95 No, it makes no difference.
+(z1 / make-02
+      :polarity -
+      :ARG0 (z2 / it)
+      :ARG1 (z3 / differ-02))
+
+# ::snt-96 I think it is okay to ask the question.
+(z1 / think-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / okay-04
+            :ARG1 (z4 / ask-01
+                  :ARG1 (z5 / thing
+                        :ARG1-of (z6 / question-01)))))
+
+# ::snt-97 I'm going to be blunt, here: You don't.
+(z1 / blunt-02
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / do-02
+            :polarity -
+            :ARG0 (z4 / you))
+      :location (z5 / here))
+
+# ::snt-98 Yes, you can do exactly what you want to do.
+(z1 / possible-01
+      :ARG1 (z2 / do-02
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / thing
+                  :ARG1-of (z5 / want-01
+                        :ARG0 z3)
+                  :mod (z6 / exact))))
+
+# ::snt-99 You should prime it first.
+(z1 / prime-01
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / it)
+      :ord (z4 / ordinal-entity
+            :value 1)
+      :ARG1-of (z5 / recommend-01))
+
+# ::snt-100 I'm afraid there's not really a lot you can do.
+(z1 / fear-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / possible-01
+            :polarity -
+            :ARG1 (z4 / do-02
+                  :ARG0 (z5 / you)
+                  :ARG1 (z6 / lot)
+                  :ARG1-of (z7 / real-04))))
+
+# ::snt-101 What kind of floors are above?
+(z1 / floor
+      :mod (z2 / kind
+            :mod (z3 / amr-unknown))
+      :location (z4 / above))
+
+# ::snt-102 I guess it depends on the nature of your contract.
+(z1 / guess-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / depend-01
+            :ARG0 (z4 / it)
+            :ARG1 (z5 / nature
+                  :poss (z6 / contract
+                        :poss (z7 / you)))))
+
+# ::snt-103 You've answered your own question already.
+(z1 / answer-01
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / thing
+            :ARG1-of (z4 / question-01
+                  :ARG0 z2))
+      :time (z5 / already))
+
+# ::snt-104 I don't think there is any universal term.
+(z1 / think-01
+      :polarity -
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / term
+            :mod (z4 / universal)
+            :mod (z5 / any)))
+
+# ::snt-105 There are a few minimally-effective things you can do at the personal level.
+(z1 / possible-01
+      :ARG1 (z2 / do-02
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / thing
+                  :quant (z5 / few)
+                  :ARG1-of (z6 / effective-04
+                        :ARG1-of (z7 / minimal-02)))
+            :manner (z8 / level
+                  :ARG1-of (z9 / personal-02))))
+
+# ::snt-106 Something like this is useful:  
+(z1 / useful-05
+      :ARG1 (z2 / something
+            :ARG1-of (z3 / resemble-01
+                  :ARG2 (z4 / this))))
+
+# ::snt-107 Yes, I believe it's a good idea.
+(z1 / believe-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / idea
+            :ARG1-of (z4 / good-02)
+            :domain (z5 / it)))
+
+# ::snt-108 If not, don't do that and spend that time with something you like to do.
+(z1 / and
+      :op1 (z2 / do-02
+            :polarity -
+            :mode imperative
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / that))
+      :op2 (z5 / spend-02
+            :mode imperative
+            :ARG0 z3
+            :ARG1 (z6 / time
+                  :mod (z7 / that))
+            :ARG2 (z8 / something
+                  :ARG1-of (z9 / do-02
+                        :ARG0 z3
+                        :ARG1-of (z10 / like-01
+                              :ARG0 z3))))
+      :condition (z11 / have-polarity-91
+            :ARG2 -))
+
+# ::snt-109 It's all about adhesion.
+(z1 / concern-02
+      :ARG0 (z2 / it)
+      :ARG1 (z3 / adhesion)
+      :mod (z4 / all))
+
+# ::snt-110 If you do not have a very strong scientific reason to do it, don't.
+(z1 / do-02
+      :polarity -
+      :mode imperative
+      :ARG0 (z2 / you)
+      :condition (z3 / have-03
+            :polarity -
+            :ARG0 z2
+            :ARG1 (z4 / reason
+                  :mod (z5 / science)
+                  :ARG1-of (z6 / strong-02
+                        :degree (z7 / very))
+                  :ARG0-of (z8 / cause-01
+                        :ARG1 (z9 / do-02
+                              :ARG1 (z10 / it))))))
+
+# ::snt-111 You have to know what you want to do.
+(z1 / obligate-01
+      :ARG2 (z2 / know-01
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / thing
+                  :ARG1-of (z5 / do-02
+                        :ARG0 z3
+                        :ARG1-of (z6 / want-01
+                              :ARG0 z3)))))
+
+# ::snt-112 Personally, I would say not unless it suits you.
+(z1 / say-01
+      :polarity -
+      :ARG0 (z2 / i)
+      :condition (z3 / suit-01
+            :polarity -
+            :ARG1 (z4 / it)
+            :ARG2 (z5 / you))
+      :ARG1-of (z6 / personal-02))
+
+# ::snt-113 Can you do it?
+(z1 / possible-01
+      :ARG1 (z2 / do-02
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / it))
+      :polarity (z5 / amr-unknown))
+
+# ::snt-114 I've done this many dozens of times.
+(z1 / do-02
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / this)
+      :frequency (z4 / multiple
+            :op1 12))
+
+# ::snt-115 You can do it, too.
+(z1 / possible-01
+      :ARG1 (z2 / do-02
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / it)
+            :mod (z5 / too)))
+
+# ::snt-116 How to do that?
+(z1 / do-02
+      :ARG1 (z2 / that)
+      :manner (z3 / amr-unknown))
+
+# ::snt-117 I found some link that might be of help to you:
+(z1 / find-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / link
+            :mod (z4 / some)
+            :ARG0-of (z5 / help-01
+                  :ARG2 (z6 / you)
+                  :ARG1-of (z7 / possible-01))))
+
+# ::snt-118 I would say it is impossible to know, so don't risk it.
+(z1 / say-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / possible-01
+            :polarity -
+            :ARG1 (z4 / know-01)
+            :ARG0-of (z5 / cause-01
+                  :ARG1 (z6 / risk-01
+                        :polarity -
+                        :mode imperative
+                        :ARG0 (z7 / you)
+                        :ARG2 z4))))
+
+# ::snt-119 The answer to your question is not really.
+(z1 / answer-01
+      :ARG1 (z2 / question-01
+            :ARG0 (z3 / you))
+      :ARG2 (z4 / real-04
+            :polarity -))
+
+# ::snt-120 You don't, it will not work.
+(z1 / and
+      :op1 (z2 / do-02
+            :polarity -
+            :ARG0 (z3 / you))
+      :op2 (z4 / work-09
+            :polarity -
+            :ARG1 (z5 / it)))
+
+# ::snt-121 It's definitely just a matter of preference.
+(z1 / matter-01
+      :ARG1 (z2 / prefer-01)
+      :mod (z3 / just)
+      :mod (z4 / definite))
+
+# ::snt-122 It's a good idea to do both.
+(z1 / idea
+      :ARG1-of (z2 / good-02)
+      :domain (z3 / do-02
+            :ARG1 (z4 / both)))
+
+# ::snt-123 This answer is based on experience I did not researched for references.
+(z1 / base-02
+      :ARG1 (z2 / thing
+            :ARG2-of (z3 / answer-01)
+            :mod (z4 / this))
+      :ARG2 (z5 / experience-01
+            :ARG1-of (z6 / research-01
+                  :polarity -
+                  :ARG0 (z7 / i)
+                  :purpose (z8 / reference-04))))
+
+# ::snt-124 There are quite a few things you would need to do.
+(z1 / thing
+      :quant (z2 / many
+            :degree (z3 / quite))
+      :ARG1-of (z4 / do-02
+            :ARG0 (z5 / you)
+            :ARG2-of (z6 / obligate-01)))
+
+# ::snt-125 You will also want to remove the seeds.
+(z1 / want-01
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / remove-01
+            :ARG0 z2
+            :ARG1 (z4 / seed))
+      :mod (z5 / also))
+
+# ::snt-126 It depends on what you want to achieve.
+(z1 / depend-01
+      :ARG0 (z2 / it)
+      :ARG1 (z3 / thing
+            :ARG1-of (z4 / achieve-01
+                  :ARG0 (z5 / you)
+                  :ARG1-of (z6 / want-01
+                        :ARG0 z5))))
+
+# ::snt-127 There are a lot of ways that could go poorly for you.
+(z1 / way
+      :quant (z2 / lot)
+      :ARG1-of (z3 / go-09
+            :ARG2 (z4 / you)
+            :manner (z5 / poor)
+            :ARG1-of (z6 / possible-01)))
+
+# ::snt-128 Since you have one ticket, you don't have to worry.
+(z1 / cause-01
+      :ARG0 (z2 / ticket-02
+            :quant 1
+            :ARG1 (z3 / you))
+      :ARG1 (z4 / obligate-01
+            :polarity -
+            :ARG1 z3
+            :ARG2 (z5 / worry-02
+                  :ARG0 z3)))
+
+# ::snt-129 Nepalese citizens require a visa to visit the UK.
+(z1 / require-01
+      :ARG0 (z2 / visit-01
+            :ARG0 (z3 / citizen
+                  :mod (z4 / country
+                        :name (z5 / name
+                              :op1 "Nepal")))
+            :ARG1 (z6 / country
+                  :name (z7 / name
+                        :op1 "UK")))
+      :ARG1 (z8 / visa))
+
+# ::snt-130 It depends on how long it's been out.
+(z1 / depend-01
+      :ARG0 (z2 / it)
+      :ARG1 (z3 / temporal-quantity
+            :quant-of (z4 / out-06
+                  :ARG1 (z5 / it))))
+
+# ::snt-131 I don't see why this could be a problem.
+(z1 / see-01
+      :polarity -
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / thing
+            :ARG0-of (z4 / cause-01
+                  :ARG1 (z5 / possible-01
+                        :ARG1 (z6 / problem
+                              :domain (z7 / this))))))
+
+# ::snt-132 I really do not think there is much you can do about that.
+(z1 / think-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / possible-01
+            :polarity -
+            :ARG1 (z4 / do-02
+                  :ARG0 (z5 / you)
+                  :ARG1 (z6 / much)
+                  :ARG2 (z7 / that)))
+      :ARG1-of (z8 / real-04))
+
+# ::snt-133 Yes you got it.
+(z1 / get-01
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / it))
+
+# ::snt-134 Remember this is your degree we are talking about, its up to you what you want to do.
+(z1 / remember-01
+      :mode imperative
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / talk-01
+            :ARG0 (z4 / we)
+            :ARG1 (z5 / degree
+                  :mod (z6 / this)
+                  :poss z2)))
+
+# ::snt-135 How should you do that?
+(z1 / recommend-01
+      :ARG1 (z2 / do-02
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / that)
+            :manner (z5 / amr-unknown))
+      :ARG2 z3)
+
+# ::snt-136 I am in a similar situation.
+(z1 / be-located-at-91
+      :ARG1 (z2 / i)
+      :ARG2 (z3 / situation
+            :ARG1-of (z4 / resemble-01)))
+
+# ::snt-137 What is your paper for?
+(z1 / paper
+      :poss (z2 / you)
+      :purpose (z3 / amr-unknown))
+
+# ::snt-138 You don't need sauce at all.
+(z1 / need-01
+      :polarity -
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / sauce)
+      :mod (z4 / at-all))
+
+# ::snt-139 Work with your supervisor and your team to solve the problem.
+(z1 / work-01
+      :mode imperative
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / solve-01
+            :ARG0 z2
+            :ARG1 (z4 / problem))
+      :ARG3 (z5 / and
+            :op1 (z6 / person
+                  :ARG0-of (z7 / supervise-01
+                        :ARG1 z2))
+            :op2 (z8 / team
+                  :poss z2)))
+
+# ::snt-140 It's up to you what you want to do next.
+(z1 / depend-01
+      :ARG0 (z2 / thing
+            :ARG1-of (z3 / want-01
+                  :ARG0 (z4 / you))
+            :time (z5 / next))
+      :ARG1 z4)
+
+# ::snt-141 A couple things to consider:
+(z1 / thing
+      :quant (z2 / couple)
+      :ARG1-of (z3 / consider-02))
+
+# ::snt-142 It depends on your company.
+(z1 / depend-01
+      :ARG0 (z2 / it)
+      :ARG1 (z3 / company
+            :poss (z4 / you)))
+
+# ::snt-143 It's just worn out and not safe.
+(z1 / and
+      :op1 (z2 / wear-out-03
+            :ARG1 (z3 / it)
+            :mod (z4 / just))
+      :op2 (z5 / safe-01
+            :polarity -
+            :ARG0 z3))
+
+# ::snt-144 I wouldn't put this job on my resume.
+(z1 / put-01
+      :polarity -
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / job
+            :mod (z4 / this))
+      :ARG2 (z5 / resume
+            :poss z2))
+
+# ::snt-145 This is a difficult one.
+(z1 / difficult
+      :domain (z2 / this))
+
+# ::snt-146 To directly answer the two questions in your title.
+(z1 / answer-01
+      :ARG1 (z2 / question-01
+            :quant 2
+            :location (z3 / title
+                  :poss (z4 / you)))
+      :ARG1-of (z5 / direct-02))
+
+# ::snt-147 Valid reasons to feel the way you do, but not a reason to resign.
+(z1 / contrast-01
+      :ARG1 (z2 / reason
+            :ARG1-of (z3 / valid-02)
+            :purpose (z4 / feel-01
+                  :ARG0 (z5 / you)
+                  :manner (z6 / way
+                        :manner-of z4))))
+
+# ::snt-148 It depends on how the term is used I think.
+(z1 / think-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / depend-01
+            :ARG0 (z4 / it)
+            :ARG1 (z5 / thing
+                  :manner-of (z6 / use-01
+                        :ARG1 (z7 / term)))))
+
+# ::snt-149 So, CAN you do this?
+(z1 / cause-01
+      :ARG1 (z2 / possible-01
+            :ARG1 (z3 / do-02
+                  :ARG0 (z4 / you)
+                  :ARG1 (z5 / this))
+            :polarity (z6 / amr-unknown)))
+
+# ::snt-150 I don't think there is an answer for this.
+(z1 / think-01
+      :polarity -
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / answer-01
+            :ARG1 (z4 / this)
+            :ARG2 (z5 / thing)))
+
+# ::snt-151 There are a couple things you can try.
+(z1 / possible-01
+      :ARG1 (z2 / try-01
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / thing
+                  :quant (z5 / couple))))
+
+# ::snt-152 You may want it, but the process given to you is what you have to work within.
+(z1 / contrast-01
+      :ARG1 (z2 / possible-01
+            :ARG1 (z3 / want-01
+                  :ARG0 (z4 / you)
+                  :ARG1 (z5 / it))))
+
+# ::snt-153 You don't have equipments/facilities to do research in B.
+(z1 / have-03
+      :polarity -
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / or
+            :op1 (z4 / equipment)
+            :op2 (z5 / facility))
+      :purpose (z6 / research-01
+            :ARG0 z2
+            :ARG1 (z7 / thing
+                  :mod (z8 / string-entity
+                        :value "B"))))
+
+# ::snt-154 You've pretty much answered your own question.
+(z1 / answer-01
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / thing
+            :ARG1-of (z4 / question-01
+                  :ARG0 z2))
+      :degree (z5 / pretty-much))
+
+# ::snt-155 There are a few things I don't understand:
+(z1 / thing
+      :quant (z2 / few)
+      :ARG1-of (z3 / understand-01
+            :polarity -
+            :ARG0 (z4 / i)))
+
+# ::snt-156 The more you sweat, the faster you will burn calories and fat.
+(z1 / correlate-91
+      :ARG1 (z2 / more
+            :ARG3-of (z3 / have-quant-91
+                  :ARG1 (z4 / sweat-02
+                        :ARG0 (z5 / you))))
+      :ARG2 (z6 / more
+            :ARG3-of (z7 / have-degree-91
+                  :ARG1 (z8 / burn-01
+                        :ARG0 z5
+                        :ARG1 (z9 / and
+                              :op1 (z10 / calorie)
+                              :op2 (z11 / fat)))
+                  :ARG2 (z12 / fast-02
+                        :ARG1 z8))))
+
+# ::snt-157 It depends on what you want to say/imply.
+(z1 / depend-01
+      :ARG0 (z2 / it)
+      :ARG1 (z3 / slash
+            :op1 (z4 / thing
+                  :ARG1-of (z5 / say-01
+                        :ARG0 (z6 / you)))
+            :op2 (z7 / thing
+                  :ARG1-of (z8 / imply-01
+                        :ARG0 z6))
+            :ARG1-of (z9 / want-01
+                  :ARG0 z6)))
+
+# ::snt-158 You've got it right.
+(z1 / right-06
+      :ARG1 (z2 / you)
+      :ARG2 (z3 / it))
+
+# ::snt-159 You pretty much answered your own question.
+(z1 / answer-01
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / thing
+            :ARG1-of (z4 / question-01
+                  :ARG0 z2))
+      :degree (z5 / pretty-much))
+
+# ::snt-160 I had the same problem as you.
+(z1 / have-03
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / problem
+            :ARG1-of (z4 / same-01
+                  :ARG2 (z5 / you))))
+
+# ::snt-161 Yes, there is a reason for it.
+(z1 / reason
+      :ARG0-of (z2 / cause-01
+            :ARG1 (z3 / it)))
+
+# ::snt-162 Yes, although they can be a bit sour.
+(z1 / have-concession-91
+      :ARG2 (z2 / possible-01
+            :ARG1 (z3 / sour-02
+                  :ARG1 (z4 / they)
+                  :degree (z5 / bit))))
+
+# ::snt-163 I would look at this way: 
+(z1 / look-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / way
+            :mod (z4 / this)))
+
+# ::snt-164 You're on the right path.
+(z1 / be-located-at-91
+      :ARG1 (z2 / you)
+      :ARG2 (z3 / path
+            :ARG1-of (z4 / right-02)))
+
+# ::snt-165 You should, but you don't have to.
+(z1 / contrast-01
+      :ARG1 (z2 / recommend-01
+            :ARG2 (z3 / you))
+      :ARG2 (z4 / obligate-01
+            :polarity -
+            :ARG1 z3))
+
+# ::snt-166 The simple answer is yes!
+(z1 / yes
+      :ARG2-of (z2 / answer-01
+            :ARG1-of (z3 / simple-02)))
+
+# ::snt-167 I don't think there are any benefits.
+(z1 / think-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / benefit-01
+            :polarity -))
+
+# ::snt-168 It is up to you whether you want to do that.
+(z1 / depend-01
+      :ARG0 (z2 / truth-value
+            :polarity-of (z3 / want-01
+                  :ARG0 (z4 / you)
+                  :ARG1 (z5 / do-02
+                        :ARG0 z4
+                        :ARG1 (z6 / that)))))
+
+# ::snt-169 The Joker doesn't care about money.
+(z1 / care-01
+      :polarity -
+      :ARG0 (z2 / person
+            :name (z3 / name
+                  :op1 "The"
+                  :op2 "Joker"))
+      :ARG1 (z4 / money))
+
+# ::snt-170 So I don't think you need to put it on the cover.
+(z1 / cause-01
+      :ARG1 (z2 / think-01
+            :polarity -
+            :ARG0 (z3 / i)
+            :ARG1 (z4 / need-01
+                  :ARG0 (z5 / you)
+                  :ARG1 (z6 / put-01
+                        :ARG0 z5
+                        :ARG1 (z7 / it)
+                        :ARG2 (z8 / cover)))))
+
+# ::snt-171 It is difficult, if not impossible, to give a complete answer to this question.
+(z1 / or
+      :op1 (z2 / difficult
+            :domain (z3 / answer-01
+                  :ARG1 (z4 / thing
+                        :ARG1-of (z5 / question-01)
+                        :mod (z6 / this))
+                  :ARG1-of (z7 / complete-02))))
+
+# ::snt-172 This gives you the opportunity to make your case that you really do have expertise in XXX.
+(z1 / give-01
+      :ARG0 (z2 / this)
+      :ARG1 (z3 / opportunity
+            :purpose (z4 / case-03
+                  :ARG0 (z5 / you)
+                  :ARG1 (z6 / expert-01
+                        :ARG1 z5
+                        :ARG2 (z7 / thing
+                              :mod (z8 / variable
+                                    :name (z9 / name
+                                          :op1 "XXX")))
+                        :ARG1-of (z10 / real-04)))))
+
+# ::snt-173 You work on it slowly.
+(z1 / work-01
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / it)
+      :ARG1-of (z4 / slow-05))
+
+# ::snt-174 You do not need to worry.
+(z1 / need-01
+      :polarity -
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / worry-02
+            :ARG0 z2))
+
+# ::snt-175 Yes, it is hard to publish in a peer reviewed journal.
+(z1 / hard-02
+      :ARG1 (z2 / publish-01
+            :medium (z3 / journal
+                  :ARG1-of (z4 / review-01
+                        :ARG0 (z5 / peer)))))
+
+# ::snt-176 So if that's what you need, you really do have to be explicit about it.
+(z1 / have-condition-91
+      :ARG1 (z2 / obligate-01
+            :ARG1 (z3 / you)
+            :ARG2 (z4 / explicit-03
+                  :ARG0 z3
+                  :ARG1 (z5 / it))
+            :ARG1-of (z6 / real-04))
+      :ARG2 (z7 / need-01
+            :ARG0 z3
+            :ARG1 z5))
+
+# ::snt-177 Yes, you should make a résumé.
+(z1 / recommend-01
+      :ARG1 (z2 / make-01
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / résumé)))
+
+# ::snt-178 I think that's a great plan.
+(z1 / think-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / plan
+            :mod (z4 / great)
+            :domain (z5 / that)))
+
+# ::snt-179 Other than that you don't have a tax issue.
+(z1 / issue-02
+      :polarity -
+      :ARG0 (z2 / tax-01)
+      :ARG1 (z3 / you)
+      :ARG2-of (z4 / except-01
+            :ARG1 (z5 / that)))
+
+# ::snt-180 There's no rule against it.
+(z1 / rule-01
+      :polarity -
+      :prep-against (z2 / it))
+
+# ::snt-181 What are you goals?
+(z1 / goal
+      :mod (z2 / amr-unknown)
+      :poss (z3 / you))
+
+# ::snt-182 I'm going to be very direct here.
+(z1 / direct-02
+      :ARG0 (z2 / i)
+      :degree (z3 / very)
+      :location (z4 / here))
+
+# ::snt-183 You do not need a transit visa, but to enter Zurich you will need a visa.
+(z1 / contrast-01
+      :ARG1 (z2 / need-01
+            :polarity -
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / visa
+                  :mod (z5 / transit-01)))
+      :ARG2 (z6 / need-01
+            :ARG0 z3
+            :ARG1 (z7 / visa
+                  :purpose (z8 / enter-01
+                        :ARG0 z3
+                        :ARG1 (z9 / city
+                              :name (z10 / name
+                                    :op1 "Zurich"))))))
+
+# ::snt-184 A few things to think about:
+(z1 / thing
+      :quant (z2 / few)
+      :ARG1-of (z3 / think-01))
+
+# ::snt-185 You don't have to know.
+(z1 / obligate-01
+      :polarity -
+      :ARG2 (z2 / know-01
+            :ARG0 (z3 / you)))
+
+# ::snt-186 I think this is one of those things where you are just out of luck.
+(z1 / think-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / include-91
+            :ARG1 (z4 / this)
+            :ARG2 (z5 / thing
+                  :location-of (z6 / out-05
+                        :ARG1 (z7 / you)
+                        :ARG2 (z8 / luck)
+                        :mod (z9 / just)))))
+
+# ::snt-187 Point is: know what you want and don't be afraid to ask for it.
+(z1 / point-04
+      :ARG1 (z2 / and
+            :op1 (z3 / know-01
+                  :ARG0 (z4 / you)
+                  :ARG1 (z5 / thing
+                        :ARG1-of (z6 / want-01
+                              :ARG0 z4)))
+            :op2 (z7 / fear-01
+                  :polarity -
+                  :ARG0 z4
+                  :ARG1 (z8 / ask-02
+                        :ARG0 z4
+                        :ARG1 z5))))
+
+# ::snt-188 This varies by institution.
+(z1 / vary-01
+      :ARG1 (z2 / this)
+      :ARG3 (z3 / institution))
+
+# ::snt-189 I have the same problem.
+(z1 / have-03
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / problem
+            :ARG1-of (z4 / same-01)))
+
+# ::snt-190 I have the exact same problem.
+(z1 / have-03
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / problem
+            :ARG1-of (z4 / same-01
+                  :ARG2 (z5 / problem)
+                  :degree (z6 / exact))))
+
+# ::snt-191 You're right on about the sample definition.
+(z1 / right-06
+      :ARG1 (z2 / you)
+      :ARG2 (z3 / thing
+            :ARG2-of (z4 / define-01)
+            :mod (z5 / sample)))
+
+# ::snt-192 Nope that will not work.
+(z1 / work-09
+      :polarity -
+      :ARG1 (z2 / that))
+
+# ::snt-193 The best thing you can do is find something else interesting to do while you wait on hold.
+(z1 / find-01
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / something
+            :mod (z4 / else)
+            :ARG2-of (z5 / interest-01))
+      :time (z6 / wait-01
+            :ARG1 z2
+            :ARG2 (z7 / hold-01
+                  :ARG1 z2)))
+
+# ::snt-194 It's mostly a matter of taste.
+(z1 / matter
+      :topic (z2 / taste)
+      :mod (z3 / most)
+      :domain (z4 / it))
+
+# ::snt-195 Personally when I was in a similar situation I sent the couple a card and a gift.
+(z1 / send-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / and
+            :op1 (z4 / card)
+            :op2 (z5 / gift))
+      :ARG2 (z6 / couple)
+      :time (z7 / be-located-at-91
+            :ARG1 z2
+            :ARG2 (z8 / situation
+                  :ARG1-of (z9 / resemble-01)))
+      :ARG1-of (z10 / personal-02))
+
+# ::snt-196 Yes, you can do it.
+(z1 / possible-01
+      :ARG1 (z2 / do-02
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / it)))
+
+# ::snt-197 You have to find out what works for you.
+(z1 / obligate-01
+      :ARG2 (z2 / find-out-03
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / thing
+                  :ARG1-of (z5 / work-09
+                        :ARG2 z3))))
+
+# ::snt-198 It depends on how it's used.
+(z1 / depend-01
+      :ARG0 (z2 / it)
+      :ARG1 (z3 / thing
+            :manner-of (z4 / use-01
+                  :ARG1 z2)))
+
+# ::snt-199 I have just had the same problem.
+(z1 / have-03
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / problem
+            :ARG1-of (z4 / same-01))
+      :mod (z5 / just))
+
+# ::snt-200 You could probably get a tour agency to do it for you but it would cost you.
+(z1 / contrast-01
+      :ARG1 (z2 / possible-01
+            :ARG1 (z3 / get-01
+                  :ARG0 (z4 / you)
+                  :ARG1 (z5 / do-02
+                        :ARG0 (z6 / agency
+                              :mod (z7 / tour-01))
+                        :ARG1 (z8 / it)
+                        :ARG2 z4)
+                  :mod (z9 / probable))))
+
+# ::snt-201 They just don't want you to know it.
+(z1 / want-01
+      :polarity -
+      :ARG0 (z2 / they)
+      :ARG1 (z3 / know-01
+            :ARG0 (z4 / you)
+            :ARG1 (z5 / it))
+      :mod (z6 / just))
+
+# ::snt-202 It is important to keep the story in the scope of your limit.
+(z1 / important-01
+      :ARG1 (z2 / keep-04
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / story)
+            :ARG2 (z5 / scope
+                  :poss (z6 / limit-01
+                        :ARG0 z3))))
+
+# ::snt-203 I think it's a bad idea.
+(z1 / think-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / idea
+            :ARG1-of (z4 / bad-07)
+            :domain (z5 / it)))
+
+# ::snt-204 No, it's not a good thing.
+(z1 / good-02
+      :polarity -
+      :ARG1 (z2 / thing))
+
+# ::snt-205 I think it's a bad idea.
+(z1 / think-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / idea
+            :ARG1-of (z4 / bad-07)
+            :domain (z5 / it)))
+
+# ::snt-206 You need to pick how and where you want to place your foot and do it.
+(z1 / need-01
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / and
+            :op1 (z4 / pick-01
+                  :ARG0 z2
+                  :ARG1 (z5 / and
+                        :op1 (z6 / thing
+                              :manner-of (z7 / place-01
+                                    :ARG0 z2
+                                    :ARG1 (z8 / foot
+                                          :part-of z2)
+                                    :ARG1-of (z9 / want-01
+                                          :ARG0 z2)))
+                        :op2 (z10 / thing
+                              :location-of z7))))
+      :op2 (z11 / do-02
+            :ARG0 z2
+            :ARG1 z7))
+
+# ::snt-207 This is a big problem.
+(z1 / problem
+      :mod (z2 / big)
+      :domain (z3 / this))
+
+# ::snt-208 If the conversation is not about work, you know what the answer is to your own question.
+(z1 / know-01
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / thing
+            :ARG2-of (z4 / answer-01
+                  :ARG1 (z5 / thing
+                        :ARG1-of (z6 / question-01
+                              :ARG0 z2))))
+      :condition (z7 / concern-02
+            :polarity -
+            :ARG0 (z8 / converse-01)
+            :ARG1 (z9 / work-01)))
+
+# ::snt-209 This cannot be answered in general.
+(z1 / possible-01
+      :polarity -
+      :ARG1 (z2 / answer-01
+            :ARG1 (z3 / this)
+            :ARG1-of (z4 / general-02)))
+
+# ::snt-210 I would recommend looking at The Motley Fool.
+(z1 / recommend-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / look-01
+            :ARG1 (z4 / publication
+                  :name (z5 / name
+                        :op1 "The"
+                        :op2 "Motley"
+                        :op3 "Fool"))))
+
+# ::snt-211 I don't think there is a single definition.
+(z1 / think-01
+      :polarity -
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / define-01
+            :ARG1-of (z4 / single-02)))
+
+# ::snt-212 Not a good idea.
+(z1 / idea
+      :ARG1-of (z2 / good-02
+            :polarity -))
+
+# ::snt-213 You don't have to worry.
+(z1 / obligate-01
+      :polarity -
+      :ARG1 (z2 / you)
+      :ARG2 (z3 / worry-02
+            :ARG0 z2))
+
+# ::snt-214 You're probably going to have to read various blogs to get all the information you want.
+(z1 / probable
+      :domain (z2 / obligate-01
+            :ARG1 (z3 / you)
+            :ARG2 (z4 / read-01
+                  :ARG0 z3
+                  :ARG1 (z5 / blog
+                        :mod (z6 / various))
+                  :purpose (z7 / get-01
+                        :ARG0 z3
+                        :ARG1 (z8 / information
+                              :mod (z9 / all)
+                              :ARG1-of (z10 / want-01
+                                    :ARG0 z3))))))
+
+# ::snt-215 I have exactly the same problem.
+(z1 / have-03
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / problem
+            :ARG1-of (z4 / same-01
+                  :ARG2 (z5 / problem)
+                  :mod (z6 / exact))))
+
+# ::snt-216 The answer to your question is not really.
+(z1 / answer-01
+      :ARG1 (z2 / question-01
+            :ARG0 (z3 / you))
+      :ARG2 (z4 / real-04
+            :polarity -))
+
+# ::snt-217 You should never do it.
+(z1 / recommend-01
+      :ARG1 (z2 / do-02
+            :polarity -
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / it)
+            :time (z5 / ever)))
+
+# ::snt-218 I had the same issue.
+(z1 / issue-02
+      :ARG1 (z2 / i)
+      :ARG1-of (z3 / same-01))
+
+# ::snt-219 Is this the kind of thing you're looking for ?
+(z1 / look-01
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / thing
+            :mod (z4 / kind
+                  :mod (z5 / this)))
+      :polarity (z6 / amr-unknown))
+
+# ::snt-220 I think there are two important things to consider:
+(z1 / think-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / thing
+            :quant 2
+            :ARG1-of (z4 / important-01)
+            :ARG1-of (z5 / consider-02)))
+
+# ::snt-221 It is up to you.
+(z1 / depend-01
+      :ARG0 (z2 / it)
+      :ARG1 (z3 / you))
+
+# ::snt-222 There are a few things you need to consider:
+(z1 / thing
+      :quant (z2 / few)
+      :ARG1-of (z3 / consider-02
+            :ARG0 (z4 / you)
+            :ARG1-of (z5 / need-01
+                  :ARG0 z4)))
+
+# ::snt-223 The answer to both questions is: Yes.
+(z1 / answer-01
+      :ARG1 (z2 / question-01
+            :mod (z3 / both))
+      :ARG2 (z4 / yes))
+
+# ::snt-224 This is a part answer to your question
+(z1 / answer-01
+      :ARG1 (z2 / question-01
+            :ARG0 (z3 / you))
+      :ARG2 (z4 / this)
+      :mod (z5 / part))
+
+# ::snt-225 There are a few things I think you should do.
+(z1 / thing
+      :quant (z2 / few)
+      :ARG1-of (z3 / do-02
+            :ARG0 (z4 / you)
+            :ARG1-of (z5 / recommend-01
+                  :ARG1-of (z6 / think-01
+                        :ARG0 (z7 / i)))))
+
+# ::snt-226 It depends on what and where you are going to do.
+(z1 / depend-01
+      :ARG0 (z2 / it)
+      :ARG1 (z3 / and
+            :op1 (z4 / thing
+                  :ARG1-of (z5 / do-02
+                        :ARG0 (z6 / you)))
+            :op2 (z7 / location
+                  :location-of z5)))
+
+# ::snt-227 There are a few reasons that paint wrinkles.
+(z1 / reason
+      :quant (z2 / few)
+      :ARG0-of (z3 / cause-01
+            :ARG1 (z4 / paint-03
+                  :ARG1 (z5 / wrinkle))))
+
+# ::snt-228 There are only three options:
+(z1 / option
+      :quant 3
+      :mod (z2 / only))
+
+# ::snt-229 Think of it this way.
+(z1 / think-01
+      :mode imperative
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / it)
+      :ARG2 (z4 / way
+            :mod (z5 / this)))
+
+# ::snt-230 Maybe this can work for you.
+(z1 / possible-01
+      :ARG1 (z2 / work-09
+            :ARG1 (z3 / this)
+            :ARG2 (z4 / you)))
+
+# ::snt-231 They can, but the way to do it depends on what you have available.
+(z1 / contrast-01
+      :ARG1 (z2 / possible-01
+            :ARG1 (z3 / do-02
+                  :ARG0 (z4 / they)))
+      :ARG2 (z5 / depend-01
+            :ARG0 (z6 / way
+                  :manner-of (z7 / do-02
+                        :ARG1 (z8 / it)))
+            :ARG1 (z9 / have-03
+                  :ARG0 (z10 / you)
+                  :ARG1 (z11 / thing
+                        :ARG2-of (z12 / available-02)))))
+
+# ::snt-232 Your best bet is research.
+(z1 / bet-01
+      :ARG0 (z2 / you)
+      :ARG2 (z3 / research-01
+            :ARG0 z2)
+      :ARG1-of (z4 / have-degree-91
+            :ARG2 (z5 / good-02
+                  :ARG1 z1)
+            :ARG3 (z6 / most)))
+
+# ::snt-233 This will depend on the university.
+(z1 / depend-01
+      :ARG0 (z2 / this)
+      :ARG1 (z3 / university))
+
+# ::snt-234 It's not just a good idea, it's an excellent idea.
+(z1 / and
+      :op1 (z2 / idea
+            :ARG1-of (z3 / good-02)
+            :mod (z4 / just
+                  :polarity -)
+            :domain (z5 / it))
+      :op2 (z6 / idea
+            :ARG1-of (z7 / excellent-02)
+            :domain z5))
+
+# ::snt-235 There are a few minimally-effective things you can do at the personal level.
+(z1 / possible-01
+      :ARG1 (z2 / do-02
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / thing
+                  :quant (z5 / few)
+                  :ARG1-of (z6 / effective-04
+                        :ARG1-of (z7 / minimal-02)))
+            :manner (z8 / level
+                  :ARG1-of (z9 / personal-02))))
+
+# ::snt-236 I had this same situation.
+(z1 / have-03
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / situation
+            :ARG1-of (z4 / same-01)
+            :mod (z5 / this)))
+
+# ::snt-237 Not a good idea.
+(z1 / idea
+      :ARG1-of (z2 / good-02
+            :polarity -))
+
+# ::snt-238 I know this is an old question but I feel I should add my 2 cents.
+(z1 / have-concession-91
+      :ARG1 (z2 / feel-02
+            :ARG0 (z3 / i)
+            :ARG1 (z4 / recommend-01
+                  :ARG1 (z5 / add-02
+                        :ARG0 z3
+                        :ARG1 (z6 / monetary-quantity
+                              :quant 2
+                              :unit (z7 / cent)
+                              :poss z3)))))
+
+# ::snt-239 Yes, there is a chemical difference.
+(z1 / differ-02
+      :mod (z2 / chemical))
+
+# ::snt-240 To my knowledge, there's no time requirement.
+(z1 / know-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / require-01
+            :polarity -
+            :ARG1 (z4 / time)))
+
+# ::snt-241 You don't have to do anything to season it.
+(z1 / obligate-01
+      :polarity -
+      :ARG1 (z2 / you)
+      :ARG2 (z3 / do-02
+            :ARG0 z2
+            :ARG1 (z4 / anything)
+            :purpose (z5 / season-01
+                  :ARG0 z2
+                  :ARG1 (z6 / it))))
+
+# ::snt-242 There is no code telling you that you cannot do this.
+(z1 / code
+      :polarity -
+      :ARG0-of (z2 / tell-01
+            :ARG1 (z3 / possible-01
+                  :polarity -
+                  :ARG1 (z4 / do-02
+                        :ARG0 (z5 / you)
+                        :ARG1 (z6 / this)))
+            :ARG2 z5))
+
+# ::snt-243 Yes, you should talk to your professor.
+(z1 / recommend-01
+      :ARG1 (z2 / talk-01
+            :ARG0 (z3 / you)
+            :ARG2 (z4 / professor
+                  :poss z3)))
+
+# ::snt-244 You don't need sauce at all.
+(z1 / need-01
+      :polarity -
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / sauce)
+      :mod (z4 / at-all))
+
+# ::snt-245 I had this problem before.
+(z1 / have-03
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / problem
+            :mod (z4 / this))
+      :time (z5 / before))
+
+# ::snt-246 You have to find out what works for you.
+(z1 / obligate-01
+      :ARG2 (z2 / find-out-03
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / thing
+                  :ARG1-of (z5 / work-09
+                        :ARG2 z3))))
+
+# ::snt-247 This is a part answer to your question
+(z1 / answer-01
+      :ARG1 (z2 / question-01
+            :ARG0 (z3 / you))
+      :ARG2 (z4 / this)
+      :mod (z5 / part))
+
+# ::snt-248 It really isn't your problem how they are going to find a qualified person to do the job.
+(z1 / problem
+      :polarity -
+      :poss (z2 / you)
+      :domain (z3 / find-01
+            :ARG0 (z4 / they)
+            :ARG1 (z5 / person
+                  :ARG1-of (z6 / qualify-02
+                        :ARG2 (z7 / do-02
+                              :ARG0 z5
+                              :ARG1 (z8 / job))))
+            :manner (z9 / amr-unknown))
+      :ARG1-of (z10 / real-04))
+
+# ::snt-249 Not a real answer to your question, but maybe it helps.
+(z1 / have-concession-91
+      :ARG1 (z2 / possible-01
+            :ARG1 (z3 / help-01
+                  :ARG0 (z4 / it))))
+
+# ::snt-250 There are two options for you - 
+(z1 / option
+      :quant 2
+      :beneficiary (z2 / you))
+
+# ::snt-251 I agree with the previous comments.
+(z1 / agree-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / thing
+            :ARG1-of (z4 / comment-01
+                  :time (z5 / previous))))
+
+# ::snt-252 If the answer to any of these questions is yes, a PhD may be worthwhile for you.
+(z1 / possible-01
+      :ARG1 (z2 / worthwhile
+            :domain (z3 / doctor
+                  :mod (z4 / philosophy))
+            :beneficiary (z5 / you)))
+
+# ::snt-253 That depends on which country you are in.
+(z1 / depend-01
+      :ARG0 (z2 / that)
+      :ARG1 (z3 / country
+            :location-of (z4 / you)))
+
+# ::snt-254 This is a bad idea.
+(z1 / idea
+      :ARG1-of (z2 / bad-07)
+      :domain (z3 / this))
+

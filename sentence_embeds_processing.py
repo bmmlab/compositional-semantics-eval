@@ -329,13 +329,12 @@ def load_sentence_sim_values(filename):
 
 
 # loop over all models to load data from the sim storage folder (for sentence similarities)
-def load_model_sims(all_files, full_dataset_name, path_root, sims_path):
+def load_model_sims(all_files, full_dataset_name, sims_path):
     """ Load sentence similarity data from a list of files for a given dataset.
 
     Args:
         all_files (list of str): list of files to load data from
         full_dataset_name (str): dataset to load data for
-        path_root (str): root path to data files
         sims_path (str): path to where similarity files are stored
 
     Returns:
@@ -353,7 +352,7 @@ def load_model_sims(all_files, full_dataset_name, path_root, sims_path):
             print(file_name)
             basename_pattern = r"{}_(.*?)_similarities.txt".format(full_dataset_name) # extract basename to save
             base_name = extract_text_between(basename_pattern, file_name)[0]
-            sim_storage[base_name] = load_sentence_sim_values(path_root+sims_path+file_name)
+            sim_storage[base_name] = load_sentence_sim_values(sims_path+file_name)
 
             # adjust for location of peak and range of similarities
             sim_median = np.median(sim_storage[base_name])
@@ -372,8 +371,8 @@ def fix_sentence_dataset_name(dataset):
     Returns:
         str: model name
     """
-    if dataset.split('\\')[1] == 'Fodor2023-final240' or dataset.split('\\')[1] == 'Fodor2023-final192' or dataset.split('\\')[1] == 'Fodor2023-prelim':
-        full_dataset_name = dataset.split('\\')[1]
+    if dataset.split('\\')[2] == 'Fodor2023-final240' or dataset.split('\\')[2] == 'Fodor2023-final192' or dataset.split('\\')[2] == 'Fodor2023-final96':
+        full_dataset_name = dataset.split('\\')[2]
     elif dataset == 'STS3k_all_rand' or dataset == 'STS3k_all_expr_501': # Need to rename the STSk variants
         full_dataset_name = 'STS3k_all'
     elif dataset.split('\\')[2]=='stimuli_243sentences':
@@ -409,6 +408,6 @@ available_pair_datasets = dict(zip(keys, available_pair_datasets))
 available_nonpaired_datasets = ['2014 Wehbe\Stimuli\\Chapter_9_sentences_final', '2017 Anderson\\Stimuli\\stimuli_final',
                                 '2018 Pereira\\Stimuli\\stimuli_243sentences', '2018 Pereira\\Stimuli\\stimuli_384sentences', '2020 Alice Dataset\\Stimuli\\stimuli_sentences_final',
                                 '2020 Zhang\\Stimuli\\test_sentences_final',
-                                '2023 Fodor Dataset\\Fodor2023-final240','2023 Fodor Dataset\\Fodor2023-final192', '2023 Fodor Dataset\\Fodor2023-prelim']
+                                '2023 Fodor Dataset\\Stimuli\\Fodor2023-final240','2023 Fodor Dataset\\Stimuli\\Fodor2023-final192', '2023 Fodor Dataset\\Stimuli\\Fodor2023-final96']
 keys = np.arange(len(available_nonpaired_datasets))
 available_nonpaired_datasets = dict(zip(keys, available_nonpaired_datasets))

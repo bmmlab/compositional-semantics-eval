@@ -1,0 +1,1081 @@
+# ::snt-1 the family supplies the home
+(z1 / supply-01
+      :ARG0 (z2 / family)
+      :ARG1 (z3 / home))
+
+# ::snt-2 the government leaves the cash
+(z1 / leave-02
+      :ARG0 (z2 / government-organization
+            :ARG0-of (z3 / govern-01))
+      :ARG1 (z4 / cash))
+
+# ::snt-3 the government supplies the cash
+(z1 / supply-01
+      :ARG0 (z2 / government-organization
+            :ARG0-of (z3 / govern-01))
+      :ARG1 (z4 / cash))
+
+# ::snt-4 the man leaves the money
+(z1 / leave-15
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / money))
+
+# ::snt-5 the man supplies the money
+(z1 / supply-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / money))
+
+# ::snt-6 the mother leaves the baby
+(z1 / leave-15
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-rel-role-91
+                  :ARG2 (z4 / mother)))
+      :ARG1 (z5 / baby))
+
+# ::snt-7 the mother supplies the baby
+(z1 / supply-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-rel-role-91
+                  :ARG2 (z4 / mother)))
+      :ARG2 (z5 / baby))
+
+# ::snt-8 the employer supplies the training
+(z1 / supply-01
+      :ARG0 (z2 / company
+            :ARG0-of (z3 / employ-01))
+      :ARG1 (z4 / train-01))
+
+# ::snt-9 the family leaves the home
+(z1 / leave-11
+      :ARG0 (z2 / family)
+      :ARG1 (z3 / home))
+
+# ::snt-10 the court judges the offence
+(z1 / offend-03)
+
+# ::snt-11 the scholar spells the book
+(z1 / spell-01
+      :ARG0 (z2 / scholar)
+      :ARG1 (z3 / book))
+
+# ::snt-12 the writer publishes the book
+(z1 / publish-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / write-01))
+      :ARG1 (z4 / book))
+
+# ::snt-13 the user operates the application
+(z1 / operate-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / use-01))
+      :ARG1 (z4 / application))
+
+# ::snt-14 the student spells the name
+(z1 / spell-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / study-01))
+      :ARG1 (z4 / thing
+            :ARG2-of (z5 / name-01)))
+
+# ::snt-15 the child publishes the word
+(z1 / publish-01
+      :ARG0 (z2 / child)
+      :ARG1 (z3 / word))
+
+# ::snt-16 the child spells the word
+(z1 / spell-01
+      :ARG0 (z2 / child)
+      :ARG1 (z3 / word))
+
+# ::snt-17 the scholar publishes the book
+(z1 / publish-01
+      :ARG0 (z2 / scholar)
+      :ARG1 (z3 / book))
+
+# ::snt-18 the people move the round
+(z1 / move-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / round))
+
+# ::snt-19 the user moves the application
+(z1 / move-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / use-01))
+      :ARG1 (z4 / application))
+
+# ::snt-20 the user spells the word
+(z1 / spell-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / use-01))
+      :ARG1 (z4 / word))
+
+# ::snt-21 the student publishes the name
+(z1 / publish-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / study-01))
+      :ARG1 (z4 / thing
+            :ARG2-of (z5 / name-01)))
+
+# ::snt-22 the river visits the sea
+(z1 / visit-01
+      :ARG0 (z2 / river)
+      :ARG1 (z3 / sea))
+
+# ::snt-23 the sight satisfies the eye
+(z1 / satisfy-01
+      :ARG0 (z2 / sight)
+      :ARG1 (z3 / eye))
+
+# ::snt-24 the system visits the criterion
+(z1 / visit-01
+      :ARG0 (z2 / system)
+      :ARG1 (z3 / criterion))
+
+# ::snt-25 the child satisfies the house
+(z1 / satisfy-01
+      :ARG0 (z2 / child)
+      :ARG1 (z3 / house))
+
+# ::snt-26 the people operate the company
+(z1 / operate-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / company))
+
+# ::snt-27 the user publishes the word
+(z1 / publish-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / use-01))
+      :ARG1 (z4 / word))
+
+# ::snt-28 the man publishes the song
+(z1 / publish-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / song))
+
+# ::snt-29 the people spell the letter
+(z1 / spell-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / letter))
+
+# ::snt-30 the people publish the letter
+(z1 / publish-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / letter))
+
+# ::snt-31 the user spells the software
+(z1 / spell-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / use-01))
+      :ARG1 (z4 / software))
+
+# ::snt-32 the user publishes the software
+(z1 / publish-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / use-01))
+      :ARG1 (z4 / software))
+
+# ::snt-33 the specialist spells the papers
+(z1 / spell-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / specialize-01))
+      :ARG1 (z4 / paper))
+
+# ::snt-34 the specialist publishes the papers
+(z1 / publish-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / specialize-01))
+      :ARG1 (z4 / paper))
+
+# ::snt-35 the teacher spells the book
+(z1 / spell-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / teach-01))
+      :ARG1 (z4 / book))
+
+# ::snt-36 the teacher publishes the book
+(z1 / publish-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / teach-01))
+      :ARG1 (z4 / book))
+
+# ::snt-37 the writer spells the book
+(z1 / spell-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / write-01))
+      :ARG1 (z4 / book))
+
+# ::snt-38 the court tests the offence
+(z1 / test-01
+      :ARG0 (z2 / court)
+      :ARG1 (z3 / offend-03))
+
+# ::snt-39 the judge judges the action
+(z1 / act-02
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / judge-01)))
+
+# ::snt-40 the justice tests the king
+(z1 / test-01
+      :ARG0 (z2 / justice)
+      :ARG1 (z3 / king))
+
+# ::snt-41 the man judges the experiment
+(z1 / man
+      :ARG0-of (z2 / judge-01
+            :ARG1 (z3 / experiment)))
+
+# ::snt-42 the court tests the case
+(z1 / test-01
+      :ARG0 (z2 / court)
+      :ARG1 (z3 / case-03))
+
+# ::snt-43 the justice judges the king
+(z1 / judge-01
+      :ARG0 (z2 / justice)
+      :ARG1 (z3 / king))
+
+# ::snt-44 the tribunal tests the crime
+(z1 / test-01
+      :ARG0 (z2 / tribunal)
+      :ARG1 (z3 / crime-02))
+
+# ::snt-45 the court judges the case
+(z1 / case-03)
+
+# ::snt-46 the judge tests the action
+(z1 / test-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / judge-01))
+      :ARG1 (z4 / action))
+
+# ::snt-47 the tribunal judges the crime
+(z1 / judge-01
+      :ARG0 (z2 / tribunal)
+      :ARG1 (z3 / crime-02))
+
+# ::snt-48 the road operates parallel
+(z1 / operate-01
+      :ARG1 (z2 / road)
+      :manner (z3 / parallel))
+
+# ::snt-49 the sweat moves the face
+(z1 / move-01
+      :ARG0 (z2 / sweat)
+      :ARG1 (z3 / face))
+
+# ::snt-50 the sweat operates the face
+(z1 / operate-01
+      :ARG0 (z2 / sweat)
+      :ARG1 (z3 / face))
+
+# ::snt-51 the machine moves the program
+(z1 / move-01
+      :ARG0 (z2 / machine)
+      :ARG1 (z3 / program))
+
+# ::snt-52 the runway operates parallel
+(z1 / operate-01
+      :ARG1 (z2 / runway)
+      :ARG1-of (z3 / parallel-01))
+
+# ::snt-53 the shiver moves down the spine
+(z1 / move-01
+      :ARG1 (z2 / shudder-01)
+      :ARG2 (z3 / spine)
+      :direction (z4 / down))
+
+# ::snt-54 the shiver operates the spine
+(z1 / operate-01
+      :ARG0 (z2 / shudder-01)
+      :ARG1 (z3 / spine))
+
+# ::snt-55 the road moves parallel
+(z1 / move-01
+      :ARG1 (z2 / road)
+      :ARG2 (z3 / parallel))
+
+# ::snt-56 the people operate the round
+(z1 / operate-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / round))
+
+# ::snt-57 the runway moves parallel
+(z1 / move-01
+      :ARG1 (z2 / runway)
+      :ARG2 (z3 / parallel))
+
+# ::snt-58 the student visits the requirement
+(z1 / visit-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / study-01))
+      :ARG1 (z4 / thing
+            :ARG1-of (z5 / require-01)))
+
+# ::snt-59 the system satisfies the criterion
+(z1 / satisfy-01
+      :ARG0 (z2 / system)
+      :ARG1 (z3 / criterion))
+
+# ::snt-60 the service visits the need
+(z1 / visit-01
+      :ARG0 (z2 / service)
+      :ARG1 (z3 / need-01))
+
+# ::snt-61 the system satisfies the requirement
+(z1 / satisfy-01
+      :ARG0 (z2 / system)
+      :ARG1 (z3 / thing
+            :ARG1-of (z4 / require-01)))
+
+# ::snt-62 the man spells the song
+(z1 / spell-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / song))
+
+# ::snt-63 the service satisfies the need
+(z1 / satisfy-01
+      :ARG0 (z2 / service)
+      :ARG1 (z3 / need-01))
+
+# ::snt-64 the beach visits the standard
+(z1 / visit-01
+      :ARG0 (z2 / beach)
+      :ARG1 (z3 / standard))
+
+# ::snt-65 the student satisfies the requirement
+(z1 / satisfy-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / study-01))
+      :ARG1 (z4 / require-01))
+
+# ::snt-66 the system visits the requirement
+(z1 / visit-01
+      :ARG0 (z2 / system)
+      :ARG1 (z3 / thing
+            :ARG1-of (z4 / require-01)))
+
+# ::snt-67 the beach satisfies the standard
+(z1 / satisfy-01
+      :ARG0 (z2 / beach)
+      :ARG1 (z3 / standard))
+
+# ::snt-68 the people judge the door
+(z1 / judge-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / door))
+
+# ::snt-69 the man tests the experiment
+(z1 / test-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / experiment-01))
+
+# ::snt-70 the people judge the sniffing
+(z1 / judge-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / sniff-01))
+
+# ::snt-71 the people tests the door
+(z1 / test-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / door))
+
+# ::snt-72 the demonstrator judges the building
+(z1 / judge-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / demonstrate-01))
+      :ARG1 (z4 / building))
+
+# ::snt-73 the people tests the sniffing
+(z1 / test-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / sniff-01
+            :ARG0 z2))
+
+# ::snt-74 the people judge the program
+(z1 / judge-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / program))
+
+# ::snt-75 the demonstrator tests the building
+(z1 / test-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / demonstrate-01))
+      :ARG1 (z4 / building))
+
+# ::snt-76 the employer leaves the training
+(z1 / leave-15
+      :ARG0 (z2 / company
+            :ARG0-of (z3 / employ-01))
+      :ARG1 (z4 / train-01
+            :ARG2 z2))
+
+# ::snt-77 the people tests the program
+(z1 / test-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / program))
+
+# ::snt-78 the river satisfies the sea
+(z1 / satisfy-01
+      :ARG0 (z2 / river)
+      :ARG1 (z3 / sea))
+
+# ::snt-79 the child visits the house
+(z1 / visit-01
+      :ARG0 (z2 / child)
+      :ARG1 (z3 / house))
+
+# ::snt-80 the boy satisfies the girl
+(z1 / satisfy-01
+      :ARG0 (z2 / boy)
+      :ARG1 (z3 / girl))
+
+# ::snt-81 the family operates the hotel
+(z1 / operate-01
+      :ARG0 (z2 / family)
+      :ARG1 (z3 / hotel))
+
+# ::snt-82 the family moves the hotel
+(z1 / move-01
+      :ARG0 (z2 / family)
+      :ARG1 (z3 / hotel))
+
+# ::snt-83 the system operates the application
+(z1 / operate-01
+      :ARG0 (z2 / system)
+      :ARG1 (z3 / application))
+
+# ::snt-84 the system moves the application
+(z1 / move-01
+      :ARG0 (z2 / system)
+      :ARG1 (z3 / application))
+
+# ::snt-85 the people moves the company
+(z1 / move-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / company))
+
+# ::snt-86 the machine operates the program
+(z1 / operate-01
+      :ARG0 (z2 / machine)
+      :ARG1 (z3 / program))
+
+# ::snt-87 the representative satisfies the official
+(z1 / satisfy-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / represent-01))
+      :ARG1 (z4 / person
+            :ARG0-of (z5 / have-org-role-91
+                  :ARG2 (z6 / official))))
+
+# ::snt-88 the boy visits the girl
+(z1 / visit-01
+      :ARG0 (z2 / boy)
+      :ARG1 (z3 / girl))
+
+# ::snt-89 the representative visits the official
+(z1 / visit-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / represent-01))
+      :ARG1 (z4 / person
+            :ARG0-of (z5 / have-org-role-91
+                  :ARG2 (z6 / official))))
+
+# ::snt-90 the people purchase the house
+(z1 / purchase-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / house))
+
+# ::snt-91 the people bribe the house
+(z1 / bribe-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / house))
+
+# ::snt-92 the people purchase the product
+(z1 / purchase-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / product))
+
+# ::snt-93 the people bribe the product
+(z1 / bribe-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / product))
+
+# ::snt-94 the investor purchases the share
+(z1 / purchase-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / invest-01))
+      :ARG1 (z4 / share))
+
+# ::snt-95 the investor bribes the share
+(z1 / bribe-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / invest-01))
+      :ARG1 (z4 / share))
+
+# ::snt-96 the employee purchases the property
+(z1 / purchase-01
+      :ARG0 (z2 / person
+            :ARG1-of (z3 / employ-01))
+      :ARG1 (z4 / property))
+
+# ::snt-97 the employee bribes the property
+(z1 / bribe-01
+      :ARG0 (z2 / person
+            :ARG1-of (z3 / employ-01))
+      :ARG1 (z4 / property))
+
+# ::snt-98 the supporter purchases the ticket
+(z1 / purchase-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / support-01))
+      :ARG1 (z4 / ticket))
+
+# ::snt-99 the supporter bribes the ticket
+(z1 / bribe-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / support-01))
+      :ARG1 (z4 / ticket))
+
+# ::snt-100 the system leaves the facility
+(z1 / leave-11
+      :ARG0 (z2 / system)
+      :ARG1 (z3 / facility))
+
+# ::snt-101 the company leaves the service
+(z1 / leave-15
+      :ARG0 (z2 / company)
+      :ARG1 (z3 / service))
+
+# ::snt-102 the study supplies the information
+(z1 / supply-01
+      :ARG0 (z2 / study)
+      :ARG1 (z3 / information))
+
+# ::snt-103 the study leaves the information
+(z1 / leave-02
+      :ARG0 (z2 / study)
+      :ARG1 (z3 / information))
+
+# ::snt-104 the school supplies the education
+(z1 / supply-01
+      :ARG0 (z2 / school)
+      :ARG1 (z3 / educate-01))
+
+# ::snt-105 the man alleges the success
+(z1 / allege-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / succeed-01))
+
+# ::snt-106 the study supplies the evidence
+(z1 / supply-01
+      :ARG0 (z2 / study)
+      :ARG1 (z3 / thing
+            :ARG0-of (z4 / evidence-01)))
+
+# ::snt-107 the study leaves the evidence
+(z1 / leave-13
+      :ARG0 (z2 / study)
+      :ARG1 (z3 / evidence))
+
+# ::snt-108 the company supplies the service
+(z1 / supply-01
+      :ARG0 (z2 / company)
+      :ARG1 (z3 / service))
+
+# ::snt-109 the school leaves the education
+(z1 / leave-15
+      :ARG0 (z2 / school)
+      :ARG1 (z3 / educate-01))
+
+# ::snt-110 the system supplies the facility
+(z1 / supply-01
+      :ARG0 (z2 / system)
+      :ARG1 (z3 / facility))
+
+# ::snt-111 the cinema expresses the film
+(z1 / express-01
+      :ARG0 (z2 / cinema)
+      :ARG1 (z3 / film))
+
+# ::snt-112 the artist pictures the work
+(z1 / picture-01
+      :ARG0 (z2 / artist)
+      :ARG1 (z3 / thing
+            :ARG1-of (z4 / work-01)))
+
+# ::snt-113 the child expresses the sign
+(z1 / express-01
+      :ARG0 (z2 / child)
+      :ARG1 (z3 / sign))
+
+# ::snt-114 the map pictures the location
+(z1 / picture-01
+      :ARG0 (z2 / map)
+      :ARG1 (z3 / location))
+
+# ::snt-115 the map expresses the location
+(z1 / express-01
+      :ARG0 (z2 / map)
+      :ARG1 (z3 / location))
+
+# ::snt-116 the poll pictures the support
+(z1 / picture-01
+      :ARG0 (z2 / poll-01)
+      :ARG1 (z3 / support-01))
+
+# ::snt-117 the artist expresses the work
+(z1 / express-01
+      :ARG0 (z2 / artist)
+      :ARG1 (z3 / thing
+            :ARG1-of (z4 / work-01)))
+
+# ::snt-118 the map pictures the area
+(z1 / picture-01
+      :ARG0 (z2 / map)
+      :ARG1 (z3 / area))
+
+# ::snt-119 the map expresses the area
+(z1 / express-01
+      :ARG0 (z2 / map)
+      :ARG1 (z3 / area))
+
+# ::snt-120 the child pictures the sign
+(z1 / picture-01
+      :ARG0 (z2 / child)
+      :ARG1 (z3 / sign))
+
+# ::snt-121 the man states the success
+(z1 / state-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / succeed-01))
+
+# ::snt-122 the survey alleges the recovery
+(z1 / allege-01
+      :ARG0 (z2 / survey-01)
+      :ARG1 (z3 / recover-01))
+
+# ::snt-123 the people state the success
+(z1 / state-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / succeed-01))
+
+# ::snt-124 the spokesman alleges the decision
+(z1 / allege-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-org-role-91
+                  :ARG2 (z4 / spokesman)))
+      :ARG1 (z5 / decide-01))
+
+# ::snt-125 the survey states the recovery
+(z1 / state-01
+      :ARG0 (z2 / survey-01)
+      :ARG1 (z3 / recover-01))
+
+# ::snt-126 the people allege the success
+(z1 / allege-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / succeed-01))
+
+# ::snt-127 the producer states the favour
+(z1 / state-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / produce-01))
+      :ARG1 (z4 / favor))
+
+# ::snt-128 the priest alleges the mass
+(z1 / allege-01
+      :ARG0 (z2 / priest)
+      :ARG1 (z3 / mass))
+
+# ::snt-129 the spokesman states the decision
+(z1 / state-01
+      :ARG0 (z2 / spokesman)
+      :ARG1 (z3 / thing
+            :ARG1-of (z4 / decide-01)))
+
+# ::snt-130 the producer alleges the favour
+(z1 / allege-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / produce-01))
+      :ARG1 (z4 / favor-01))
+
+# ::snt-131 the poll expresses the support
+(z1 / express-01
+      :ARG0 (z2 / poll-01)
+      :ARG1 (z3 / support-01))
+
+# ::snt-132 the child pictures the interest
+(z1 / picture-01
+      :ARG0 (z2 / child)
+      :ARG1 (z3 / interest))
+
+# ::snt-133 the study expresses the correlation
+(z1 / express-01
+      :ARG0 (z2 / study)
+      :ARG1 (z3 / correlate-01))
+
+# ::snt-134 the table pictures the result
+(z1 / picture-01
+      :ARG0 (z2 / table)
+      :ARG1 (z3 / thing
+            :ARG2-of (z4 / result-01)))
+
+# ::snt-135 the table expresses the result
+(z1 / express-01
+      :ARG0 (z2 / table)
+      :ARG1 (z3 / result))
+
+# ::snt-136 the child expresses interest
+(z1 / express-01
+      :ARG0 (z2 / child)
+      :ARG1 (z3 / interest-01
+            :ARG1 z2))
+
+# ::snt-137 the figure pictures the increase
+(z1 / picture-01
+      :ARG0 (z2 / figure)
+      :ARG1 (z3 / increase-01))
+
+# ::snt-138 the figure expresses the increase
+(z1 / express-01
+      :ARG0 (z2 / figure)
+      :ARG1 (z3 / increase-01))
+
+# ::snt-139 the study pictures the correlation
+(z1 / picture-01
+      :ARG0 (z2 / study)
+      :ARG1 (z3 / correlate-01))
+
+# ::snt-140 the man alleges the sentence
+(z1 / allege-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / sentence-01))
+
+# ::snt-141 the speaker states the word
+(z1 / state-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / speak-01))
+      :ARG1 (z4 / word))
+
+# ::snt-142 the cinema pictures the film
+(z1 / picture-01
+      :ARG0 (z2 / cinema)
+      :ARG1 (z3 / film))
+
+# ::snt-143 the man states the sentence
+(z1 / state-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / sentence-01))
+
+# ::snt-144 the people allege the prayer
+(z1 / allege-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / pray-01))
+
+# ::snt-145 the priest states the prayer
+(z1 / state-01
+      :ARG0 (z2 / priest)
+      :ARG1 (z3 / pray-01
+            :ARG0 z2))
+
+# ::snt-146 the speaker alleges the word
+(z1 / allege-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / speak-01))
+      :ARG1 (z4 / word))
+
+# ::snt-147 the people states the prayer
+(z1 / state-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / pray-01
+            :ARG0 z2))
+
+# ::snt-148 the priest alleges the prayer
+(z1 / allege-01
+      :ARG0 (z2 / priest)
+      :ARG1 (z3 / pray-01))
+
+# ::snt-149 the priest states the mass
+(z1 / state-01
+      :ARG0 (z2 / priest)
+      :ARG1 (z3 / mass))
+
+# ::snt-150 the patient attracts the figure
+(z1 / attract-01
+      :ARG0 (z2 / patient)
+      :ARG1 (z3 / figure))
+
+# ::snt-151 the woman depicts the hair
+(z1 / depict-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / hair))
+
+# ::snt-152 the child attracts the picture
+(z1 / attract-01
+      :ARG0 (z2 / child)
+      :ARG1 (z3 / picture))
+
+# ::snt-153 the table depicts the eye
+(z1 / depict-01
+      :ARG0 (z2 / table)
+      :ARG1 (z3 / eye))
+
+# ::snt-154 the parent attracts the line
+(z1 / attract-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-rel-role-91
+                  :ARG2 (z4 / parent)))
+      :ARG1 (z5 / line))
+
+# ::snt-155 the child depicts the picture
+(z1 / depict-01
+      :ARG0 (z2 / child)
+      :ARG1 (z3 / picture))
+
+# ::snt-156 the man attracts the sword
+(z1 / attract-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / sword))
+
+# ::snt-157 the parent depicts the line
+(z1 / depict-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-rel-role-91
+                  :ARG2 (z4 / parent)))
+      :ARG1 (z5 / line))
+
+# ::snt-158 the woman attracts the hair
+(z1 / attract-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / hair))
+
+# ::snt-159 the man depicts the sword
+(z1 / depict-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / sword))
+
+# ::snt-160 the lawyer bears the conviction
+(z1 / bear-01
+      :ARG0 (z2 / lawyer)
+      :ARG1 (z3 / convict-01))
+
+# ::snt-161 the shareholder bears the offer
+(z1 / bear-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / hold-01
+                  :ARG1 (z4 / share)))
+      :ARG1 (z5 / offer-01))
+
+# ::snt-162 the government receives the proposal
+(z1 / receive-01
+      :ARG0 (z2 / government-organization
+            :ARG0-of (z3 / govern-01))
+      :ARG1 (z4 / thing
+            :ARG1-of (z5 / propose-01)))
+
+# ::snt-163 the government bears the proposal
+(z1 / bear-01
+      :ARG0 (z2 / government-organization
+            :ARG0-of (z3 / govern-01))
+      :ARG1 (z4 / thing
+            :ARG1-of (z5 / propose-01)))
+
+# ::snt-164 the patient receives the treatment
+(z1 / receive-01
+      :ARG0 (z2 / patient)
+      :ARG1 (z3 / treat-03
+            :ARG1 z2))
+
+# ::snt-165 the patient depicts the figure
+(z1 / depict-01
+      :ARG0 (z2 / patient)
+      :ARG1 (z3 / figure))
+
+# ::snt-166 the government receives the recommendation
+(z1 / receive-01
+      :ARG0 (z2 / government-organization
+            :ARG0-of (z3 / govern-01))
+      :ARG1 (z4 / thing
+            :ARG1-of (z5 / recommend-01)))
+
+# ::snt-167 the government bears the recommendation
+(z1 / bear-01
+      :ARG0 (z2 / government-organization
+            :ARG0-of (z3 / govern-01))
+      :ARG1 (z4 / thing
+            :ARG1-of (z5 / recommend-01)))
+
+# ::snt-168 the shareholder receives the offer
+(z1 / receive-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / hold-01
+                  :ARG1 (z4 / share)))
+      :ARG1 (z5 / offer-01))
+
+# ::snt-169 the patient bears the treatment
+(z1 / bear-01
+      :ARG0 (z2 / patient)
+      :ARG1 (z3 / treat-03))
+
+# ::snt-170 the member receives the share
+(z1 / receive-01
+      :ARG0 (z2 / member)
+      :ARG1 (z3 / share))
+
+# ::snt-171 the society receives the charge
+(z1 / receive-01
+      :ARG0 (z2 / society)
+      :ARG1 (z3 / charge))
+
+# ::snt-172 the magazine bears the liability
+(z1 / bear-01
+      :ARG0 (z2 / magazine)
+      :ARG1 (z3 / liability))
+
+# ::snt-173 the magazine receives the liability
+(z1 / receive-01
+      :ARG0 (z2 / magazine)
+      :ARG1 (z3 / liability))
+
+# ::snt-174 the management bears the responsibility
+(z1 / bear-01
+      :ARG0 (z2 / manage-01)
+      :ARG1 (z3 / responsible-01
+            :ARG0 z2))
+
+# ::snt-175 the management receives the responsibility
+(z1 / receive-01
+      :ARG0 (z2 / manage-01)
+      :ARG1 (z3 / responsible-03
+            :ARG0 z2))
+
+# ::snt-176 the user bears the responsibility
+(z1 / bear-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / use-01))
+      :ARG1 (z4 / responsible-01
+            :ARG0 z2))
+
+# ::snt-177 the user receives the responsibility
+(z1 / receive-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / use-01))
+      :ARG1 (z4 / responsible-03
+            :ARG0 z2))
+
+# ::snt-178 the member bears the share
+(z1 / bear-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-org-role-91
+                  :ARG2 (z4 / member)))
+      :ARG1 (z5 / share))
+
+# ::snt-179 the lawyer receives the conviction
+(z1 / receive-01
+      :ARG0 (z2 / lawyer)
+      :ARG1 (z3 / convict-01))
+
+# ::snt-180 the society bears the charge
+(z1 / bear-01
+      :ARG0 (z2 / society)
+      :ARG1 (z3 / charge-05))
+
+# ::snt-181 the politician purchases the election
+(z1 / purchase-01
+      :ARG0 (z2 / politician)
+      :ARG1 (z3 / elect-01))
+
+# ::snt-182 the people bribe the security
+(z1 / bribe-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / security))
+
+# ::snt-183 the people purchase the security
+(z1 / purchase-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / security))
+
+# ::snt-184 the model purchases the behaviour
+(z1 / purchase-01
+      :ARG0 (z2 / model)
+      :ARG1 (z3 / behave-01))
+
+# ::snt-185 the firm bribes the politician
+(z1 / bribe-01
+      :ARG1 (z2 / politician)
+      :ARG1-of (z3 / firm-03))
+
+# ::snt-186 the firm purchases the politician
+(z1 / purchase-01
+      :ARG0 (z2 / firm)
+      :ARG1 (z3 / politician))
+
+# ::snt-187 the politician bribes the election
+(z1 / bribe-01
+      :ARG0 (z2 / politician)
+      :ARG1 (z3 / elect-01))
+
+# ::snt-188 the weapon purchases the chance
+(z1 / purchase-01
+      :ARG0 (z2 / weapon)
+      :ARG1 (z3 / chance-02))
+
+# ::snt-189 the model bribes the behaviour
+(z1 / bribe-01
+      :ARG0 (z2 / model)
+      :ARG1 (z3 / behave-01))
+
+# ::snt-190 the claimant depicts the benefit
+(z1 / depict-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / claim-02))
+      :ARG1 (z4 / benefit))
+
+# ::snt-191 the table attracts the eye
+(z1 / attract-01
+      :ARG0 (z2 / table)
+      :ARG1 (z3 / eye))
+
+# ::snt-192 the male depicts the female
+(z1 / depict-01
+      :ARG0 (z2 / male)
+      :ARG1 (z3 / female))
+
+# ::snt-193 the claimant attracts the benefit
+(z1 / attract-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / claim-01))
+      :ARG1 (z4 / benefit))
+
+# ::snt-194 the proposal depicts the criticism
+(z1 / depict-01
+      :ARG0 (z2 / thing
+            :ARG1-of (z3 / propose-01))
+      :ARG1 (z4 / criticize-01))
+
+# ::snt-195 the male attracts the female
+(z1 / attract-01
+      :ARG0 (z2 / male)
+      :ARG1 (z3 / female))
+
+# ::snt-196 the report depicts the attention
+(z1 / depict-01
+      :ARG0 (z2 / report)
+      :ARG1 (z3 / attend-02))
+
+# ::snt-197 the proposal attracts criticism
+(z1 / attract-01
+      :ARG0 (z2 / proposal)
+      :ARG1 (z3 / criticize-01
+            :ARG1 z2))
+
+# ::snt-198 the weapon bribes the chance
+(z1 / bribe-01
+      :ARG0 (z2 / weapon)
+      :ARG1 (z3 / chance-02))
+
+# ::snt-199 the report attracts attention
+(z1 / attract-01
+      :ARG0 (z2 / report)
+      :ARG1 (z3 / attend-02))
+

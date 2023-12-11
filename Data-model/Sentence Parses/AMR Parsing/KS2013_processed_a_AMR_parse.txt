@@ -1,0 +1,591 @@
+# ::snt-1 the author writes the book
+(z1 / write-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / author-01))
+      :ARG1 (z4 / book))
+
+# ::snt-2 the panel discusses the issue
+(z1 / discuss-01
+      :ARG0 (z2 / panel)
+      :ARG1 (z3 / issue-02))
+
+# ::snt-3 the man shuts the door
+(z1 / shut-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / door))
+
+# ::snt-4 the woman drinks the water
+(z1 / drink-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / water))
+
+# ::snt-5 the woman drinks the water
+(z1 / drink-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / water))
+
+# ::snt-6 the wife pours the tea
+(z1 / pour-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-rel-role-91
+                  :ARG2 (z4 / wife)))
+      :ARG1 (z5 / tea))
+
+# ::snt-7 the delegate buys the land
+(z1 / buy-01
+      :ARG0 (z2 / delegate)
+      :ARG1 (z3 / land))
+
+# ::snt-8 the man shuts the door
+(z1 / shut-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / door))
+
+# ::snt-9 the survey collects the information
+(z1 / collect-01
+      :ARG0 (z2 / survey-01)
+      :ARG1 (z3 / information))
+
+# ::snt-10 the report stresses the importance
+(z1 / stress-01
+      :ARG0 (z2 / report)
+      :ARG1 (z3 / important-01))
+
+# ::snt-11 the plan increases the number
+(z1 / increase-01
+      :ARG0 (z2 / plan)
+      :ARG1 (z3 / number))
+
+# ::snt-12 the member attends the conference
+(z1 / attend-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-org-role-91
+                  :ARG2 (z4 / member)))
+      :ARG1 (z5 / conference))
+
+# ::snt-13 the drug produces the effect
+(z1 / produce-01
+      :ARG0 (z2 / drug)
+      :ARG1 (z3 / effect))
+
+# ::snt-14 the superpower fights the war
+(z1 / fight-01
+      :ARG0 (z2 / superpower)
+      :ARG2 (z3 / war))
+
+# ::snt-15 the customer pays the price
+(z1 / pay-01
+      :ARG0 (z2 / customer)
+      :ARG1 (z3 / monetary-quantity
+            :ARG2-of (z4 / price-01)))
+
+# ::snt-16 the project presents the problem
+(z1 / present-01
+      :ARG0 (z2 / project)
+      :ARG1 (z3 / problem))
+
+# ::snt-17 the question raises the head
+(z1 / raise-01
+      :ARG0 (z2 / thing
+            :ARG1-of (z3 / question-01))
+      :ARG1 (z4 / head))
+
+# ::snt-18 the woman asks the man
+(z1 / ask-01
+      :ARG0 (z2 / woman)
+      :ARG2 (z3 / man))
+
+# ::snt-19 the woman asks the man
+(z1 / ask-01
+      :ARG0 (z2 / woman)
+      :ARG2 (z3 / man))
+
+# ::snt-20 the patient needs the treatment
+(z1 / need-01
+      :ARG0 (z2 / patient)
+      :ARG1 (z3 / treat-03
+            :ARG1 z2))
+
+# ::snt-21 the mother leaves the house
+(z1 / leave-11
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-rel-role-91
+                  :ARG2 (z4 / mother)))
+      :ARG1 (z5 / house))
+
+# ::snt-22 the man hears the word
+(z1 / hear-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / word))
+
+# ::snt-23 the user sends the message
+(z1 / send-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / use-01))
+      :ARG1 (z4 / thing
+            :ARG1-of (z5 / message-01)))
+
+# ::snt-24 the programme offers the support
+(z1 / offer-01
+      :ARG0 (z2 / program)
+      :ARG1 (z3 / support-01))
+
+# ::snt-25 the employee starts the work
+(z1 / start-01
+      :ARG0 (z2 / person
+            :ARG1-of (z3 / employ-01))
+      :ARG1 (z4 / work-01
+            :ARG0 z2))
+
+# ::snt-26 the drug produces the effect
+(z1 / produce-01
+      :ARG0 (z2 / drug)
+      :ARG1 (z3 / effect))
+
+# ::snt-27 the company provides the system
+(z1 / provide-01
+      :ARG0 (z2 / company)
+      :ARG1 (z3 / system))
+
+# ::snt-28 the school encourages the child
+(z1 / encourage-01
+      :ARG0 (z2 / school)
+      :ARG1 (z3 / child))
+
+# ::snt-29 the case requires the attention
+(z1 / require-01
+      :ARG0 (z2 / case-03)
+      :ARG1 (z3 / attend-02
+            :ARG1 z2))
+
+# ::snt-30 the mother leaves the house
+(z1 / leave-11
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-rel-role-91
+                  :ARG2 (z4 / mother)))
+      :ARG1 (z5 / house))
+
+# ::snt-31 the member attends the conference
+(z1 / attend-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-org-role-91
+                  :ARG2 (z4 / member)))
+      :ARG1 (z5 / conference))
+
+# ::snt-32 the charity helps the people
+(z1 / help-01
+      :ARG0 (z2 / charity)
+      :ARG1 (z3 / person))
+
+# ::snt-33 the product satisfies the demand
+(z1 / satisfy-01
+      :ARG0 (z2 / product)
+      :ARG1 (z3 / demand-01))
+
+# ::snt-34 the medication achieves the result
+(z1 / achieve-01
+      :ARG0 (z2 / medication)
+      :ARG1 (z3 / result))
+
+# ::snt-35 the graduate begins the career
+(z1 / begin-01
+      :ARG0 (z2 / person
+            :ARG1-of (z3 / graduate-01))
+      :ARG1 (z4 / career))
+
+# ::snt-36 the paper addresses the question
+(z1 / address-02
+      :ARG0 (z2 / paper)
+      :ARG1 (z3 / thing
+            :ARG1-of (z4 / question-01)))
+
+# ::snt-37 the parent sets the example
+(z1 / set-02
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-rel-role-91
+                  :ARG2 (z4 / parent)))
+      :ARG1 (z5 / example))
+
+# ::snt-38 the design reduces the amount
+(z1 / reduce-01
+      :ARG0 (z2 / thing
+            :ARG1-of (z3 / design-01))
+      :ARG1 (z4 / amount))
+
+# ::snt-39 the father stretchs the arm
+(z1 / stretch-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-rel-role-91
+                  :ARG2 (z4 / father)))
+      :ARG1 (z5 / arm))
+
+# ::snt-40 the case requires the attention
+(z1 / require-01
+      :ARG0 (z2 / case-03)
+      :ARG1 (z3 / attend-02
+            :ARG1 z2))
+
+# ::snt-41 the researcher develops the technique
+(z1 / develop-02
+      :ARG0 (z2 / researcher)
+      :ARG1 (z3 / technique))
+
+# ::snt-42 the government uses the power
+(z1 / use-01
+      :ARG0 (z2 / government-organization
+            :ARG0-of (z3 / govern-01))
+      :ARG1 (z4 / power))
+
+# ::snt-43 the author writes the book
+(z1 / write-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / author-01))
+      :ARG1 (z4 / book))
+
+# ::snt-44 the pupil achieves the end
+(z1 / achieve-01
+      :ARG0 (z2 / pupil)
+      :ARG1 (z3 / end))
+
+# ::snt-45 the author writes the book
+(z1 / write-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / author-01))
+      :ARG1 (z4 / book))
+
+# ::snt-46 the report stresses the importance
+(z1 / stress-01
+      :ARG0 (z2 / report)
+      :ARG1 (z3 / important-01))
+
+# ::snt-47 the pupil achieves the end
+(z1 / achieve-01
+      :ARG0 (z2 / pupil)
+      :ARG1 (z3 / end))
+
+# ::snt-48 the pupil uses the knowledge
+(z1 / use-01
+      :ARG0 (z2 / pupil)
+      :ARG1 (z3 / knowledge))
+
+# ::snt-49 the agent sells the property
+(z1 / sell-01
+      :ARG0 (z2 / agent)
+      :ARG1 (z3 / property))
+
+# ::snt-50 the page provides the datum
+(z1 / provide-01
+      :ARG0 (z2 / page)
+      :ARG1 (z3 / datum))
+
+# ::snt-51 the writer reads the word
+(z1 / read-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / write-01))
+      :ARG1 (z4 / word))
+
+# ::snt-52 the member attends the conference
+(z1 / attend-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-org-role-91
+                  :ARG2 (z4 / member)))
+      :ARG1 (z5 / conference))
+
+# ::snt-53 the girl likes the people
+(z1 / like-01
+      :ARG0 (z2 / girl)
+      :ARG1 (z3 / person))
+
+# ::snt-54 the group holds the meeting
+(z1 / hold-04
+      :ARG0 (z2 / group)
+      :ARG1 (z3 / meet-03))
+
+# ::snt-55 the medication achieves the result
+(z1 / achieve-01
+      :ARG0 (z2 / medication)
+      :ARG1 (z3 / result))
+
+# ::snt-56 the man waves the hand
+(z1 / wave-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / hand))
+
+# ::snt-57 the pupil uses the knowledge
+(z1 / use-01
+      :ARG0 (z2 / pupil)
+      :ARG1 (z3 / knowledge))
+
+# ::snt-58 the wife pours the tea
+(z1 / pour-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-rel-role-91
+                  :ARG2 (z4 / wife)))
+      :ARG1 (z5 / tea))
+
+# ::snt-59 the committee considers the matter
+(z1 / consider-02
+      :ARG0 (z2 / committee)
+      :ARG1 (z3 / matter))
+
+# ::snt-60 the service provides the help
+(z1 / provide-01
+      :ARG0 (z2 / service)
+      :ARG1 (z3 / help-01))
+
+# ::snt-61 the agent sells the property
+(z1 / sell-01
+      :ARG0 (z2 / agent)
+      :ARG1 (z3 / property))
+
+# ::snt-62 the student acquires the skill
+(z1 / acquire-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / study-01))
+      :ARG1 (z4 / skill))
+
+# ::snt-63 the superpower fights the war
+(z1 / fight-01
+      :ARG0 (z2 / superpower)
+      :ARG2 (z3 / war))
+
+# ::snt-64 the member expresses the view
+(z1 / express-01
+      :ARG0 (z2 / member)
+      :ARG1 (z3 / thing
+            :ARG2-of (z4 / view-02)))
+
+# ::snt-65 the report stresses the importance
+(z1 / stress-01
+      :ARG0 (z2 / report)
+      :ARG1 (z3 / important-01))
+
+# ::snt-66 the route follows the road
+(z1 / follow-01
+      :ARG1 (z2 / route)
+      :ARG2 (z3 / road))
+
+# ::snt-67 the worker joins the party
+(z1 / join-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / work-01))
+      :ARG1 (z4 / party))
+
+# ::snt-68 the charity helps the people
+(z1 / help-01
+      :ARG0 (z2 / charity)
+      :ARG1 (z3 / person))
+
+# ::snt-69 the wife pours the tea
+(z1 / pour-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-rel-role-91
+                  :ARG2 (z4 / wife)))
+      :ARG1 (z5 / tea))
+
+# ::snt-70 the man lifts the hand
+(z1 / lift-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / hand))
+
+# ::snt-71 the people play the game
+(z1 / play-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / game))
+
+# ::snt-72 the people remember the name
+(z1 / remember-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / thing
+            :ARG2-of (z4 / name-01)))
+
+# ::snt-73 the company suffers the loss
+(z1 / suffer-01
+      :ARG0 (z2 / company)
+      :ARG1 (z3 / lose-02
+            :ARG0 z2))
+
+# ::snt-74 the commodity meets the requirement
+(z1 / meet-01
+      :ARG0 (z2 / commodity)
+      :ARG1 (z3 / thing
+            :ARG1-of (z4 / require-01)))
+
+# ::snt-75 the firm causes the injury
+(z1 / cause-01
+      :ARG0 (z2 / firm)
+      :ARG1 (z3 / injure-01))
+
+# ::snt-76 the people share the interest
+(z1 / share-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / interest))
+
+# ::snt-77 the student acquires the skill
+(z1 / acquire-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / study-01))
+      :ARG1 (z4 / skill))
+
+# ::snt-78 the writer reads the word
+(z1 / read-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / write-01))
+      :ARG1 (z4 / word))
+
+# ::snt-79 the superpower fights the war
+(z1 / fight-01
+      :ARG0 (z2 / superpower)
+      :ARG2 (z3 / war))
+
+# ::snt-80 the researcher develops the technique
+(z1 / develop-02
+      :ARG0 (z2 / researcher)
+      :ARG1 (z3 / technique))
+
+# ::snt-81 the product satisfies the demand
+(z1 / satisfy-01
+      :ARG0 (z2 / product)
+      :ARG1 (z3 / demand-01))
+
+# ::snt-82 the man shuts the door
+(z1 / shut-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / door))
+
+# ::snt-83 the people share interest
+(z1 / share-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / interest-01))
+
+# ::snt-84 the girl likes the people
+(z1 / like-01
+      :ARG0 (z2 / girl)
+      :ARG1 (z3 / person))
+
+# ::snt-85 the service provides the help
+(z1 / provide-01
+      :ARG0 (z2 / service)
+      :ARG1 (z3 / help-01))
+
+# ::snt-86 the programme faces the difficulty
+(z1 / face-01
+      :ARG0 (z2 / program)
+      :ARG1 (z3 / difficult))
+
+# ::snt-87 the man waves the hand
+(z1 / wave-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / hand))
+
+# ::snt-88 the force wins the battle
+(z1 / win-01
+      :ARG0 (z2 / force)
+      :ARG1 (z3 / battle-01))
+
+# ::snt-89 the patient needs the treatment
+(z1 / need-01
+      :ARG0 (z2 / patient)
+      :ARG1 (z3 / treat-03
+            :ARG1 z2))
+
+# ::snt-90 the committee considers the matter
+(z1 / consider-02
+      :ARG0 (z2 / committee)
+      :ARG1 (z3 / matter))
+
+# ::snt-91 the user sends the message
+(z1 / send-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / use-01))
+      :ARG1 (z4 / thing
+            :ARG1-of (z5 / message-01)))
+
+# ::snt-92 the doctor uses the test
+(z1 / use-01
+      :ARG0 (z2 / doctor)
+      :ARG1 (z3 / test-01))
+
+# ::snt-93 the customer pays the price
+(z1 / pay-01
+      :ARG0 (z2 / customer)
+      :ARG1 (z3 / monetary-quantity
+            :ARG2-of (z4 / price-01)))
+
+# ::snt-94 the study poses the problem
+(z1 / pose-02
+      :ARG0 (z2 / study)
+      :ARG1 (z3 / problem))
+
+# ::snt-95 the paper addresses the question
+(z1 / address-02
+      :ARG0 (z2 / paper)
+      :ARG1 (z3 / thing
+            :ARG1-of (z4 / question-01)))
+
+# ::snt-96 the gentleman closes the eye
+(z1 / close-01
+      :ARG0 (z2 / gentleman)
+      :ARG1 (z3 / eye))
+
+# ::snt-97 the force wins the battle
+(z1 / win-01
+      :ARG0 (z2 / force)
+      :ARG1 (z3 / battle-01))
+
+# ::snt-98 the girl likes the people
+(z1 / like-01
+      :ARG0 (z2 / girl)
+      :ARG1 (z3 / person))
+
+# ::snt-99 the family receives the letter
+(z1 / receive-01
+      :ARG0 (z2 / family)
+      :ARG1 (z3 / letter))
+
+# ::snt-100 the pupil uses the knowledge
+(z1 / use-01
+      :ARG0 (z2 / pupil)
+      :ARG1 (z3 / knowledge))
+
+# ::snt-101 the physician passes the time
+(z1 / pass-04
+      :ARG0 (z2 / physician)
+      :ARG1 (z3 / time))
+
+# ::snt-102 the programme offers the support
+(z1 / offer-01
+      :ARG0 (z2 / program)
+      :ARG1 (z3 / support-01))
+
+# ::snt-103 the delegate buys the land
+(z1 / buy-01
+      :ARG0 (z2 / delegate)
+      :ARG1 (z3 / land))
+
+# ::snt-104 the member expresses the view
+(z1 / express-01
+      :ARG0 (z2 / member)
+      :ARG1 (z3 / thing
+            :ARG2-of (z4 / view-02)))
+
+# ::snt-105 the medication achieves the result
+(z1 / achieve-01
+      :ARG0 (z2 / medication)
+      :ARG1 (z3 / result))
+
+# ::snt-106 the team wins the match
+(z1 / win-01
+      :ARG0 (z2 / team)
+      :ARG2 (z3 / match))
+
+# ::snt-107 the team wins the match
+(z1 / win-01
+      :ARG0 (z2 / team)
+      :ARG2 (z3 / match))
+
+# ::snt-108 the road crosses the line
+(z1 / cross-02
+      :ARG0 (z2 / road)
+      :ARG1 (z3 / line))
+

@@ -1,0 +1,600 @@
+# ::snt-1 the koala attacks the toaster
+(z1 / attack-01
+      :ARG0 (z2 / koala)
+      :ARG1 (z3 / toaster))
+
+# ::snt-2 the koala disgusts the spider
+(z1 / disgust-01
+      :ARG0 (z2 / koala)
+      :ARG1 (z3 / spider))
+
+# ::snt-3 the bee humiliates the spider
+(z1 / humiliate-01
+      :ARG0 (z2 / bee)
+      :ARG1 (z3 / spider))
+
+# ::snt-4 the goldfish humiliates the horse
+(z1 / humiliate-01
+      :ARG0 (z2 / goldfish)
+      :ARG1 (z3 / horse))
+
+# ::snt-5 the bee humiliates the horse
+(z1 / humiliate-01
+      :ARG0 (z2 / bee)
+      :ARG1 (z3 / horse))
+
+# ::snt-6 the zebra disgusts the horse
+(z1 / disgust-01
+      :ARG0 (z2 / zebra)
+      :ARG1 (z3 / horse))
+
+# ::snt-7 the bee helps the toaster
+(z1 / help-01
+      :ARG0 (z2 / bee)
+      :ARG1 (z3 / toaster))
+
+# ::snt-8 the koala moves the telephone
+(z1 / move-01
+      :ARG0 (z2 / koala)
+      :ARG1 (z3 / telephone))
+
+# ::snt-9 the lizard disgusts the horse
+(z1 / disgust-01
+      :ARG0 (z2 / lizard)
+      :ARG1 (z3 / horse))
+
+# ::snt-10 the zebra helps the pencil
+(z1 / help-01
+      :ARG0 (z2 / zebra)
+      :ARG1 (z3 / pencil))
+
+# ::snt-11 the frog attacks the toaster
+(z1 / attack-01
+      :ARG0 (z2 / frog)
+      :ARG1 (z3 / toaster))
+
+# ::snt-12 the frog helps the telephone
+(z1 / help-01
+      :ARG0 (z2 / frog)
+      :ARG1 (z3 / telephone))
+
+# ::snt-13 the parrot attacks the telephone
+(z1 / attack-01
+      :ARG0 (z2 / parrot)
+      :ARG1 (z3 / telephone))
+
+# ::snt-14 the bee helps the telephone
+(z1 / help-01
+      :ARG0 (z2 / bee)
+      :ARG1 (z3 / telephone))
+
+# ::snt-15 the bee moves the parrot
+(z1 / move-01
+      :ARG0 (z2 / bee)
+      :ARG1 (z3 / parrot))
+
+# ::snt-16 the parrot disgusts the goldfish
+(z1 / disgust-01
+      :ARG0 (z2 / parrot)
+      :ARG1 (z3 / goldfish))
+
+# ::snt-17 the bee hits the monkey
+(z1 / hit-01
+      :ARG0 (z2 / bee)
+      :ARG1 (z3 / monkey))
+
+# ::snt-18 the zebra attacks the snake
+(z1 / attack-01
+      :ARG0 (z2 / zebra)
+      :ARG1 (z3 / snake))
+
+# ::snt-19 the frog confuses the spider
+(z1 / confuse-01
+      :ARG1 (z2 / frog)
+      :ARG2 (z3 / spider))
+
+# ::snt-20 the bee confuses the zebra
+(z1 / confuse-01
+      :ARG0 (z2 / bee)
+      :ARG1 (z3 / zebra))
+
+# ::snt-21 the goldfish helps the lizard
+(z1 / help-01
+      :ARG0 (z2 / goldfish)
+      :ARG1 (z3 / lizard))
+
+# ::snt-22 the sheep humiliates the pencil
+(z1 / humiliate-01
+      :ARG0 (z2 / sheep)
+      :ARG1 (z3 / pencil))
+
+# ::snt-23 the koala throws the koala
+(z1 / throw-01
+      :ARG0 (z2 / koala
+            :ARG1-of z1))
+
+# ::snt-24 the lizard humiliates the frog
+(z1 / humiliate-01
+      :ARG0 (z2 / lizard)
+      :ARG1 (z3 / frog))
+
+# ::snt-25 the parrot throws the toaster
+(z1 / throw-01
+      :ARG0 (z2 / parrot)
+      :ARG1 (z3 / toaster))
+
+# ::snt-26 the frog helps the frog
+(z1 / help-01
+      :ARG0 (z2 / frog
+            :ARG2-of z1))
+
+# ::snt-27 the elephant attacks the snake
+(z1 / attack-01
+      :ARG0 (z2 / elephant)
+      :ARG1 (z3 / snake))
+
+# ::snt-28 the snake attacks the snake
+(z1 / attack-01
+      :ARG0 (z2 / snake
+            :ARG1-of z1))
+
+# ::snt-29 the zebra hits the snake
+(z1 / hit-01
+      :ARG0 (z2 / zebra)
+      :ARG1 (z3 / snake))
+
+# ::snt-30 the goldfish moves the eagle
+(z1 / move-01
+      :ARG0 (z2 / goldfish)
+      :ARG1 (z3 / eagle))
+
+# ::snt-31 the hawk humiliates the frog
+(z1 / humiliate-01
+      :ARG0 (z2 / hawk)
+      :ARG1 (z3 / frog))
+
+# ::snt-32 the sheep helps the koala
+(z1 / help-01
+      :ARG0 (z2 / sheep)
+      :ARG1 (z3 / koala))
+
+# ::snt-33 the hawk hits the spider
+(z1 / hit-01
+      :ARG0 (z2 / hawk)
+      :ARG1 (z3 / spider))
+
+# ::snt-34 the puppy moves the bee
+(z1 / move-01
+      :ARG0 (z2 / puppy)
+      :ARG1 (z3 / bee))
+
+# ::snt-35 the rabbit humiliates the horse
+(z1 / humiliate-01
+      :ARG0 (z2 / rabbit)
+      :ARG1 (z3 / horse))
+
+# ::snt-36 the lion confuses the scorpion
+(z1 / confuse-01
+      :ARG1 (z2 / lion)
+      :ARG2 (z3 / scorpion))
+
+# ::snt-37 the zebra chases the spider
+(z1 / chase-01
+      :ARG0 (z2 / zebra)
+      :ARG1 (z3 / spider))
+
+# ::snt-38 the hawk hits the zebra
+(z1 / hit-01
+      :ARG0 (z2 / hawk)
+      :ARG1 (z3 / zebra))
+
+# ::snt-39 the wombat moves the bee
+(z1 / move-01
+      :ARG0 (z2 / wombat)
+      :ARG1 (z3 / bee))
+
+# ::snt-40 the hawk disgusts the elephant
+(z1 / disgust-01
+      :ARG0 (z2 / hawk)
+      :ARG1 (z3 / elephant))
+
+# ::snt-41 the rabbit helps the telephone
+(z1 / help-01
+      :ARG0 (z2 / rabbit)
+      :ARG1 (z3 / telephone))
+
+# ::snt-42 the snake helps the hawk
+(z1 / help-01
+      :ARG0 (z2 / snake)
+      :ARG1 (z3 / hawk))
+
+# ::snt-43 the hawk hits the parrot
+(z1 / hit-01
+      :ARG0 (z2 / hawk)
+      :ARG1 (z3 / parrot))
+
+# ::snt-44 the parrot chases the telephone
+(z1 / chase-01
+      :ARG0 (z2 / parrot)
+      :ARG1 (z3 / telephone))
+
+# ::snt-45 the snake likes the pencil
+(z1 / like-01
+      :ARG0 (z2 / snake)
+      :ARG1 (z3 / pencil))
+
+# ::snt-46 the koala helps the chicken
+(z1 / help-01
+      :ARG0 (z2 / koala)
+      :ARG1 (z3 / chicken))
+
+# ::snt-47 the snake blames the toaster
+(z1 / blame-01
+      :ARG0 (z2 / snake)
+      :ARG1 (z3 / toaster))
+
+# ::snt-48 the chicken moves the zebra
+(z1 / move-01
+      :ARG0 (z2 / chicken)
+      :ARG1 (z3 / zebra))
+
+# ::snt-49 the scorpion understands the lion
+(z1 / understand-01
+      :ARG0 (z2 / scorpion)
+      :ARG1 (z3 / lion))
+
+# ::snt-50 the parrot frightens the zebra
+(z1 / frighten-01
+      :ARG0 (z2 / parrot)
+      :ARG1 (z3 / zebra))
+
+# ::snt-51 the koala annoys the eagle
+(z1 / annoy-01
+      :ARG0 (z2 / koala)
+      :ARG1 (z3 / eagle))
+
+# ::snt-52 the eagle acknowledges the lizard
+(z1 / acknowledge-01
+      :ARG0 (z2 / eagle)
+      :ARG1 (z3 / lizard))
+
+# ::snt-53 the rabbit hits the bee
+(z1 / hit-01
+      :ARG0 (z2 / rabbit)
+      :ARG1 (z3 / bee))
+
+# ::snt-54 the scorpion sees the pencil
+(z1 / see-01
+      :ARG0 (z2 / scorpion)
+      :ARG1 (z3 / pencil))
+
+# ::snt-55 the lizard disgusts the chicken
+(z1 / disgust-01
+      :ARG0 (z2 / lizard)
+      :ARG1 (z3 / chicken))
+
+# ::snt-56 the parrot disturbs the snake
+(z1 / disturb-01
+      :ARG0 (z2 / parrot)
+      :ARG1 (z3 / snake))
+
+# ::snt-57 the zebra likes the parrot
+(z1 / like-01
+      :ARG0 (z2 / zebra)
+      :ARG1 (z3 / parrot))
+
+# ::snt-58 the eagle attacks the cat
+(z1 / attack-01
+      :ARG0 (z2 / eagle)
+      :ARG1 (z3 / cat))
+
+# ::snt-59 the wombat humiliates the snake
+(z1 / humiliate-01
+      :ARG0 (z2 / wombat)
+      :ARG1 (z3 / snake))
+
+# ::snt-60 the snake smells the monkey
+(z1 / smell-01
+      :ARG0 (z2 / snake)
+      :ARG1 (z3 / monkey))
+
+# ::snt-61 the scorpion scares the goldfish
+(z1 / scare-01
+      :ARG0 (z2 / scorpion)
+      :ARG1 (z3 / goldfish))
+
+# ::snt-62 the koala frightens the lion
+(z1 / frighten-01
+      :ARG0 (z2 / koala)
+      :ARG1 (z3 / lion))
+
+# ::snt-63 the snake ignores the bee
+(z1 / ignore-01
+      :ARG0 (z2 / snake)
+      :ARG1 (z3 / bee))
+
+# ::snt-64 the sheep disgusts the octopus
+(z1 / disgust-01
+      :ARG0 (z2 / sheep)
+      :ARG1 (z3 / octopus))
+
+# ::snt-65 the pig hits the snake
+(z1 / hit-01
+      :ARG0 (z2 / pig)
+      :ARG1 (z3 / snake))
+
+# ::snt-66 the hawk confuses the octopus
+(z1 / confuse-01
+      :ARG1 (z2 / hawk)
+      :ARG2 (z3 / octopus))
+
+# ::snt-67 the snake disturbs the elephant
+(z1 / disturb-01
+      :ARG0 (z2 / snake)
+      :ARG1 (z3 / elephant))
+
+# ::snt-68 the snake ignores the goldfish
+(z1 / ignore-01
+      :ARG0 (z2 / snake)
+      :ARG1 (z3 / goldfish))
+
+# ::snt-69 the snake hits the dog
+(z1 / hit-01
+      :ARG0 (z2 / snake)
+      :ARG1 (z3 / dog))
+
+# ::snt-70 the goldfish acknowledges the kangaroo
+(z1 / acknowledge-01
+      :ARG0 (z2 / goldfish)
+      :ARG1 (z3 / kangaroo))
+
+# ::snt-71 the scorpion sees the lizard
+(z1 / see-01
+      :ARG0 (z2 / scorpion)
+      :ARG1 (z3 / lizard))
+
+# ::snt-72 the chicken throws the elephant
+(z1 / throw-01
+      :ARG0 (z2 / chicken)
+      :ARG1 (z3 / elephant))
+
+# ::snt-73 the cow likes the horse
+(z1 / like-01
+      :ARG0 (z2 / cow)
+      :ARG1 (z3 / horse))
+
+# ::snt-74 the goldfish blames the hawk
+(z1 / blame-01
+      :ARG0 (z2 / goldfish)
+      :ARG1 (z3 / hawk))
+
+# ::snt-75 the wombat ignores the toaster
+(z1 / ignore-01
+      :ARG0 (z2 / wombat)
+      :ARG1 (z3 / toaster))
+
+# ::snt-76 the koala annoys the rabbit
+(z1 / annoy-01
+      :ARG0 (z2 / koala)
+      :ARG1 (z3 / rabbit))
+
+# ::snt-77 the pelican blames the monkey
+(z1 / blame-01
+      :ARG0 (z2 / pelican)
+      :ARG1 (z3 / monkey))
+
+# ::snt-78 the puppy helps the cow
+(z1 / help-01
+      :ARG0 (z2 / puppy)
+      :ARG1 (z3 / cow))
+
+# ::snt-79 the scorpion blames the elephant
+(z1 / blame-01
+      :ARG0 (z2 / scorpion)
+      :ARG1 (z3 / elephant))
+
+# ::snt-80 the cat blames the goldfish
+(z1 / blame-01
+      :ARG0 (z2 / cat)
+      :ARG1 (z3 / goldfish))
+
+# ::snt-81 the chicken frightens the zebra
+(z1 / frighten-01
+      :ARG0 (z2 / chicken)
+      :ARG1 (z3 / zebra))
+
+# ::snt-82 the rabbit hits the goat
+(z1 / hit-01
+      :ARG0 (z2 / rabbit)
+      :ARG1 (z3 / goat))
+
+# ::snt-83 the bee scares the pelican
+(z1 / scare-01
+      :ARG0 (z2 / bee)
+      :ARG1 (z3 / pelican))
+
+# ::snt-84 the cow confuses the wombat
+(z1 / confuse-01
+      :ARG1 (z2 / cow)
+      :ARG2 (z3 / wombat))
+
+# ::snt-85 the sheep ignores the elephant
+(z1 / ignore-01
+      :ARG0 (z2 / sheep)
+      :ARG1 (z3 / elephant))
+
+# ::snt-86 the cat disturbs the sheep
+(z1 / disturb-01
+      :ARG0 (z2 / cat)
+      :ARG1 (z3 / sheep))
+
+# ::snt-87 the octopus annoys the lion
+(z1 / annoy-01
+      :ARG0 (z2 / octopus)
+      :ARG1 (z3 / lion))
+
+# ::snt-88 the pelican hits the cat
+(z1 / hit-01
+      :ARG0 (z2 / pelican)
+      :ARG1 (z3 / cat))
+
+# ::snt-89 the octopus confuses the cow
+(z1 / confuse-01
+      :ARG0 (z2 / octopus)
+      :ARG1 (z3 / cow))
+
+# ::snt-90 the rabbit chases the snake
+(z1 / chase-01
+      :ARG0 (z2 / rabbit)
+      :ARG1 (z3 / snake))
+
+# ::snt-91 the lizard likes the rabbit
+(z1 / like-01
+      :ARG0 (z2 / lizard)
+      :ARG1 (z3 / rabbit))
+
+# ::snt-92 the elephant sees the cat
+(z1 / see-01
+      :ARG0 (z2 / elephant)
+      :ARG1 (z3 / cat))
+
+# ::snt-93 the pelican chases the snake
+(z1 / chase-01
+      :ARG0 (z2 / pelican)
+      :ARG1 (z3 / snake))
+
+# ::snt-94 the octopus annoys the eagle
+(z1 / annoy-01
+      :ARG0 (z2 / octopus)
+      :ARG1 (z3 / eagle))
+
+# ::snt-95 the parrot smells the kangaroo
+(z1 / smell-01
+      :ARG0 (z2 / parrot)
+      :ARG1 (z3 / kangaroo))
+
+# ::snt-96 the kangaroo understands the octopus
+(z1 / understand-01
+      :ARG0 (z2 / kangaroo)
+      :ARG1 (z3 / octopus))
+
+# ::snt-97 the dog annoys the pelican
+(z1 / annoy-01
+      :ARG0 (z2 / dog)
+      :ARG1 (z3 / pelican))
+
+# ::snt-98 the scorpion blames the octopus
+(z1 / blame-01
+      :ARG0 (z2 / scorpion)
+      :ARG1 (z3 / octopus))
+
+# ::snt-99 the chicken acknowledges the pig
+(z1 / acknowledge-01
+      :ARG0 (z2 / chicken)
+      :ARG1 (z3 / pig))
+
+# ::snt-100 the scorpion chases the pig
+(z1 / chase-01
+      :ARG0 (z2 / scorpion)
+      :ARG1 (z3 / pig))
+
+# ::snt-101 the kangaroo smells the eagle
+(z1 / smell-01
+      :ARG0 (z2 / kangaroo)
+      :ARG1 (z3 / eagle))
+
+# ::snt-102 the octopus disturbs the rabbit
+(z1 / disturb-01
+      :ARG0 (z2 / octopus)
+      :ARG1 (z3 / rabbit))
+
+# ::snt-103 the goat frightens the octopus
+(z1 / frighten-01
+      :ARG0 (z2 / goat)
+      :ARG1 (z3 / octopus))
+
+# ::snt-104 the cow frightens the eagle
+(z1 / frighten-01
+      :ARG0 (z2 / cow)
+      :ARG1 (z3 / eagle))
+
+# ::snt-105 the sheep ignores the chicken
+(z1 / ignore-01
+      :ARG0 (z2 / sheep)
+      :ARG1 (z3 / chicken))
+
+# ::snt-106 the pelican annoys the wombat
+(z1 / annoy-01
+      :ARG0 (z2 / pelican)
+      :ARG1 (z3 / wombat))
+
+# ::snt-107 the dog chases the kangaroo
+(z1 / chase-01
+      :ARG0 (z2 / dog)
+      :ARG1 (z3 / kangaroo))
+
+# ::snt-108 the cat sees the rabbit
+(z1 / see-01
+      :ARG0 (z2 / cat)
+      :ARG1 (z3 / rabbit))
+
+# ::snt-109 the pig sees the puppy
+(z1 / see-01
+      :ARG0 (z2 / pig)
+      :ARG1 (z3 / puppy))
+
+# ::snt-110 the kitten frightens the cow
+(z1 / frighten-01
+      :ARG0 (z2 / kitten)
+      :ARG1 (z3 / cow))
+
+# ::snt-111 the kangaroo sees the puppy
+(z1 / see-01
+      :ARG0 (z2 / kangaroo)
+      :ARG1 (z3 / puppy))
+
+# ::snt-112 the cat ignores the pig
+(z1 / ignore-01
+      :ARG0 (z2 / cat)
+      :ARG1 (z3 / pig))
+
+# ::snt-113 the kangaroo frightens the kangaroo
+(z1 / frighten-01
+      :ARG0 (z2 / kangaroo
+            :ARG1-of z1))
+
+# ::snt-114 the cow frightens the cow
+(z1 / frighten-01
+      :ARG0 (z2 / cow
+            :ARG1-of z1))
+
+# ::snt-115 the rabbit frightens the wombat
+(z1 / frighten-01
+      :ARG0 (z2 / rabbit)
+      :ARG1 (z3 / wombat))
+
+# ::snt-116 the octopus frightens the pig
+(z1 / frighten-01
+      :ARG0 (z2 / octopus)
+      :ARG1 (z3 / pig))
+
+# ::snt-117 the monkey throws the telephone
+(z1 / throw-01
+      :ARG0 (z2 / monkey)
+      :ARG1 (z3 / telephone))
+
+# ::snt-118 the spider disturbs the bee
+(z1 / disturb-01
+      :ARG0 (z2 / spider)
+      :ARG1 (z3 / bee))
+
+# ::snt-119 the monkey moves the pencil
+(z1 / move-01
+      :ARG0 (z2 / monkey)
+      :ARG1 (z3 / pencil))
+
+# ::snt-120 the parrot annoys the lizard
+(z1 / annoy-01
+      :ARG0 (z2 / parrot)
+      :ARG1 (z3 / lizard))
+

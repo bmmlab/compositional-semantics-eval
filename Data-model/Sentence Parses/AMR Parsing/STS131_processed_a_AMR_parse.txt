@@ -1,0 +1,1433 @@
+# ::snt-1 Cord is strong, thick string.
+(z1 / string
+      :ARG1-of (z2 / strong-02)
+      :ARG1-of (z3 / thick-03)
+      :domain (z4 / cord))
+
+# ::snt-2 A rooster is an adult male chicken.
+(z1 / chicken
+      :mod (z2 / male)
+      :mod (z3 / adult)
+      :domain (z4 / rooster))
+
+# ::snt-3 Noon is twelve o'clock in the middle of the day.
+(z1 / equal-01
+      :ARG1 (z2 / date-entity
+            :time "Noon")
+      :ARG2 (z3 / date-entity
+            :time "12:00"
+            :mod (z4 / middle
+                  :part-of (z5 / day))))
+
+# ::snt-4 Fruit or a fruit is something which grows on a tree or bush and which contains seeds or a stone covered by a substance that you can eat.
+(z1 / something
+      :domain (z2 / or
+            :op1 (z3 / fruit
+                  :op2-of z2))
+      :ARG1-of (z4 / grow-03
+            :location (z5 / or
+                  :op1 (z6 / tree)
+                  :op2 (z7 / bush)))
+      :ARG0-of (z8 / contain-01
+            :ARG1 (z9 / or
+                  :op1 (z10 / seed)
+                  :op2 (z11 / stone
+                        :ARG1-of (z12 / cover-02
+                              :ARG2 (z13 / substance
+                                    :ARG1-of (z14 / eat-01
+                                          :ARG0 (z15 / you)
+                                          :ARG1-of (z16 / possible-01))))))))
+
+# ::snt-5 An autograph is the signature of someone famous which is specially written for a fan to keep.
+(z1 / autograph
+      :domain (z2 / sign-01
+            :ARG0 (z3 / someone
+                  :ARG1-of (z4 / fame-01))
+            :ARG1-of (z5 / write-01
+                  :ARG1-of (z6 / special-02)
+                  :purpose (z7 / keep-01
+                        :ARG0 (z8 / fan)
+                        :ARG1 z2))))
+
+# ::snt-6 An automobile is a car.
+(z1 / car
+      :domain (z2 / automobile))
+
+# ::snt-7 A mound of something is a large rounded pile of it.
+(z1 / pile
+      :ARG1-of (z2 / round-04)
+      :mod (z3 / large)
+      :domain (z4 / mound
+            :consist-of (z5 / something)))
+
+# ::snt-8 A grin is a broad smile.
+(z1 / grin-01
+      :ARG1-of (z2 / mean-01
+            :ARG2 (z3 / smile-01
+                  :ARG1-of (z4 / broad-02))))
+
+# ::snt-9 An Asylum is a psychiatric hospital.
+(z1 / hospital
+      :mod (z2 / psychiatry)
+      :domain (z3 / asylum))
+
+# ::snt-10 An Asylum is a psychiatric hospital.
+(z1 / hospital
+      :mod (z2 / psychiatry)
+      :domain (z3 / asylum))
+
+# ::snt-11 A graveyard is an area of land, sometimes near a church, where dead people are buried.
+(z1 / area
+      :consist-of (z2 / land)
+      :domain (z3 / graveyard)
+      :ARG1-of (z4 / near-02
+            :ARG2 (z5 / church)
+            :frequency (z6 / sometimes))
+      :location-of (z7 / bury-01
+            :ARG1 (z8 / person
+                  :ARG1-of (z9 / die-01))))
+
+# ::snt-12 Glass is a hard transparent substance that is used to make things such as windows and bottles.
+(z1 / substance
+      :domain (z2 / glass)
+      :mod (z3 / transparent
+            :ARG1-of (z4 / hard-04))
+      :ARG1-of (z5 / use-01
+            :ARG2 (z6 / make-01
+                  :ARG1 (z7 / thing
+                        :example (z8 / and
+                              :op1 (z9 / window)
+                              :op2 (z10 / bottle)))
+                  :ARG2 z2)))
+
+# ::snt-13 A boy is a child who will grow up to be a man.
+(z1 / child
+      :domain (z2 / boy)
+      :ARG1-of (z3 / grow-up-04
+            :ARG4 (z4 / man
+                  :domain z2)))
+
+# ::snt-14 A cushion is a fabric case filled with soft material, which you put on a seat to make it more comfortable.
+(z1 / cushion
+      :domain (z2 / case
+            :consist-of (z3 / fabric)
+            :ARG1-of (z4 / fill-01
+                  :ARG2 (z5 / material
+                        :ARG1-of (z6 / soft-02)))
+            :ARG1-of (z7 / put-01
+                  :ARG0 (z8 / you)
+                  :ARG2 (z9 / seat)
+                  :purpose (z10 / make-02
+                        :ARG0 z8
+                        :ARG1 (z11 / comfortable-02
+                              :ARG0 z2
+                              :ARG2-of (z12 / have-degree-91
+                                    :ARG1 z2
+                                    :ARG3 (z13 / more)))))))
+
+# ::snt-15 A monk is a member of a male religious community that is usually separated from the outside world.
+(z1 / monk
+      :ARG0-of (z2 / have-org-role-91
+            :ARG1 (z3 / community
+                  :mod (z4 / male)
+                  :mod (z5 / religion)
+                  :ARG1-of (z6 / separate-01
+                        :ARG2 (z7 / world
+                              :mod (z8 / outside))
+                        :mod (z9 / usual)))
+            :ARG2 (z10 / member)))
+
+# ::snt-16 An Asylum is a psychiatric hospital.
+(z1 / hospital
+      :mod (z2 / psychiatry)
+      :domain (z3 / asylum))
+
+# ::snt-17 The coast is an area of land that is next to the sea.
+(z1 / area
+      :consist-of (z2 / land)
+      :domain (z3 / coast)
+      :location (z4 / next-to
+            :op1 (z5 / sea)))
+
+# ::snt-18 A grin is a broad smile.
+(z1 / grin-01
+      :ARG1-of (z2 / mean-01
+            :ARG2 (z3 / smile-01
+                  :ARG1-of (z4 / broad-02))))
+
+# ::snt-19 The shores or shore of a sea, lake or wide river is the land along the edge of it.
+(z1 / land
+      :location (z2 / along
+            :op1 (z3 / edge
+                  :part-of (z4 / or
+                        :op1 (z5 / sea)
+                        :op2 (z6 / lake)
+                        :op3 (z7 / river
+                              :ARG1-of (z8 / wide-02)))))
+      :domain (z9 / or
+            :op1 (z10 / shore
+                  :part-of z4)
+            :op2 (z11 / shore
+                  :part-of z5)))
+
+# ::snt-20 A monk is a member of a male religious community that is usually separated from the outside world.
+(z1 / monk
+      :ARG0-of (z2 / have-org-role-91
+            :ARG1 (z3 / community
+                  :mod (z4 / male)
+                  :mod (z5 / religion)
+                  :ARG1-of (z6 / separate-01
+                        :ARG2 (z7 / world
+                              :mod (z8 / outside))
+                        :mod (z9 / usual)))
+            :ARG2 (z10 / member)))
+
+# ::snt-21 A boy is a child who will grow up to be a man.
+(z1 / child
+      :domain (z2 / boy)
+      :ARG1-of (z3 / grow-up-04
+            :ARG4 (z4 / man
+                  :domain z2)))
+
+# ::snt-22 An automobile is a car.
+(z1 / car
+      :domain (z2 / automobile))
+
+# ::snt-23 A mound of something is a large rounded pile of it.
+(z1 / pile
+      :ARG1-of (z2 / round-04)
+      :mod (z3 / large)
+      :domain (z4 / mound
+            :consist-of (z5 / something)))
+
+# ::snt-24 A lad is a young man or boy.
+(z1 / or
+      :op1 (z2 / man
+            :mod (z3 / young))
+      :op2 (z4 / boy
+            :mod z3)
+      :domain (z5 / lad))
+
+# ::snt-25 A forest is a large area where trees grow close together.
+(z1 / area
+      :mod (z2 / large)
+      :location-of (z3 / grow-03
+            :ARG1 (z4 / tree)
+            :ARG1-of (z5 / close-10
+                  :ARG2 z4))
+      :domain (z6 / forest))
+
+# ::snt-26 Food is what people and animals eat.
+(z1 / eat-01
+      :ARG0 (z2 / and
+            :op1 (z3 / person)
+            :op2 (z4 / animal))
+      :ARG1 (z5 / food))
+
+# ::snt-27 A cemetery is a place where dead people's bodies or their ashes are buried.
+(z1 / place
+      :location-of (z2 / bury-01
+            :ARG1 (z3 / or
+                  :op1 (z4 / body
+                        :part-of (z5 / person
+                              :ARG1-of (z6 / die-01)))
+                  :op2 (z7 / ash
+                        :part-of z5)))
+      :location (z8 / cemetery))
+
+# ::snt-28 The shores or shore of a sea, lake or wide river is the land along the edge of it.
+(z1 / land
+      :location (z2 / along
+            :op1 (z3 / edge
+                  :part-of (z4 / or
+                        :op1 (z5 / sea)
+                        :op2 (z6 / lake)
+                        :op3 (z7 / river
+                              :ARG1-of (z8 / wide-02)))))
+      :domain (z9 / or
+            :op1 (z10 / shore
+                  :part-of z4)
+            :op2 (z11 / shore
+                  :part-of z5)))
+
+# ::snt-29 A bird is a creature with feathers and wings, females lay eggs and most birds can fly.
+(z1 / creature
+      :domain (z2 / bird)
+      :ARG0-of (z3 / have-03
+            :ARG1 (z4 / and
+                  :op1 (z5 / feather)
+                  :op2 (z6 / wing)))
+      :ARG0-of (z7 / lay-01
+            :ARG1 (z8 / egg)
+            :mod (z9 / female))
+      :ARG0-of (z10 / fly-01
+            :ARG1-of (z11 / possible-01)))
+
+# ::snt-30 The coast is an area of land that is next to the sea.
+(z1 / area
+      :consist-of (z2 / land)
+      :domain (z3 / coast)
+      :location (z4 / next-to
+            :op1 (z5 / sea)))
+
+# ::snt-31 A furnace is a container or enclosed space in which a very hot fire is made, for example to melt metal, burn rubbish or produce steam.
+(z1 / or
+      :op1 (z2 / container)
+      :op2 (z3 / space
+            :ARG1-of (z4 / enclose-01))
+      :domain (z5 / furnace)
+      :location-of (z6 / make-01
+            :ARG1 (z7 / fire
+                  :ARG1-of (z8 / hot-05
+                        :degree (z9 / very)))
+            :example (z10 / or
+                  :op1 (z11 / melt-01
+                        :ARG1 (z12 / metal))
+                  :op2 (z13 / burn-01
+                        :ARG1 (z14 / rubbish))
+                  :op3 (z15 / produce-01
+                        :ARG1 (z16 / steam)))))
+
+# ::snt-32 A crane is a large machine that moves heavy things by lifting them in the air.
+(z1 / machine
+      :mod (z2 / large)
+      :domain (z3 / crane)
+      :ARG0-of (z4 / move-01
+            :ARG1 (z5 / thing
+                  :mod (z6 / heavy))
+            :manner (z7 / lift-01
+                  :ARG1 z5
+                  :ARG3 (z8 / air))))
+
+# ::snt-33 A hill is an area of land that is higher than the land that surrounds it.
+(z1 / area
+      :consist-of (z2 / land)
+      :domain (z3 / hill)
+      :ARG1-of (z4 / have-degree-91
+            :ARG2 (z5 / high-02)
+            :ARG3 (z6 / more)
+            :ARG4 (z7 / land
+                  :ARG2-of (z8 / surround-01
+                        :ARG1 z3))))
+
+# ::snt-34 A car is a motor vehicle with room for a small number of passengers.
+(z1 / vehicle
+      :mod (z2 / motor)
+      :domain (z3 / car)
+      :ARG0-of (z4 / have-03
+            :ARG1 (z5 / room
+                  :location-of (z6 / passenger
+                        :quant (z7 / number
+                              :mod (z8 / small))))))
+
+# ::snt-35 A cemetery is a place where dead people's bodies or their ashes are buried.
+(z1 / place
+      :location-of (z2 / bury-01
+            :ARG1 (z3 / or
+                  :op1 (z4 / body
+                        :part-of (z5 / person
+                              :ARG1-of (z6 / die-01)))
+                  :op2 (z7 / ash
+                        :part-of z5)))
+      :location (z8 / cemetery))
+
+# ::snt-36 Glass is a hard transparent substance that is used to make things such as windows and bottles.
+(z1 / substance
+      :domain (z2 / glass)
+      :mod (z3 / transparent
+            :ARG1-of (z4 / hard-04))
+      :ARG1-of (z5 / use-01
+            :ARG2 (z6 / make-01
+                  :ARG1 (z7 / thing
+                        :example (z8 / and
+                              :op1 (z9 / window)
+                              :op2 (z10 / bottle)))
+                  :ARG2 z2)))
+
+# ::snt-37 A magician is a person who entertains people by doing magic tricks.
+(z1 / magician
+      :domain (z2 / person
+            :ARG0-of (z3 / entertain-01
+                  :ARG1 (z4 / person)
+                  :manner (z5 / trick-01
+                        :mod (z6 / magic)))))
+
+# ::snt-38 A crane is a large machine that moves heavy things by lifting them in the air.
+(z1 / machine
+      :mod (z2 / large)
+      :domain (z3 / crane)
+      :ARG0-of (z4 / move-01
+            :ARG1 (z5 / thing
+                  :mod (z6 / heavy))
+            :manner (z7 / lift-01
+                  :ARG1 z5
+                  :ARG3 (z8 / air))))
+
+# ::snt-39 Your brother is a boy or a man who has the same parents as you.
+(z1 / or
+      :op1 (z2 / boy)
+      :op2 (z3 / man)
+      :domain (z4 / person
+            :ARG0-of (z5 / have-rel-role-91
+                  :ARG1 (z6 / you)
+                  :ARG2 (z7 / brother))
+            :ARG0-of (z8 / have-03
+                  :ARG1 (z9 / parent
+                        :ARG1-of (z10 / same-01
+                              :ARG2 z6)))))
+
+# ::snt-40 A sage is a person who is regarded as being very wise.
+(z1 / sage
+      :domain (z2 / person
+            :ARG1-of (z3 / regard-01
+                  :ARG2 (z4 / wise
+                        :degree (z5 / very)))))
+
+# ::snt-41 In ancient times, an oracle was a priest or priestess who made statements about future events or about the truth.
+(z1 / or
+      :op1 (z2 / priest)
+      :op2 (z3 / priestess)
+      :domain (z4 / oracle)
+      :ARG0-of (z5 / state-01
+            :ARG3 (z6 / or
+                  :op1 (z7 / event
+                        :time (z8 / future))
+                  :op2 (z9 / thing
+                        :ARG1-of (z10 / true-01)))))
+
+# ::snt-42 A bird is a creature with feathers and wings, females lay eggs and most birds can fly.
+(z1 / creature
+      :domain (z2 / bird)
+      :ARG0-of (z3 / have-03
+            :ARG1 (z4 / and
+                  :op1 (z5 / feather)
+                  :op2 (z6 / wing)))
+      :ARG0-of (z7 / lay-01
+            :ARG1 (z8 / egg)
+            :mod (z9 / female))
+      :ARG0-of (z10 / fly-01
+            :ARG1-of (z11 / possible-01)))
+
+# ::snt-43 A bird is a creature with feathers and wings, females lay eggs and most birds can fly.
+(z1 / creature
+      :domain (z2 / bird)
+      :ARG0-of (z3 / have-03
+            :ARG1 (z4 / and
+                  :op1 (z5 / feather)
+                  :op2 (z6 / wing)))
+      :ARG0-of (z7 / lay-01
+            :ARG1 (z8 / egg)
+            :mod (z9 / female))
+      :ARG0-of (z10 / fly-01
+            :ARG1-of (z11 / possible-01)))
+
+# ::snt-44 Food is what people and animals eat.
+(z1 / eat-01
+      :ARG0 (z2 / and
+            :op1 (z3 / person)
+            :op2 (z4 / animal))
+      :ARG1 (z5 / food))
+
+# ::snt-45 Your brother is a boy or a man who has the same parents as you.
+(z1 / or
+      :op1 (z2 / boy)
+      :op2 (z3 / man)
+      :domain (z4 / person
+            :ARG0-of (z5 / have-rel-role-91
+                  :ARG1 (z6 / you)
+                  :ARG2 (z7 / brother))
+            :ARG0-of (z8 / have-03
+                  :ARG1 (z9 / parent
+                        :ARG1-of (z10 / same-01
+                              :ARG2 z6)))))
+
+# ::snt-46 An Asylum is a psychiatric hospital.
+(z1 / hospital
+      :mod (z2 / psychiatry)
+      :domain (z3 / asylum))
+
+# ::snt-47 A furnace is a container or enclosed space in which a very hot fire is made, for example to melt metal, burn rubbish or produce steam.
+(z1 / or
+      :op1 (z2 / container)
+      :op2 (z3 / space
+            :ARG1-of (z4 / enclose-01))
+      :domain (z5 / furnace)
+      :location-of (z6 / make-01
+            :ARG1 (z7 / fire
+                  :ARG1-of (z8 / hot-05
+                        :degree (z9 / very)))
+            :example (z10 / or
+                  :op1 (z11 / melt-01
+                        :ARG1 (z12 / metal))
+                  :op2 (z13 / burn-01
+                        :ARG1 (z14 / rubbish))
+                  :op3 (z15 / produce-01
+                        :ARG1 (z16 / steam)))))
+
+# ::snt-48 A magician is a person who entertains people by doing magic tricks.
+(z1 / magician
+      :domain (z2 / person
+            :ARG0-of (z3 / entertain-01
+                  :ARG1 (z4 / person)
+                  :manner (z5 / trick-01
+                        :mod (z6 / magic)))))
+
+# ::snt-49 A hill is an area of land that is higher than the land that surrounds it.
+(z1 / area
+      :consist-of (z2 / land)
+      :domain (z3 / hill)
+      :ARG1-of (z4 / have-degree-91
+            :ARG2 (z5 / high-02)
+            :ARG3 (z6 / more)
+            :ARG4 (z7 / land
+                  :ARG2-of (z8 / surround-01
+                        :ARG1 z3))))
+
+# ::snt-50 Cord is strong, thick string.
+(z1 / string
+      :ARG1-of (z2 / strong-02)
+      :ARG1-of (z3 / thick-03)
+      :domain (z4 / cord))
+
+# ::snt-51 Glass is a hard transparent substance that is used to make things such as windows and bottles.
+(z1 / substance
+      :domain (z2 / glass)
+      :mod (z3 / transparent
+            :ARG1-of (z4 / hard-04))
+      :ARG1-of (z5 / use-01
+            :ARG2 (z6 / make-01
+                  :ARG1 (z7 / thing
+                        :example (z8 / and
+                              :op1 (z9 / window)
+                              :op2 (z10 / bottle)))
+                  :ARG2 z2)))
+
+# ::snt-52 A grin is a broad smile.
+(z1 / grin-01
+      :ARG1-of (z2 / mean-01
+            :ARG2 (z3 / smile-01
+                  :ARG1-of (z4 / broad-02))))
+
+# ::snt-53 In former times, serfs were a class of people who had to work on a particular person's land and could not leave without that person's permission.
+(z1 / class
+      :consist-of (z2 / person
+            :ARG1-of (z3 / obligate-01
+                  :ARG2 (z4 / work-01
+                        :ARG0 z2
+                        :location (z5 / land
+                              :poss (z6 / person
+                                    :mod (z7 / particular))))))
+      :ARG1-of (z8 / permit-01
+            :polarity -
+            :ARG0 z6
+            :ARG1-of (z9 / possible-01
+                  :polarity -))
+      :domain (z10 / serf)
+      :time (z11 / former))
+
+# ::snt-54 When you make a journey, you travel from one place to another.
+(z1 / travel-01
+      :ARG0 (z2 / you)
+      :source (z3 / place)
+      :destination (z4 / place
+            :mod (z5 / another))
+      :time (z6 / journey-01
+            :ARG0 z2))
+
+# ::snt-55 An autograph is the signature of someone famous which is specially written for a fan to keep.
+(z1 / autograph
+      :domain (z2 / sign-01
+            :ARG0 (z3 / someone
+                  :ARG1-of (z4 / fame-01))
+            :ARG1-of (z5 / write-01
+                  :ARG1-of (z6 / special-02)
+                  :purpose (z7 / keep-01
+                        :ARG0 (z8 / fan)
+                        :ARG1 z2))))
+
+# ::snt-56 The coast is an area of land that is next to the sea.
+(z1 / area
+      :consist-of (z2 / land)
+      :domain (z3 / coast)
+      :location (z4 / next-to
+            :op1 (z5 / sea)))
+
+# ::snt-57 A forest is a large area where trees grow close together.
+(z1 / area
+      :mod (z2 / large)
+      :location-of (z3 / grow-03
+            :ARG1 (z4 / tree)
+            :ARG1-of (z5 / close-10
+                  :ARG2 z4))
+      :domain (z6 / forest))
+
+# ::snt-58 An implement is a tool or other piece of equipment.
+(z1 / or
+      :op1 (z2 / tool)
+      :op2 (z3 / piece
+            :mod (z4 / equipment)
+            :mod (z5 / other))
+      :domain (z6 / implement))
+
+# ::snt-59 A cock is an adult male chicken.
+(z1 / chicken
+      :mod (z2 / male)
+      :mod (z3 / adult)
+      :domain (z4 / cock))
+
+# ::snt-60 A boy is a child who will grow up to be a man.
+(z1 / child
+      :domain (z2 / boy)
+      :ARG1-of (z3 / grow-up-04
+            :ARG4 (z4 / man
+                  :domain z2)))
+
+# ::snt-61 A cushion is a fabric case filled with soft material, which you put on a seat to make it more comfortable.
+(z1 / cushion
+      :domain (z2 / case
+            :consist-of (z3 / fabric)
+            :ARG1-of (z4 / fill-01
+                  :ARG2 (z5 / material
+                        :ARG1-of (z6 / soft-02)))
+            :ARG1-of (z7 / put-01
+                  :ARG0 (z8 / you)
+                  :ARG2 (z9 / seat)
+                  :purpose (z10 / make-02
+                        :ARG0 z8
+                        :ARG1 (z11 / comfortable-02
+                              :ARG0 z2
+                              :ARG2-of (z12 / have-degree-91
+                                    :ARG1 z2
+                                    :ARG3 (z13 / more)))))))
+
+# ::snt-62 A cemetery is a place where dead people's bodies or their ashes are buried.
+(z1 / place
+      :location-of (z2 / bury-01
+            :ARG1 (z3 / or
+                  :op1 (z4 / body
+                        :part-of (z5 / person
+                              :ARG1-of (z6 / die-01)))
+                  :op2 (z7 / ash
+                        :part-of z5)))
+      :location (z8 / cemetery))
+
+# ::snt-63 An automobile is a car.
+(z1 / car
+      :domain (z2 / automobile))
+
+# ::snt-64 Midday is twelve o'clock in the middle of the day.
+(z1 / middle
+      :part-of (z2 / day)
+      :domain (z3 / date-entity
+            :time "12:00"))
+
+# ::snt-65 A gem is a jewel or stone that is used in jewellery.
+(z1 / or
+      :op1 (z2 / jewel)
+      :op2 (z3 / stone)
+      :domain (z4 / gem)
+      :ARG1-of (z5 / use-01
+            :ARG2 (z6 / jewellery)))
+
+# ::snt-66 Would you like to go out to drink with me tonight.
+(z1 / like-02
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / go-out-17
+            :ARG0 z2
+            :purpose (z4 / drink-01
+                  :ARG0 z2
+                  :accompanier (z5 / i)
+                  :time (z6 / date-entity
+                        :dayperiod (z7 / night)
+                        :mod (z8 / today)))))
+
+# ::snt-67 I advise you to treat this matter very seriously as it is vital.
+(z1 / advise-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / you)
+      :ARG2 (z4 / treat-01
+            :ARG0 z3
+            :ARG1 (z5 / matter
+                  :mod (z6 / this))
+            :ARG2 (z7 / serious-01
+                  :degree (z8 / very))
+            :ARG1-of (z9 / cause-01
+                  :ARG0 (z10 / vital
+                        :domain z5))))
+
+# ::snt-68 When I was going out to meet my friends there was a delay at the train station.
+(z1 / delay-01
+      :location (z2 / station
+            :mod (z3 / train))
+      :time (z4 / go-out-17
+            :ARG0 (z5 / i)
+            :purpose (z6 / meet-03
+                  :ARG0 z5
+                  :ARG1 (z7 / person
+                        :ARG0-of (z8 / have-rel-role-91
+                              :ARG1 z5
+                              :ARG2 (z9 / friend))))))
+
+# ::snt-69 Does music help you to relax, or does it distract you too much.
+(z1 / or
+      :op1 (z2 / help-01
+            :ARG0 (z3 / music)
+            :ARG1 (z4 / relax-01
+                  :ARG1 (z5 / you
+                        :ARG2-of z2)))
+      :op2 (z6 / distract-01
+            :ARG0 z3
+            :ARG1 z5
+            :ARG1-of (z7 / have-quant-91
+                  :ARG2 (z8 / much)
+                  :ARG3 (z9 / too))))
+
+# ::snt-70 You must realise that you will definitely be punished if you play with the alarm.
+(z1 / obligate-01
+      :ARG2 (z2 / realize-01
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / punish-01
+                  :ARG1 z3
+                  :mod (z5 / definite)
+                  :condition (z6 / play-10
+                        :ARG0 z3
+                        :ARG1 (z7 / alarm-01)))))
+
+# ::snt-71 I will make you laugh so much that your sides ache.
+(z1 / make-02
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / laugh-01
+            :ARG0 (z4 / you)
+            :ARG1-of (z5 / have-quant-91
+                  :ARG2 (z6 / much)
+                  :ARG3 (z7 / so)
+                  :ARG6 (z8 / ache-01
+                        :ARG1 (z9 / side
+                              :part-of z4)))))
+
+# ::snt-72 You shouldn't be covering what you really feel.
+(z1 / recommend-01
+      :polarity -
+      :ARG1 (z2 / cover-01
+            :ARG0 (z3 / you)
+            :ARG1 (z4 / thing
+                  :ARG1-of (z5 / feel-01
+                        :ARG0 z3
+                        :ARG1-of (z6 / real-04)))))
+
+# ::snt-73 Do you want to come with us to the pub behind the hill.
+(z1 / want-01
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / come-01
+            :ARG1 z2
+            :ARG4 (z4 / pub
+                  :location (z5 / behind
+                        :op1 (z6 / hill)))
+            :accompanier (z7 / we))
+      :polarity (z8 / amr-unknown))
+
+# ::snt-74 This key doesn't seem to be working, could you give me another.
+(z1 / and
+      :op1 (z2 / seem-01
+            :ARG1 (z3 / work-09
+                  :polarity -
+                  :ARG1 (z4 / key
+                        :mod (z5 / this))))
+      :op2 (z6 / give-01
+            :polite +
+            :ARG0 (z7 / you)
+            :ARG1 (z8 / key
+                  :mod (z9 / another))
+            :ARG2 (z10 / i)))
+
+# ::snt-75 The ghost appeared from nowhere and frightened the old man.
+(z1 / and
+      :op1 (z2 / appear-01
+            :ARG1 (z3 / ghost)
+            :source (z4 / nowhere))
+      :op2 (z5 / frighten-01
+            :ARG0 z3
+            :ARG1 (z6 / man
+                  :mod (z7 / old))))
+
+# ::snt-76 You're not a good friend if you're not prepared to be present when I need you.
+(z1 / have-condition-91
+      :ARG1 (z2 / have-rel-role-91
+            :polarity -
+            :ARG0 (z3 / you)
+            :ARG2 (z4 / friend
+                  :ARG1-of (z5 / good-02)))
+      :ARG2 (z6 / prepare-02
+            :polarity -
+            :ARG0 z3
+            :ARG1 (z7 / present-02
+                  :ARG1 z3
+                  :time (z8 / need-01
+                        :ARG0 (z9 / i)
+                        :ARG1 z3))))
+
+# ::snt-77 The children crossed the road very safely thanks to the help of the lollipop lady.
+(z1 / cross-02
+      :ARG0 (z2 / child)
+      :ARG1 (z3 / road)
+      :ARG0-of (z4 / safe-01
+            :degree (z5 / very))
+      :ARG1-of (z6 / cause-01
+            :ARG0 (z7 / help-01
+                  :ARG0 (z8 / lady
+                        :mod (z9 / lollipop))
+                  :ARG2 z2)))
+
+# ::snt-78 I have invited a variety of people to my party so it should be interesting.
+(z1 / invite-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / person
+            :mod (z4 / variety))
+      :ARG2 (z5 / party-01
+            :ARG0 z2)
+      :ARG0-of (z6 / cause-01
+            :ARG1 (z7 / likely-01
+                  :ARG1 (z8 / interest-01
+                        :ARG2 z5))))
+
+# ::snt-79 I offer my condolences to the parents of John Smith, who was unfortunately murdered.
+(z1 / offer-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / condolence
+            :poss z2)
+      :ARG3 (z4 / person
+            :ARG0-of (z5 / have-rel-role-91
+                  :ARG1 (z6 / person
+                        :name (z7 / name
+                              :op1 "John"
+                              :op2 "Smith")
+                        :ARG1-of (z8 / murder-01
+                              :ARG2-of (z9 / fortunate-01
+                                    :polarity -)))
+                  :ARG2 (z10 / parent))))
+
+# ::snt-80 Boats come in all shapes and sizes but they all do the same thing.
+(z1 / contrast-01
+      :ARG1 (z2 / come-01
+            :ARG1 (z3 / boat)
+            :manner (z4 / and
+                  :op1 (z5 / shape
+                        :mod (z6 / all))
+                  :op2 (z7 / size
+                        :mod (z8 / all)))))
+
+# ::snt-81 If you continuously use these products, I guarantee you will look very young.
+(z1 / guarantee-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / look-02
+            :ARG0 (z4 / you)
+            :ARG1 (z5 / young
+                  :degree (z6 / very)))
+      :condition (z7 / use-01
+            :ARG0 z4
+            :ARG1 (z8 / product
+                  :mod (z9 / this))
+            :ARG1-of (z10 / continue-01)))
+
+# ::snt-82 We ran farther than the other children that day.
+(z1 / run-02
+      :ARG0 (z2 / we)
+      :time (z3 / day
+            :mod (z4 / that))
+      :ARG1-of (z5 / have-degree-91
+            :ARG2 (z6 / far)
+            :ARG3 (z7 / more)
+            :ARG4 (z8 / run-02
+                  :ARG0 (z9 / child
+                        :mod (z10 / other))
+                  :time z3)))
+
+# ::snt-83 I always like to have a slice of lemon in my drink especially if it's Coke.
+(z1 / like-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / have-06
+            :ARG0 z2
+            :ARG1 (z4 / lemon
+                  :ARG1-of (z5 / slice-01))
+            :location (z6 / drink
+                  :poss z2)
+            :condition (z7 / company
+                  :name (z8 / name
+                        :op1 "Coke")
+                  :mod (z9 / especially)))
+      :time (z10 / always))
+
+# ::snt-84 It seems like I've got eczema on my ear doctor, can you recommend something for me.
+(z1 / and
+      :op1 (z2 / seem-01
+            :ARG1 (z3 / have-03
+                  :ARG0 (z4 / i)
+                  :ARG1 (z5 / eczema)
+                  :location (z6 / doctor
+                        :mod (z7 / ear)
+                        :poss z4)))
+      :op2 (z8 / possible-01
+            :ARG1 (z9 / recommend-01
+                  :ARG0 (z10 / you)
+                  :ARG1 (z11 / something)
+                  :ARG2 z4)))
+
+# ::snt-85 I am proud of our nation, well, most of it.
+(z1 / pride-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / nation
+            :poss (z4 / we)
+            :ARG1-of (z5 / include-91
+                  :ARG2 z3
+                  :ARG3 (z6 / most))))
+
+# ::snt-86 There was a heap of rubble left by the builders outside my house this morning.
+(z1 / heap
+      :consist-of (z2 / rubble)
+      :ARG1-of (z3 / leave-12
+            :ARG0 (z4 / person
+                  :ARG0-of (z5 / build-01))
+            :ARG2 (z6 / outside
+                  :op1 (z7 / house
+                        :poss (z8 / i)))
+            :time (z9 / date-entity
+                  :dayperiod (z10 / morning)
+                  :mod (z11 / today))))
+
+# ::snt-87 Water freezes at a certain temperature, which is zero degrees Celsius.
+(z1 / freeze-01
+      :ARG1 (z2 / water)
+      :location (z3 / temperature
+            :mod (z4 / certain)
+            :ARG1-of (z5 / mean-01
+                  :ARG2 (z6 / temperature-quantity
+                        :quant 0
+                        :scale (z7 / celsius)))))
+
+# ::snt-88 We got home safely in the end, although it was a long journey.
+(z1 / get-05
+      :ARG1 (z2 / we)
+      :ARG2 (z3 / home)
+      :manner (z4 / safe-01
+            :ARG1 z2)
+      :time (z5 / end-01)
+      :concession (z6 / journey
+            :ARG1-of (z7 / long-03)
+            :domain z1))
+
+# ::snt-89 A man called Dave gave his fiancee a large diamond ring for their engagement.
+(z1 / give-01
+      :ARG0 (z2 / man
+            :name (z3 / name
+                  :op1 "Dave"))
+      :ARG1 (z4 / ring
+            :mod (z5 / diamond)
+            :mod (z6 / large))
+      :ARG2 (z7 / person
+            :ARG0-of (z8 / have-rel-role-91
+                  :ARG1 z2
+                  :ARG2 (z9 / fiancee)))
+      :purpose (z10 / engagement-02
+            :ARG1 z2
+            :ARG2 z7))
+
+# ::snt-90 I used to run quite a lot, in fact once I ran for North Tyneside.
+(z1 / run-02
+      :ARG0 (z2 / i)
+      :frequency (z3 / lot
+            :degree (z4 / quite))
+      :time (z5 / use-03)
+      :ARG2-of (z6 / include-91
+            :ARG1 (z7 / run-02
+                  :frequency 1
+                  :ARG0 z2
+                  :ARG1 (z8 / local-region
+                        :name (z9 / name
+                              :op1 "North"
+                              :op2 "Tyneside"))
+                  :mod (z10 / in-fact))))
+
+# ::snt-91 I love to laugh as it makes me happy as well as those around me.
+(z1 / love-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / laugh-01
+            :ARG0 z2)
+      :ARG1-of (z4 / cause-01
+            :ARG0 (z5 / make-02
+                  :ARG0 z3
+                  :ARG1 (z6 / happy-01
+                        :ARG1 (z7 / and
+                              :op1 z2
+                              :op2 (z8 / person
+                                    :location (z9 / around
+                                          :op1 z2)
+                                    :mod (z10 / that)))))))
+
+# ::snt-92 Because I am the eldest one I should be more responsible.
+(z1 / cause-01
+      :ARG0 (z2 / have-degree-91
+            :ARG1 (z3 / i)
+            :ARG2 (z4 / old)
+            :ARG3 (z5 / most))
+      :ARG1 (z6 / recommend-01
+            :ARG1 (z7 / have-degree-91
+                  :ARG1 z3
+                  :ARG2 (z8 / responsible-02
+                        :ARG1 z3)
+                  :ARG3 (z9 / more))))
+
+# ::snt-93 I need to dash into the kitchen because I think my chip pan is on fire.
+(z1 / dash-01
+      :ARG0 (z2 / i)
+      :destination (z3 / kitchen)
+      :ARG1-of (z4 / cause-01
+            :ARG0 (z5 / think-01
+                  :ARG0 z2
+                  :ARG1 (z6 / on-fire-08
+                        :ARG1 (z7 / pan
+                              :mod (z8 / chip)
+                              :poss z2)))))
+
+# ::snt-94 Peter was a very large youth, whose size intimidated most people, much to his delight.
+(z1 / youth
+      :mod (z2 / youth
+            :mod (z3 / large
+                  :degree (z4 / very)))
+      :domain (z5 / person
+            :name (z6 / name
+                  :op1 "Peter"))
+      :poss-of (z7 / size
+            :ARG0-of (z8 / intimidate-01
+                  :ARG1 (z9 / person
+                        :mod (z10 / most))
+                  :ARG0-of (z11 / delight-01
+                        :ARG1 z5
+                        :degree (z12 / much)))))
+
+# ::snt-95 I'm going to buy a grey jumper today, in half an hour.
+(z1 / buy-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / jumper
+            :ARG1-of (z4 / gray-02))
+      :time (z5 / today)
+      :time (z6 / after
+            :op1 (z7 / now)
+            :quant (z8 / temporal-quantity
+                  :quant "0.5"
+                  :unit (z9 / hour))))
+
+# ::snt-96 We got soaked in the rain today, but now we are nice and dry.
+(z1 / contrast-01
+      :ARG1 (z2 / soak-01
+            :ARG0 (z3 / rain-01)
+            :ARG1 (z4 / we)
+            :time (z5 / today))
+      :ARG2 (z6 / and
+            :op1 (z7 / nice-01
+                  :ARG1 z4)
+            :op2 (z8 / dry-02
+                  :ARG1 z4)
+            :time (z9 / now)))
+
+# ::snt-97 Global warming is what everyone is worrying about today.
+(z1 / worry-01
+      :ARG0 (z2 / warm-01
+            :ARG1 (z3 / globe))
+      :ARG1 (z4 / everyone)
+      :time (z5 / today))
+
+# ::snt-98 He was harshly punished for setting the fire alarms off.
+(z1 / punish-01
+      :ARG1 (z2 / he)
+      :ARG2 (z3 / set-off-04
+            :ARG0 z2
+            :ARG1 (z4 / alarm-01
+                  :topic (z5 / fire)))
+      :ARG1-of (z6 / harsh-02))
+
+# ::snt-99 Midday is twelve o'clock in the middle of the day.
+(z1 / middle
+      :part-of (z2 / day)
+      :domain (z3 / date-entity
+            :time "12:00"))
+
+# ::snt-100 That's not a very good car, on the other hand mine is great.
+(z1 / contrast-01
+      :ARG1 (z2 / car
+            :ARG1-of (z3 / good-02
+                  :polarity -
+                  :degree (z4 / very))
+            :domain (z5 / car
+                  :mod (z6 / that)))
+      :ARG2 (z7 / great
+            :domain (z8 / car
+                  :poss (z9 / i))))
+
+# ::snt-101 There was a terrible accident, a pileup, on the road today.
+(z1 / accident
+      :ARG1-of (z2 / terrible-01)
+      :ARG1-of (z3 / pile-up-02)
+      :location (z4 / road)
+      :time (z5 / today))
+
+# ::snt-102 After hours of getting lost we eventually arrived at the hotel.
+(z1 / arrive-01
+      :ARG1 (z2 / we)
+      :ARG4 (z3 / hotel)
+      :time (z4 / after
+            :op1 (z5 / get-03
+                  :ARG1 z2
+                  :ARG2 (z6 / lost)
+                  :duration (z7 / multiple
+                        :op1 (z8 / temporal-quantity
+                              :quant 1
+                              :unit (z9 / hour)))))
+      :time (z10 / eventual))
+
+# ::snt-103 The first thing I do in a morning is make myself a cup of coffee.
+(z1 / make-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / coffee
+            :quant (z4 / volume-quantity
+                  :quant 1
+                  :unit (z5 / cup)))
+      :ord (z6 / ordinal-entity
+            :value 1)
+      :time (z7 / date-entity
+            :dayperiod (z8 / morning)))
+
+# ::snt-104 Someone spilt a drink accidentally on my shirt, so I changed it.
+(z1 / spill-01
+      :ARG0 (z2 / someone)
+      :ARG1 (z3 / drink)
+      :ARG2 (z4 / shirt
+            :poss (z5 / i))
+      :manner (z6 / accidental)
+      :ARG0-of (z7 / cause-01
+            :ARG1 (z8 / change-01
+                  :ARG0 z5
+                  :ARG1 z4)))
+
+# ::snt-105 I'm worried most seriously about the presentation, not the essay.
+(z1 / worry-02
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / and
+            :op1 (z4 / presentation)
+            :op2 (z5 / essay
+                  :polarity -))
+      :ARG1-of (z6 / serious-02
+            :ARG2-of (z7 / have-degree-91
+                  :ARG1 z1
+                  :ARG3 (z8 / most))))
+
+# ::snt-106 It is mostly very difficult to gain full marks in today's exam.
+(z1 / difficult
+      :domain (z2 / gain-02
+            :ARG1 (z3 / mark
+                  :ARG1-of (z4 / full-09))
+            :ARG2 (z5 / exam
+                  :time (z6 / today)))
+      :mod (z7 / most)
+      :degree (z8 / very))
+
+# ::snt-107 Meet me on the hill behind the church in half an hour.
+(z1 / meet-03
+      :mode imperative
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / i)
+      :location (z4 / hill
+            :location (z5 / behind
+                  :op1 (z6 / church)))
+      :time (z7 / after
+            :op1 (z8 / now)
+            :quant (z9 / temporal-quantity
+                  :quant "0.5"
+                  :unit (z10 / hour))))
+
+# ::snt-108 If you don't console with a friend, there is a chance you may hurt their feelings.
+(z1 / chance-02
+      :ARG1 (z2 / possible-01
+            :ARG1 (z3 / hurt-01
+                  :ARG0 (z4 / you)
+                  :ARG1 (z5 / feel-01
+                        :ARG0 (z6 / person
+                              :ARG0-of (z7 / have-rel-role-91
+                                    :ARG1 z4
+                                    :ARG2 (z8 / friend)))))))
+
+# ::snt-109 We tried to bargain with him but it made no difference, he still didn't change his mind.
+(z1 / contrast-01
+      :ARG1 (z2 / try-01
+            :ARG0 (z3 / we)
+            :ARG1 (z4 / bargain-01
+                  :ARG0 z3
+                  :ARG2 (z5 / he))))
+
+# ::snt-110 It gives me great pleasure to announce the winner of this year's beauty pageant.
+(z1 / pleasure
+      :mod (z2 / great)
+      :poss (z3 / i)
+      :topic (z4 / announce-01
+            :ARG0 z3
+            :ARG1 (z5 / person
+                  :ARG0-of (z6 / win-01
+                        :ARG1 (z7 / pageant
+                              :mod (z8 / beauty)
+                              :time (z9 / year
+                                    :mod (z10 / this)))))))
+
+# ::snt-111 They said they were hoping to go to America on holiday.
+(z1 / say-01
+      :ARG0 (z2 / they)
+      :ARG1 (z3 / hope-01
+            :ARG0 z2
+            :ARG1 (z4 / go-02
+                  :ARG0 z2
+                  :ARG4 (z5 / country
+                        :name (z6 / name
+                              :op1 "America"))
+                  :time (z7 / holiday))))
+
+# ::snt-112 Will I have to drive far to get to the nearest petrol station.
+(z1 / obligate-01
+      :polarity (z2 / amr-unknown)
+      :ARG2 (z3 / drive-01
+            :ARG0 (z4 / i)
+            :ARG1 (z5 / far)
+            :purpose (z6 / get-05
+                  :ARG1 z4
+                  :ARG2 (z7 / station
+                        :mod (z8 / petrol)
+                        :ARG1-of (z9 / near-02
+                              :ARG2 z4
+                              :ARG2-of (z10 / have-degree-91
+                                    :ARG1 z7
+                                    :ARG3 (z11 / most)))))))
+
+# ::snt-113 I think I know her from somewhere because she has a familiar face.
+(z1 / think-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / know-02
+            :ARG0 z2
+            :ARG1 (z4 / she)
+            :source (z5 / somewhere))
+      :ARG1-of (z6 / cause-01
+            :ARG0 (z7 / have-03
+                  :ARG0 z4
+                  :ARG1 (z8 / face
+                        :ARG1-of (z9 / familiarize-01
+                              :ARG2 z2)))))
+
+# ::snt-114 I am sorry but I can't go out as I have a heap of work to do.
+(z1 / contrast-01
+      :ARG1 (z2 / sorry-01
+            :ARG1 (z3 / i))
+      :ARG2 (z4 / possible-01
+            :polarity -
+            :ARG1 (z5 / go-out-17
+                  :ARG0 z3)
+            :ARG1-of (z6 / cause-01
+                  :ARG0 (z7 / work-01
+                        :ARG0 z3
+                        :quant (z8 / heap)
+                        :ARG1-of (z9 / do-02
+                              :ARG0 z3)))))
+
+# ::snt-115 The responsible man felt very guilty when he crashed into the back of someone's car.
+(z1 / feel-01
+      :ARG0 (z2 / man
+            :ARG0-of (z3 / responsible-01))
+      :ARG1 (z4 / guilty-01
+            :ARG1 z2
+            :degree (z5 / very))
+      :time (z6 / crash-01
+            :ARG0 z2
+            :ARG1 (z7 / back
+                  :part-of (z8 / car
+                        :poss (z9 / someone)))))
+
+# ::snt-116 Get that wet dog off my brand new white sofa.
+(z1 / get-05
+      :mode imperative
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / dog
+            :ARG1-of (z4 / wet-01)
+            :mod (z5 / that))
+      :ARG2 (z6 / off
+            :op1 (z7 / sofa
+                  :ARG1-of (z8 / new-01
+                        :degree (z9 / brand))
+                  :ARG1-of (z10 / white-03)
+                  :poss (z11 / i))))
+
+# ::snt-117 He fought in the war in Iraq before being killed in a car crash.
+(z1 / fight-01
+      :ARG0 (z2 / he)
+      :ARG2 (z3 / war
+            :location (z4 / country
+                  :name (z5 / name
+                        :op1 "Iraq")))
+      :time (z6 / before
+            :op1 (z7 / kill-01
+                  :ARG1 z2
+                  :ARG2 (z8 / crash-01
+                        :ARG1 (z9 / car)))))
+
+# ::snt-118 The cat was hungry so he went into the back garden to find lunch.
+(z1 / hunger-01
+      :ARG0 (z2 / cat)
+      :ARG0-of (z3 / cause-01
+            :ARG1 (z4 / go-02
+                  :ARG0 z2
+                  :ARG4 (z5 / garden
+                        :mod (z6 / back))
+                  :purpose (z7 / find-01
+                        :ARG0 z2
+                        :ARG1 (z8 / lunch)))))
+
+# ::snt-119 My bedroom wall is lemon coloured but my mother says it is yellow.
+(z1 / contrast-01
+      :ARG1 (z2 / color-01
+            :ARG1 (z3 / wall
+                  :part-of (z4 / bedroom
+                        :poss (z5 / i)))
+            :ARG2 (z6 / lemon))
+      :ARG2 (z7 / say-01
+            :ARG0 (z8 / person
+                  :ARG0-of (z9 / have-rel-role-91
+                        :ARG1 z5
+                        :ARG2 (z10 / mother)))
+            :ARG1 (z11 / yellow
+                  :domain z3)))
+
+# ::snt-120 Would you like to drink this wine with your meal.
+(z1 / like-02
+      :ARG0 (z2 / you)
+      :ARG1 (z3 / drink-01
+            :ARG0 z2
+            :ARG1 (z4 / wine
+                  :mod (z5 / this))
+            :accompanier (z6 / meal
+                  :poss z2))
+      :polarity (z7 / amr-unknown))
+
+# ::snt-121 Roses can be different colours, it has to be said red is the best though.
+(z1 / contrast-01
+      :ARG1 (z2 / possible-01
+            :ARG1 (z3 / differ-02
+                  :ARG1 (z4 / color
+                        :domain (z5 / rose)))))
+
+# ::snt-122 Flies can also carry a lot of disease and cause maggots.
+(z1 / possible-01
+      :ARG1 (z2 / and
+            :op1 (z3 / carry-01
+                  :ARG0 (z4 / fly-01)
+                  :ARG1 (z5 / disease
+                        :quant (z6 / lot)))
+            :op2 (z7 / cause-01
+                  :ARG0 z4
+                  :ARG1 (z8 / maggot)))
+      :mod (z9 / also))
+
+# ::snt-123 Could you climb up the tree and save my cat from jumping please.
+(z1 / possible-01
+      :polite +
+      :ARG1 (z2 / and
+            :op1 (z3 / climb-01
+                  :ARG0 (z4 / you)
+                  :ARG1 (z5 / tree)
+                  :direction (z6 / up))
+            :op2 (z7 / save-02
+                  :ARG0 z4
+                  :ARG1 (z8 / cat
+                        :poss (z9 / i))
+                  :ARG2 (z10 / jump-03
+                        :ARG0 z8))))
+
+# ::snt-124 The pleasure that I get from studying, is that I learn new things.
+(z1 / pleasure
+      :ARG1-of (z2 / get-01
+            :ARG0 (z3 / i)
+            :ARG2 (z4 / study-01
+                  :ARG0 z3))
+      :domain (z5 / learn-01
+            :ARG0 z3
+            :ARG1 (z6 / thing
+                  :ARG1-of (z7 / new-01))))
+
+# ::snt-125 The perpetrators of war crimes are rotten to the core.
+(z1 / rot-01
+      :ARG1 (z2 / person
+            :ARG0-of (z3 / perpetrate-01
+                  :ARG1 (z4 / crime-02
+                        :mod (z5 / war))))
+      :degree (z6 / core))
+
+# ::snt-126 The damp was mostly in the very corner of the room.
+(z1 / damp
+      :location (z2 / corner
+            :mod (z3 / very)
+            :part-of (z4 / room)
+            :mod (z5 / most)))
+
+# ::snt-127 We often ran to school because we were always late.
+(z1 / run-02
+      :ARG0 (z2 / we)
+      :ARG1 (z3 / school)
+      :frequency (z4 / often)
+      :ARG1-of (z5 / cause-01
+            :ARG0 (z6 / late-02
+                  :ARG1 z2
+                  :time (z7 / always))))
+
+# ::snt-128 I hope you're taking this seriously, if not you can get out of here.
+(z1 / and
+      :op1 (z2 / hope-01
+            :ARG0 (z3 / i)
+            :ARG1 (z4 / take-04
+                  :ARG0 (z5 / you)
+                  :ARG1 (z6 / this)
+                  :ARG2 (z7 / serious-01))))
+
+# ::snt-129 The shores or shore of a sea, lake or wide river is the land along the edge of it.
+(z1 / land
+      :location (z2 / along
+            :op1 (z3 / edge
+                  :part-of (z4 / or
+                        :op1 (z5 / sea)
+                        :op2 (z6 / lake)
+                        :op3 (z7 / river
+                              :ARG1-of (z8 / wide-02)))))
+      :domain (z9 / or
+            :op1 (z10 / shore
+                  :part-of z4)
+            :op2 (z11 / shore
+                  :part-of z5)))
+
+# ::snt-130 I bought a new guitar today, do you like it.
+(z1 / buy-01
+      :ARG0 (z2 / i)
+      :ARG1 (z3 / guitar
+            :ARG1-of (z4 / new-01))
+      :time (z5 / today)
+      :ARG0-of (z6 / cause-01
+            :ARG1 (z7 / like-01
+                  :ARG0 (z8 / you)
+                  :ARG1 z3
+                  :polarity (z9 / amr-unknown))))
+
+# ::snt-131 I am so hungry I could eat a whole horse plus dessert.
+(z1 / hunger-01
+      :ARG0 (z2 / i)
+      :ARG2-of (z3 / have-degree-91
+            :ARG1 z2
+            :ARG3 (z4 / so)
+            :ARG6 (z5 / possible-01
+                  :ARG1 (z6 / eat-01
+                        :ARG0 z2
+                        :ARG1 (z7 / and
+                              :op1 (z8 / horse
+                                    :mod (z9 / whole))
+                              :op2 (z10 / dessert))))))
+

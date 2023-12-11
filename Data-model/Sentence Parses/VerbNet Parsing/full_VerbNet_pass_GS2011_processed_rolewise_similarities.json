@@ -1,0 +1,3986 @@
+{
+   "sentbert": {
+      "1": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.5134385824203491,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "2": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.21263487637043,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "3": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.5134385824203491,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "4": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.21263487637043,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "5": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.5134385824203491,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "6": {
+         "Agent": 1.0,
+         "Verb": 0.21263487637043,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "7": {
+         "Agent": 1.0,
+         "Verb": 0.5134385824203491,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "8": {
+         "Agent": 1.0,
+         "Verb": 0.5134385824203491,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "9": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.21263487637043,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "10": {
+         "Agent": 1.0,
+         "Verb": 0.19214163720607758,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "11": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.3882061243057251,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "12": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.43973076343536377,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "13": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.49162402749061584,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "14": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.3882061243057251,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "15": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.43973076343536377,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "16": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.3882061243057251,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "17": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.43973076343536377,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "18": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.36994704604148865,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "19": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.40260058641433716,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "20": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.3882061243057251,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "21": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.43973076343536377,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "22": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.3946937024593353,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "23": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.298959881067276,
+         "Patient": 1.000000238418579,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "24": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.3946937024593353,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "25": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.298959881067276,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "26": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.42899662256240845,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "27": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.43973076343536377,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "28": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.43973076343536377,
+         "Patient": 1.000000238418579,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "29": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.5495322942733765,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "30": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.46924349665641785,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "31": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.3882061243057251,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "32": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.43973076343536377,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "33": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.3882061243057251,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "34": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.43973076343536377,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "35": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.3882061243057251,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "36": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.43973076343536377,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "37": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.3882061243057251,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "38": {
+         "Agent": 1.0,
+         "Verb": 0.44858258962631226,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "39": {
+         "Agent": 1.0,
+         "Verb": 0.19214163720607758,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "40": {
+         "Agent": 1.0,
+         "Verb": 0.44858258962631226,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "41": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.19214163720607758,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "42": {
+         "Agent": 1.0,
+         "Verb": 0.44858258962631226,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "43": {
+         "Agent": 1.0,
+         "Verb": 0.19214163720607758,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "44": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.44858258962631226,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "45": {
+         "Agent": 1.0,
+         "Verb": 0.19214163720607758,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "46": {
+         "Agent": 1.0,
+         "Verb": 0.44858258962631226,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "47": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.19214163720607758,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "48": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.49162402749061584,
+         "Patient": 0.9999998807907104,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "49": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.40260058641433716,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "50": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.49162402749061584,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "51": {
+         "Agent": 1.0,
+         "Verb": 0.40260058641433716,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "52": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.49162402749061584,
+         "Patient": 0.9999998807907104,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "53": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.40260058641433716,
+         "Patient": NaN,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "54": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.49162402749061584,
+         "Patient": NaN,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "55": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.40260058641433716,
+         "Patient": 0.9999998807907104,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "56": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.42899662256240845,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "57": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.40260058641433716,
+         "Patient": 0.9999998807907104,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "58": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.3946937024593353,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "59": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.298959881067276,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "60": {
+         "Agent": 1.0,
+         "Verb": 0.3946937024593353,
+         "Patient": 1.000000238418579,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "61": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.298959881067276,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "62": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.3882061243057251,
+         "Patient": 1.000000238418579,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "63": {
+         "Agent": 1.0,
+         "Verb": 0.298959881067276,
+         "Patient": 1.000000238418579,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "64": {
+         "Agent": 1.0,
+         "Verb": 0.3946937024593353,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "65": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.298959881067276,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "66": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.3946937024593353,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "67": {
+         "Agent": 1.0,
+         "Verb": 0.298959881067276,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "68": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.20623044669628143,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "69": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.44858258962631226,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "70": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.20623044669628143,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "71": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.32716187834739685,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "72": {
+         "Agent": 1.0,
+         "Verb": 0.19214163720607758,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "73": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.32716187834739685,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "74": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.20623044669628143,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "75": {
+         "Agent": 1.0,
+         "Verb": 0.44858258962631226,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "76": {
+         "Agent": 1.0,
+         "Verb": 0.21263487637043,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "77": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.32716187834739685,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "78": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.298959881067276,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "79": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.3946937024593353,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "80": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.298959881067276,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "81": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.49162402749061584,
+         "Patient": 0.9999998807907104,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "82": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.40260058641433716,
+         "Patient": 0.9999998807907104,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "83": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.49162402749061584,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "84": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.40260058641433716,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "85": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.32281264662742615,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "86": {
+         "Agent": 1.0,
+         "Verb": 0.49162402749061584,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "87": {
+         "Agent": 1.0,
+         "Verb": 0.298959881067276,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "88": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.3946937024593353,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "89": {
+         "Agent": 1.0,
+         "Verb": 0.3946937024593353,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "90": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.870304524898529,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "91": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.29360970854759216,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "92": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.870304524898529,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "93": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.29360970854759216,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "94": {
+         "Agent": 1.0,
+         "Verb": 0.773097038269043,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "95": {
+         "Agent": 1.0,
+         "Verb": 0.3109153211116791,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "96": {
+         "Agent": 1.0,
+         "Verb": 0.773097038269043,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "97": {
+         "Agent": 1.0,
+         "Verb": 0.3109153211116791,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "98": {
+         "Agent": 1.0,
+         "Verb": 0.773097038269043,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "99": {
+         "Agent": 1.0,
+         "Verb": 0.3109153211116791,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "100": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.21263487637043,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "101": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.21263487637043,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "102": {
+         "Agent": 0.9999998211860657,
+         "Verb": 0.5134385824203491,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "103": {
+         "Agent": 0.9999998211860657,
+         "Verb": 0.21263487637043,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "104": {
+         "Agent": 1.0,
+         "Verb": 0.5134385824203491,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "105": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.25433239340782166,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "106": {
+         "Agent": 0.9999998211860657,
+         "Verb": 0.5134385824203491,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "107": {
+         "Agent": 0.9999998211860657,
+         "Verb": 0.21263487637043,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "108": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.5134385824203491,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "109": {
+         "Agent": 1.0,
+         "Verb": 0.21263487637043,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "110": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.5134385824203491,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "111": {
+         "Agent": 1.0,
+         "Verb": 0.3057094216346741,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "112": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.44905439019203186,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "113": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.3057094216346741,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "114": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.44905439019203186,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "115": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.3057094216346741,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "116": {
+         "Agent": 1.0,
+         "Verb": 0.44905439019203186,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "117": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.3057094216346741,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "118": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.44905439019203186,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "119": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.3057094216346741,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "120": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.44905439019203186,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "121": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.23776596784591675,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "122": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.25433239340782166,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "123": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.28409603238105774,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "124": {
+         "Agent": 1.0,
+         "Verb": 0.25433239340782166,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "125": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.23776596784591675,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "126": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.19996924698352814,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "127": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.23776596784591675,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "128": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.25433239340782166,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "129": {
+         "Agent": 1.0,
+         "Verb": 0.23776596784591675,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "130": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.25433239340782166,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "131": {
+         "Agent": 1.0,
+         "Verb": 0.3057094216346741,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "132": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.44905439019203186,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "133": {
+         "Agent": 0.9999998211860657,
+         "Verb": 0.3057094216346741,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "134": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.44905439019203186,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "135": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.3057094216346741,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "136": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.3057094216346741,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "137": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.44905439019203186,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "138": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.3057094216346741,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "139": {
+         "Agent": 0.9999998211860657,
+         "Verb": 0.44905439019203186,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "140": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.25433239340782166,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "141": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.23776596784591675,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "142": {
+         "Agent": 1.0,
+         "Verb": 0.44905439019203186,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "143": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.23776596784591675,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "144": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.19996924698352814,
+         "Patient": 0.9999998807907104,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "145": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.23776596784591675,
+         "Patient": 0.9999998807907104,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "146": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.25433239340782166,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "147": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.27888989448547363,
+         "Patient": 0.9999998807907104,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "148": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.25433239340782166,
+         "Patient": 0.9999998807907104,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "149": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.23776596784591675,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "150": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.45253467559814453,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "151": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.43639254570007324,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "152": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.45253467559814453,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "153": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.43639254570007324,
+         "Patient": 1.000000238418579,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "154": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.45253467559814453,
+         "Patient": 0.9999998807907104,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "155": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.43639254570007324,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "156": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.45253467559814453,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "157": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.43639254570007324,
+         "Patient": 0.9999998807907104,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "158": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.45253467559814453,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "159": {
+         "Agent": 0.9999998807907104,
+         "Verb": 0.43639254570007324,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "160": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.1822969913482666,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "161": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.1822969913482666,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "162": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.6373518109321594,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "163": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.1822969913482666,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "164": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.6373518109321594,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "165": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.43639254570007324,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "166": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.6373518109321594,
+         "Patient": 1.000000238418579,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "167": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.1822969913482666,
+         "Patient": 1.000000238418579,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "168": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.6373518109321594,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "169": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.1822969913482666,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "170": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.6373518109321594,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "171": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.6373518109321594,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "172": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.1822969913482666,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "173": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.6373518109321594,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "174": {
+         "Agent": 1.0,
+         "Verb": 0.1822969913482666,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "175": {
+         "Agent": 1.0,
+         "Verb": 0.6373518109321594,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "176": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.1822969913482666,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "177": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.6373518109321594,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "178": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.1822969913482666,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "179": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.6373518109321594,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "180": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.1822969913482666,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "181": {
+         "Agent": 1.0,
+         "Verb": 0.773097038269043,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "182": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.29360970854759216,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "183": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.870304524898529,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "184": {
+         "Agent": 1.0,
+         "Verb": 0.773097038269043,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "185": {
+         "Agent": 1.0,
+         "Verb": 0.3109153211116791,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "186": {
+         "Agent": 1.0,
+         "Verb": 0.773097038269043,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "187": {
+         "Agent": 1.0,
+         "Verb": 0.3109153211116791,
+         "Patient": 0.9999999403953552,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "188": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.773097038269043,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "189": {
+         "Agent": 1.0,
+         "Verb": 0.3109153211116791,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "190": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.43639254570007324,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "191": {
+         "Agent": 0.9999999403953552,
+         "Verb": 0.45253467559814453,
+         "Patient": 1.000000238418579,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "192": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.43639254570007324,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "193": {
+         "Agent": 1.000000238418579,
+         "Verb": 0.45253467559814453,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "194": {
+         "Agent": 1.0,
+         "Verb": 0.43639254570007324,
+         "Patient": 1.000000238418579,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "195": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.45253467559814453,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "196": {
+         "Agent": 1.0,
+         "Verb": 0.43639254570007324,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "197": {
+         "Agent": 1.0,
+         "Verb": 0.45253467559814453,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "198": {
+         "Agent": 1.0000001192092896,
+         "Verb": 0.3109153211116791,
+         "Patient": 1.0000001192092896,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "199": {
+         "Agent": 1.0,
+         "Verb": 0.45253467559814453,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      }
+   },
+   "conceptnet": {
+      "1": {
+         "Agent": 1.0,
+         "Verb": 0.3301977319742164,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "2": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.14009214649313656,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "3": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.3301977319742164,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "4": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.14009214649313656,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "5": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.3301977319742164,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "6": {
+         "Agent": 1.0,
+         "Verb": 0.14009214649313656,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "7": {
+         "Agent": 1.0,
+         "Verb": 0.3301977319742164,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "8": {
+         "Agent": 1.0,
+         "Verb": 0.3301977319742164,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "9": {
+         "Agent": 1.0,
+         "Verb": 0.14009214649313656,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "10": {
+         "Agent": 1.0,
+         "Verb": 0.052951648037993994,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "11": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.13510042319573468,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "12": {
+         "Agent": 1.0,
+         "Verb": 0.4838966607370922,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "13": {
+         "Agent": 1.0,
+         "Verb": 0.34826729568156234,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "14": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.13510042319573468,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "15": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.4838966607370922,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "16": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.13510042319573468,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "17": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.4838966607370922,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "18": {
+         "Agent": 1.0,
+         "Verb": 0.18402987326641979,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "19": {
+         "Agent": 1.0,
+         "Verb": 0.06453357268225562,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "20": {
+         "Agent": 1.0,
+         "Verb": 0.13510042319573468,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "21": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.4838966607370922,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "22": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.34411507362698784,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "23": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.41259888738815026,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "24": {
+         "Agent": 1.0,
+         "Verb": 0.34411507362698784,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "25": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.41259888738815026,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "26": {
+         "Agent": 1.0,
+         "Verb": 0.4131028731941904,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "27": {
+         "Agent": 1.0,
+         "Verb": 0.4838966607370922,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "28": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.4838966607370922,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "29": {
+         "Agent": 1.0,
+         "Verb": 0.23473010090060367,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "30": {
+         "Agent": 1.0,
+         "Verb": 0.5058721570951507,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "31": {
+         "Agent": 1.0,
+         "Verb": 0.13510042319573468,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "32": {
+         "Agent": 1.0,
+         "Verb": 0.4838966607370922,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "33": {
+         "Agent": 1.0,
+         "Verb": 0.13510042319573468,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "34": {
+         "Agent": 1.0,
+         "Verb": 0.4838966607370922,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "35": {
+         "Agent": 1.0,
+         "Verb": 0.13510042319573468,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "36": {
+         "Agent": 1.0,
+         "Verb": 0.4838966607370922,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "37": {
+         "Agent": 1.0,
+         "Verb": 0.13510042319573468,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "38": {
+         "Agent": 1.0,
+         "Verb": 0.19894694373155283,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "39": {
+         "Agent": 1.0,
+         "Verb": 0.052951648037993994,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "40": {
+         "Agent": 1.0,
+         "Verb": 0.19894694373155283,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "41": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.052951648037993994,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "42": {
+         "Agent": 1.0,
+         "Verb": 0.19894694373155283,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "43": {
+         "Agent": 1.0,
+         "Verb": 0.052951648037993994,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "44": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.19894694373155283,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "45": {
+         "Agent": 1.0,
+         "Verb": 0.052951648037993994,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "46": {
+         "Agent": 1.0,
+         "Verb": 0.19894694373155283,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "47": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.052951648037993994,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "48": {
+         "Agent": 1.0,
+         "Verb": 0.34826729568156234,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "49": {
+         "Agent": 1.0,
+         "Verb": 0.06453357268225562,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "50": {
+         "Agent": 1.0,
+         "Verb": 0.34826729568156234,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "51": {
+         "Agent": 1.0,
+         "Verb": 0.06453357268225562,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "52": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.34826729568156234,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "53": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.06453357268225562,
+         "Patient": NaN,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "54": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.34826729568156234,
+         "Patient": NaN,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "55": {
+         "Agent": 1.0,
+         "Verb": 0.06453357268225562,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "56": {
+         "Agent": 1.0,
+         "Verb": 0.4131028731941904,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "57": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.06453357268225562,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "58": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.34411507362698784,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "59": {
+         "Agent": 1.0,
+         "Verb": 0.41259888738815026,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "60": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.34411507362698784,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "61": {
+         "Agent": 1.0,
+         "Verb": 0.41259888738815026,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "62": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.13510042319573468,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "63": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.41259888738815026,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "64": {
+         "Agent": 1.0,
+         "Verb": 0.34411507362698784,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "65": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.41259888738815026,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "66": {
+         "Agent": 1.0,
+         "Verb": 0.34411507362698784,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "67": {
+         "Agent": 1.0,
+         "Verb": 0.41259888738815026,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "68": {
+         "Agent": 1.0,
+         "Verb": 0.11859722981993387,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "69": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.19894694373155283,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "70": {
+         "Agent": 1.0,
+         "Verb": 0.11859722981993387,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "71": {
+         "Agent": 1.0,
+         "Verb": 0.26490024424255887,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "72": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.052951648037993994,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "73": {
+         "Agent": 1.0,
+         "Verb": 0.26490024424255887,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "74": {
+         "Agent": 1.0,
+         "Verb": 0.11859722981993387,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "75": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.19894694373155283,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "76": {
+         "Agent": 1.0,
+         "Verb": 0.14009214649313656,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "77": {
+         "Agent": 1.0,
+         "Verb": 0.26490024424255887,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "78": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.41259888738815026,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "79": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.34411507362698784,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "80": {
+         "Agent": 1.0,
+         "Verb": 0.41259888738815026,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "81": {
+         "Agent": 1.0,
+         "Verb": 0.34826729568156234,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "82": {
+         "Agent": 1.0,
+         "Verb": 0.06453357268225562,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "83": {
+         "Agent": 1.0,
+         "Verb": 0.34826729568156234,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "84": {
+         "Agent": 1.0,
+         "Verb": 0.06453357268225562,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "85": {
+         "Agent": 1.0,
+         "Verb": 0.1292118659435131,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "86": {
+         "Agent": 1.0,
+         "Verb": 0.34826729568156234,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "87": {
+         "Agent": 1.0,
+         "Verb": 0.41259888738815026,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "88": {
+         "Agent": 1.0,
+         "Verb": 0.34411507362698784,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "89": {
+         "Agent": 1.0,
+         "Verb": 0.34411507362698784,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "90": {
+         "Agent": 1.0,
+         "Verb": 0.874561810457439,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "91": {
+         "Agent": 1.0,
+         "Verb": 0.2781260350248881,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "92": {
+         "Agent": 1.0,
+         "Verb": 0.874561810457439,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "93": {
+         "Agent": 1.0,
+         "Verb": 0.2781260350248881,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "94": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.7819867017986492,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "95": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.2432816023743123,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "96": {
+         "Agent": 1.0,
+         "Verb": 0.7819867017986492,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "97": {
+         "Agent": 1.0,
+         "Verb": 0.2432816023743123,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "98": {
+         "Agent": 1.0,
+         "Verb": 0.7819867017986492,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "99": {
+         "Agent": 1.0,
+         "Verb": 0.2432816023743123,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "100": {
+         "Agent": 1.0,
+         "Verb": 0.14009214649313656,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "101": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.14009214649313656,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "102": {
+         "Agent": 1.0,
+         "Verb": 0.3301977319742164,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "103": {
+         "Agent": 1.0,
+         "Verb": 0.14009214649313656,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "104": {
+         "Agent": 1.0,
+         "Verb": 0.3301977319742164,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "105": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.37694052083837254,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "106": {
+         "Agent": 1.0,
+         "Verb": 0.3301977319742164,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "107": {
+         "Agent": 1.0,
+         "Verb": 0.14009214649313656,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "108": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.3301977319742164,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "109": {
+         "Agent": 1.0,
+         "Verb": 0.14009214649313656,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "110": {
+         "Agent": 1.0,
+         "Verb": 0.3301977319742164,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "111": {
+         "Agent": 1.0,
+         "Verb": 0.1378199165831684,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "112": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.22432815642330883,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "113": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.1378199165831684,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "114": {
+         "Agent": 1.0,
+         "Verb": 0.22432815642330883,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "115": {
+         "Agent": 1.0,
+         "Verb": 0.1378199165831684,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "116": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.22432815642330883,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "117": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.1378199165831684,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "118": {
+         "Agent": 1.0,
+         "Verb": 0.22432815642330883,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "119": {
+         "Agent": 1.0,
+         "Verb": 0.1378199165831684,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "120": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.22432815642330883,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "121": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.15039679065619518,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "122": {
+         "Agent": 1.0,
+         "Verb": 0.37694052083837254,
+         "Patient": 0.9999999999999998,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "123": {
+         "Agent": 1.0,
+         "Verb": 0.23101513224774767,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "124": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.37694052083837254,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "125": {
+         "Agent": 1.0,
+         "Verb": 0.15039679065619518,
+         "Patient": 0.9999999999999998,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "126": {
+         "Agent": 1.0,
+         "Verb": 0.44026643963554,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "127": {
+         "Agent": 1.0,
+         "Verb": 0.15039679065619518,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "128": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.37694052083837254,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "129": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.15039679065619518,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "130": {
+         "Agent": 1.0,
+         "Verb": 0.37694052083837254,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "131": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.1378199165831684,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "132": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.22432815642330883,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "133": {
+         "Agent": 1.0,
+         "Verb": 0.1378199165831684,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "134": {
+         "Agent": 1.0,
+         "Verb": 0.22432815642330883,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "135": {
+         "Agent": 1.0,
+         "Verb": 0.1378199165831684,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "136": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.1378199165831684,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "137": {
+         "Agent": 1.0,
+         "Verb": 0.22432815642330883,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "138": {
+         "Agent": 1.0,
+         "Verb": 0.1378199165831684,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "139": {
+         "Agent": 1.0,
+         "Verb": 0.22432815642330883,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "140": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.37694052083837254,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "141": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.15039679065619518,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "142": {
+         "Agent": 1.0,
+         "Verb": 0.22432815642330883,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "143": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.15039679065619518,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "144": {
+         "Agent": 1.0,
+         "Verb": 0.44026643963554,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "145": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.15039679065619518,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "146": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.37694052083837254,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "147": {
+         "Agent": 1.0,
+         "Verb": 0.10315976368454868,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "148": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.37694052083837254,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "149": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.15039679065619518,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "150": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.49642485044776063,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "151": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.20147011902659076,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "152": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.49642485044776063,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "153": {
+         "Agent": 1.0,
+         "Verb": 0.20147011902659076,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "154": {
+         "Agent": 1.0,
+         "Verb": 0.49642485044776063,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "155": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.20147011902659076,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "156": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.49642485044776063,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "157": {
+         "Agent": 1.0,
+         "Verb": 0.20147011902659076,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "158": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.49642485044776063,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "159": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.20147011902659076,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "160": {
+         "Agent": 1.0,
+         "Verb": 0.05307164654575359,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "161": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.05307164654575359,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "162": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.5091388628311474,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "163": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.05307164654575359,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "164": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.5091388628311474,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "165": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.20147011902659076,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "166": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.5091388628311474,
+         "Patient": 0.9999999999999998,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "167": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.05307164654575359,
+         "Patient": 0.9999999999999998,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "168": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.5091388628311474,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "169": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.05307164654575359,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "170": {
+         "Agent": 1.0,
+         "Verb": 0.5091388628311474,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "171": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.5091388628311474,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "172": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.05307164654575359,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "173": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.5091388628311474,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "174": {
+         "Agent": 1.0,
+         "Verb": 0.05307164654575359,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "175": {
+         "Agent": 1.0,
+         "Verb": 0.5091388628311474,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "176": {
+         "Agent": 1.0,
+         "Verb": 0.05307164654575359,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "177": {
+         "Agent": 1.0,
+         "Verb": 0.5091388628311474,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "178": {
+         "Agent": 1.0,
+         "Verb": 0.05307164654575359,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "179": {
+         "Agent": 1.0,
+         "Verb": 0.5091388628311474,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "180": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.05307164654575359,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "181": {
+         "Agent": 1.0,
+         "Verb": 0.7819867017986492,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "182": {
+         "Agent": 1.0,
+         "Verb": 0.2781260350248881,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "183": {
+         "Agent": 1.0,
+         "Verb": 0.874561810457439,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "184": {
+         "Agent": 1.0,
+         "Verb": 0.7819867017986492,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "185": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.2432816023743123,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "186": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.7819867017986492,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "187": {
+         "Agent": 1.0,
+         "Verb": 0.2432816023743123,
+         "Patient": 0.9999999999999999,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "188": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.7819867017986492,
+         "Patient": 0.9999999999999998,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "189": {
+         "Agent": 1.0,
+         "Verb": 0.2432816023743123,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "190": {
+         "Agent": 1.0,
+         "Verb": 0.20147011902659076,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "191": {
+         "Agent": 1.0,
+         "Verb": 0.49642485044776063,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "192": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.20147011902659076,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "193": {
+         "Agent": 1.0,
+         "Verb": 0.49642485044776063,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "194": {
+         "Agent": 1.0,
+         "Verb": 0.20147011902659076,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "195": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.49642485044776063,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "196": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.20147011902659076,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "197": {
+         "Agent": 1.0,
+         "Verb": 0.49642485044776063,
+         "Patient": 1.0000000000000002,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "198": {
+         "Agent": 0.9999999999999999,
+         "Verb": 0.2432816023743123,
+         "Patient": 0.9999999999999998,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      },
+      "199": {
+         "Agent": 1.0000000000000002,
+         "Verb": 0.49642485044776063,
+         "Patient": 1.0,
+         "Theme": NaN,
+         "Time": NaN,
+         "Manner": NaN,
+         "Location": NaN,
+         "Trajectory": NaN
+      }
+   }
+}

@@ -1,0 +1,4392 @@
+# ::snt-1 A girl is styling her hair.
+(z1 / style-01
+      :ARG0 (z2 / girl)
+      :ARG1 (z3 / hair
+            :part-of z2))
+
+# ::snt-2 A group of men play soccer on the beach.
+(z1 / play-01
+      :ARG0 (z2 / group
+            :consist-of (z3 / man))
+      :ARG1 (z4 / soccer)
+      :location (z5 / beach))
+
+# ::snt-3 One woman is measuring another woman's ankle.
+(z1 / measure-01
+      :ARG0 (z2 / woman
+            :quant 1)
+      :ARG1 (z3 / ankle
+            :part-of (z4 / woman
+                  :mod (z5 / another))))
+
+# ::snt-4 A man is cutting up a cucumber.
+(z1 / chop-up-02
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / cucumber))
+
+# ::snt-5 A man is playing a harp.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / harp))
+
+# ::snt-6 A woman is cutting onions.
+(z1 / cut-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / onion))
+
+# ::snt-7 A man is riding an electric bicycle.
+(z1 / ride-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / bicycle
+            :mod (z4 / electric)))
+
+# ::snt-8 A man is playing the drums.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / drum))
+
+# ::snt-9 A man is playing guitar.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / guitar))
+
+# ::snt-10 A man is playing a guitar.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / guitar))
+
+# ::snt-11 A man is cutting an onion.
+(z1 / cut-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / onion))
+
+# ::snt-12 A man is cycling.
+(z1 / cycle-01
+      :ARG0 (z2 / man))
+
+# ::snt-13 A man is slicing open a fish.
+(z1 / slice-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / fish)
+      :ARG2 (z4 / open))
+
+# ::snt-14 A man is slicing a tomato.
+(z1 / slice-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / tomato))
+
+# ::snt-15 A man is playing a guitar.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / guitar))
+
+# ::snt-16 A baby panda goes down a slide.
+(z1 / go-01
+      :ARG1 (z2 / panda
+            :mod (z3 / baby))
+      :ARG4 (z4 / slide)
+      :direction (z5 / down))
+
+# ::snt-17 A man is singing and playing a guitar.
+(z1 / man
+      :ARG0-of (z2 / sing-01)
+      :ARG0-of (z3 / play-11
+            :ARG1 (z4 / guitar)))
+
+# ::snt-18 A man attacks a woman.
+(z1 / attack-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / woman))
+
+# ::snt-19 A man is driving a car.
+(z1 / drive-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / car))
+
+# ::snt-20 A woman is cutting tofu.
+(z1 / cut-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / tofu))
+
+# ::snt-21 The woman is styling her hair.
+(z1 / style-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / hair
+            :part-of z2))
+
+# ::snt-22 Two zebras play in an open field.
+(z1 / play-01
+      :ARG0 (z2 / zebra
+            :quant 2)
+      :location (z3 / field
+            :ARG1-of (z4 / open-06)))
+
+# ::snt-23 A man is cutting a potato.
+(z1 / cut-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / potato))
+
+# ::snt-24 A man is slicing an onion.
+(z1 / slice-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / onion))
+
+# ::snt-25 A man is dancing.
+(z1 / dance-01
+      :ARG0 (z2 / man))
+
+# ::snt-26 A man is riding a motorcycle.
+(z1 / ride-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / motorcycle))
+
+# ::snt-27 A woman is slicing garlics.
+(z1 / slice-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / garlic))
+
+# ::snt-28 A man is speaking.
+(z1 / speak-01
+      :ARG0 (z2 / man))
+
+# ::snt-29 A little boy is singing and playing a guitar.
+(z1 / and
+      :op1 (z2 / sing-01
+            :ARG0 (z3 / boy
+                  :mod (z4 / little)))
+      :op2 (z5 / play-11
+            :ARG0 z3
+            :ARG2 (z6 / guitar)))
+
+# ::snt-30 A turtle is swimming in water.
+(z1 / swim-01
+      :ARG0 (z2 / turtle)
+      :ARG1 (z3 / water))
+
+# ::snt-31 A young woman is putting stickers all over her face.
+(z1 / put-01
+      :ARG0 (z2 / woman
+            :mod (z3 / young))
+      :ARG1 (z4 / thing
+            :ARG1-of (z5 / stick-01))
+      :ARG2 (z6 / face
+            :part-of z2))
+
+# ::snt-32 A woman is wrapping tofu.
+(z1 / wrap-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / tofu))
+
+# ::snt-33 A cat is eating some corn.
+(z1 / eat-01
+      :ARG0 (z2 / cat)
+      :ARG1 (z3 / corn
+            :quant (z4 / some)))
+
+# ::snt-34 A man is eating a food.
+(z1 / eat-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / food))
+
+# ::snt-35 A man is playing a guitar.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / guitar))
+
+# ::snt-36 A man is kicking pots of water.
+(z1 / kick-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / pot
+            :consist-of (z4 / water)))
+
+# ::snt-37 A man is cutting a pipe with scissors.
+(z1 / cut-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / pipe)
+      :instrument (z4 / scissors))
+
+# ::snt-38 A woman is dancing in the rain.
+(z1 / dance-01
+      :ARG0 (z2 / woman)
+      :time (z3 / rain-01))
+
+# ::snt-39 A woman is taking a bath.
+(z1 / bathe-01
+      :ARG0 (z2 / woman))
+
+# ::snt-40 A man mixes vegetables in a pot.
+(z1 / mix-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / vegetable)
+      :ARG2 (z4 / pot))
+
+# ::snt-41 A woman is talking on a cell phone.
+(z1 / talk-01
+      :ARG0 (z2 / woman)
+      :instrument (z3 / phone
+            :mod (z4 / cell)))
+
+# ::snt-42 A man is playing a guitar.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / guitar))
+
+# ::snt-43 A man is playing a guitar.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / guitar))
+
+# ::snt-44 A man is cutting apple by his hand.
+(z1 / cut-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / apple)
+      :instrument (z4 / hand
+            :part-of z2))
+
+# ::snt-45 A man is opening a door.
+(z1 / open-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / door))
+
+# ::snt-46 A man is slicing a tomato.
+(z1 / slice-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / tomato))
+
+# ::snt-47 A man is cutting paper with a sword.
+(z1 / cut-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / paper)
+      :instrument (z4 / sword))
+
+# ::snt-48 A boy studies a calendar.
+(z1 / study-01
+      :ARG0 (z2 / boy)
+      :ARG1 (z3 / calendar))
+
+# ::snt-49 The ballerina is dancing.
+(z1 / dance-01
+      :ARG0 (z2 / ballerina))
+
+# ::snt-50 A woman is dancing.
+(z1 / woman
+      :ARG0-of (z2 / dance-01))
+
+# ::snt-51 A woman is slicing some tomatoes.
+(z1 / slice-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / tomato
+            :quant (z4 / some)))
+
+# ::snt-52 A woman is water skiing.
+(z1 / woman
+      :ARG0-of (z2 / ski-01
+            :ARG1 (z3 / water)))
+
+# ::snt-53 A man is playing a flute.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / flute))
+
+# ::snt-54 A man is playing the piano.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / piano))
+
+# ::snt-55 A woman is picking a can.
+(z1 / pick-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / can))
+
+# ::snt-56 A man puts three pieces of meat into a pan.
+(z1 / put-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / piece
+            :quant 3
+            :consist-of (z4 / meat))
+      :ARG2 (z5 / pan))
+
+# ::snt-57 A woman is cutting an onion.
+(z1 / cut-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / onion))
+
+# ::snt-58 Some men are sawing.
+(z1 / see-01
+      :ARG0 (z2 / man
+            :quant (z3 / some)))
+
+# ::snt-59 A car is driven down the road.
+(z1 / drive-01
+      :ARG1 (z2 / car)
+      :direction (z3 / down
+            :op1 (z4 / road)))
+
+# ::snt-60 The man is kissing and hugging the woman.
+(z1 / and
+      :op1 (z2 / kiss-01
+            :ARG0 (z3 / man)
+            :ARG1 (z4 / woman))
+      :op2 (z5 / hug-01
+            :ARG0 z3
+            :ARG1 z4))
+
+# ::snt-61 A train is moving.
+(z1 / move-01
+      :ARG1 (z2 / train))
+
+# ::snt-62 Someone is slicing an onion.
+(z1 / slice-01
+      :ARG0 (z2 / someone)
+      :ARG1 (z3 / onion))
+
+# ::snt-63 A woman is playing in the ocean.
+(z1 / play-01
+      :ARG0 (z2 / woman)
+      :location (z3 / ocean))
+
+# ::snt-64 A person is playing an electronic keyboard.
+(z1 / play-11
+      :ARG0 (z2 / person)
+      :ARG2 (z3 / keyboard
+            :mod (z4 / electronic)))
+
+# ::snt-65 A man is holding a leaf.
+(z1 / hold-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / leaf))
+
+# ::snt-66 A woman is peeling shrimp.
+(z1 / peel-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / shrimp))
+
+# ::snt-67 A man is sitting and smoking.
+(z1 / man
+      :ARG0-of (z2 / sit-01)
+      :ARG0-of (z3 / smoke-02))
+
+# ::snt-68 A man is playing a guitar.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / guitar))
+
+# ::snt-69 A man is standing in front of the window and looking outside.
+(z1 / and
+      :op1 (z2 / stand-01
+            :ARG0 (z3 / man)
+            :ARG2 (z4 / in-front-of
+                  :op1 (z5 / window)))
+      :op2 (z6 / look-01
+            :ARG0 z3
+            :ARG1 (z7 / outside)))
+
+# ::snt-70 A skunk is looking here and there.
+(z1 / look-01
+      :ARG0 (z2 / skunk)
+      :location (z3 / here)
+      :location (z4 / there))
+
+# ::snt-71 A man is playing the guitar and singing.
+(z1 / and
+      :op1 (z2 / play-11
+            :ARG0 (z3 / man)
+            :ARG2 (z4 / guitar))
+      :op2 (z5 / sing-01
+            :ARG0 z3))
+
+# ::snt-72 A woman opens a window.
+(z1 / open-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / window))
+
+# ::snt-73 People are dancing outside.
+(z1 / dance-01
+      :ARG0 (z2 / person)
+      :location (z3 / outside))
+
+# ::snt-74 The man is using a camera to hammer a nail.
+(z1 / use-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / camera)
+      :ARG2 (z4 / hammer-02
+            :ARG0 z2
+            :ARG1 (z5 / nail)))
+
+# ::snt-75 A woman is filing her nails.
+(z1 / file-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / nail
+            :part-of z2))
+
+# ::snt-76 A boy is crawling into a dog house.
+(z1 / crawl-01
+      :ARG0 (z2 / boy)
+      :destination (z3 / house
+            :mod (z4 / dog)))
+
+# ::snt-77 A woman is swimming underwater.
+(z1 / swim-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / underwater))
+
+# ::snt-78 A machine is sharpening a pencil.
+(z1 / sharpen-01
+      :ARG0 (z2 / machine)
+      :ARG1 (z3 / pencil))
+
+# ::snt-79 A monkey is playing drums.
+(z1 / play-11
+      :ARG0 (z2 / monkey)
+      :ARG1 (z3 / drum))
+
+# ::snt-80 A man is opening a box and taking out paper.
+(z1 / and
+      :op1 (z2 / open-01
+            :ARG0 (z3 / man)
+            :ARG1 (z4 / box))
+      :op2 (z5 / take-out-11
+            :ARG0 z3
+            :ARG1 (z6 / paper)))
+
+# ::snt-81 A woman is dancing.
+(z1 / woman
+      :ARG0-of (z2 / dance-01))
+
+# ::snt-82 A person is drawing on a large touchscreen.
+(z1 / draw-01
+      :ARG0 (z2 / person)
+      :instrument (z3 / touchscreen
+            :mod (z4 / large)))
+
+# ::snt-83 The men played follow the leader on the grass.
+(z1 / follow-01
+      :ARG1 (z2 / man)
+      :ARG2 (z3 / person
+            :ARG0-of (z4 / lead-02))
+      :location (z5 / grass))
+
+# ::snt-84 A woman is cracking eggs.
+(z1 / crack-02
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / egg))
+
+# ::snt-85 A woman peels garlic with her hands.
+(z1 / peel-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / garlic)
+      :instrument (z4 / hand
+            :part-of z2))
+
+# ::snt-86 The polar bears fought over the kill.
+(z1 / fight-01
+      :ARG0 (z2 / bear
+            :mod (z3 / pole))
+      :ARG2 (z4 / kill-01))
+
+# ::snt-87 A man is doing trick with play cards.
+(z1 / trick-01
+      :ARG0 (z2 / man)
+      :instrument (z3 / card
+            :instrument-of (z4 / play-10)))
+
+# ::snt-88 The cat is licking a bottle.
+(z1 / lick-01
+      :ARG0 (z2 / cat)
+      :ARG1 (z3 / bottle))
+
+# ::snt-89 A person is slicing an onion.
+(z1 / slice-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / onion))
+
+# ::snt-90 A person is peeling a potato with a potato peeler.
+(z1 / peel-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / potato)
+      :instrument (z4 / peel-02
+            :ARG1 z3))
+
+# ::snt-91 Two women are dancing and singing in front of a crowd.
+(z1 / and
+      :op1 (z2 / dance-01
+            :ARG0 (z3 / woman
+                  :quant 2))
+      :op2 (z4 / sing-01
+            :ARG0 z3)
+      :location (z5 / in-front-of
+            :op1 (z6 / crowd)))
+
+# ::snt-92 A man is seasoning some carrots.
+(z1 / season-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / carrot
+            :quant (z4 / some)))
+
+# ::snt-93 Two men pushed carts through the woods.
+(z1 / push-01
+      :ARG0 (z2 / man
+            :quant 2)
+      :ARG1 (z3 / cart)
+      :ARG2 (z4 / woods))
+
+# ::snt-94 A man is playing a football.
+(z1 / play-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / football))
+
+# ::snt-95 The lady peeled the potatoe.
+(z1 / peel-01
+      :ARG0 (z2 / lady)
+      :ARG1 (z3 / potatoe))
+
+# ::snt-96 A woman is slicing some tofu.
+(z1 / slice-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / tofu
+            :quant (z4 / some)))
+
+# ::snt-97 Someone typed on a keyboard.
+(z1 / type-01
+      :ARG0 (z2 / someone)
+      :instrument (z3 / keyboard))
+
+# ::snt-98 Three young men run, jump, and kick off of a Coke machine.
+(z1 / and
+      :op1 (z2 / run-02
+            :ARG0 (z3 / man
+                  :quant 3
+                  :mod (z4 / young)))
+      :op2 (z5 / jump-03
+            :ARG0 z3)
+      :op3 (z6 / kick-01
+            :ARG0 z3)
+      :op4 (z7 / off
+            :op1 (z8 / machine
+                  :mod (z9 / company
+                        :name. (z10 / name
+                              :op1 "Coke")))))
+
+# ::snt-99 A young Asian girl is applying eyeliner.
+(z1 / apply-03
+      :ARG0 (z2 / girl
+            :mod (z3 / continent
+                  :name (z4 / name
+                        :op1 "Asia"))
+            :mod (z5 / young))
+      :ARG1 (z6 / eyeliner))
+
+# ::snt-100 A cat is walking around a house.
+(z1 / walk-01
+      :ARG0 (z2 / cat)
+      :ARG2 (z3 / around
+            :op1 (z4 / house)))
+
+# ::snt-101 A woman is talking to her pet bunny as she fondles it.
+(z1 / talk-01
+      :ARG0 (z2 / woman)
+      :ARG2 (z3 / bunny
+            :mod (z4 / pet)
+            :poss z2)
+      :time (z5 / fondle-01
+            :ARG0 z2
+            :ARG1 z3))
+
+# ::snt-102 A monkey is playing drums.
+(z1 / play-11
+      :ARG0 (z2 / monkey)
+      :ARG1 (z3 / drum))
+
+# ::snt-103 A man is riding a white horse on an enclosed ground.
+(z1 / ride-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / horse
+            :ARG1-of (z4 / white-03))
+      :location (z5 / ground
+            :ARG1-of (z6 / enclose-01)))
+
+# ::snt-104 An oriental lady is cutting a carrot into thin pieces.
+(z1 / cut-01
+      :ARG0 (z2 / lady
+            :mod (z3 / world-region
+                  :name (z4 / name
+                        :op1 "Orient")))
+      :ARG1 (z5 / carrot)
+      :ARG3 (z6 / piece
+            :ARG1-of (z7 / thin-03)))
+
+# ::snt-105 A group of people are dancing.
+(z1 / dance-01
+      :ARG0 (z2 / group
+            :consist-of (z3 / person)))
+
+# ::snt-106 A man is playing guitar.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / guitar))
+
+# ::snt-107 A woman mixes up vegetables.
+(z1 / mix-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / vegetable))
+
+# ::snt-108 A woman pours a mixture into a bowl and mixes it.
+(z1 / and
+      :op1 (z2 / pour-01
+            :ARG0 (z3 / woman)
+            :ARG1 (z4 / mixture)
+            :ARG2 (z5 / bowl))
+      :op2 (z6 / mix-01
+            :ARG0 z3
+            :ARG1 z4))
+
+# ::snt-109 A man is cutting pieces of butter into a mixing bowl.
+(z1 / cut-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / piece
+            :consist-of (z4 / butter))
+      :destination (z5 / bowl
+            :purpose (z6 / mix-01)))
+
+# ::snt-110 A man is putting garlic on some bread slices.
+(z1 / put-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / garlic)
+      :ARG2 (z4 / slice
+            :mod (z5 / bread)
+            :quant (z6 / some)))
+
+# ::snt-111 The panda bear lay on the logs.
+(z1 / lay-01
+      :ARG1 (z2 / bear
+            :mod (z3 / panda))
+      :ARG2 (z4 / log))
+
+# ::snt-112 Five men jump into a swimming pool.
+(z1 / jump-03
+      :ARG0 (z2 / man
+            :quant 5)
+      :destination (z3 / pool
+            :mod (z4 / swim-01)))
+
+# ::snt-113 A cheetah is running behind its prey.
+(z1 / run-02
+      :ARG0 (z2 / cheetah)
+      :path (z3 / behind
+            :op1 (z4 / prey
+                  :poss z2)))
+
+# ::snt-114 A cat is playing on the floor.
+(z1 / play-01
+      :ARG0 (z2 / cat)
+      :location (z3 / floor))
+
+# ::snt-115 A boy is playing violin on stage.
+(z1 / play-11
+      :ARG0 (z2 / boy)
+      :ARG1 (z3 / violin)
+      :location (z4 / stage))
+
+# ::snt-116 A dog is barking at a toy.
+(z1 / bark-01
+      :ARG0 (z2 / dog)
+      :ARG2 (z3 / toy))
+
+# ::snt-117 A man is cycling.
+(z1 / cycle-01
+      :ARG0 (z2 / man))
+
+# ::snt-118 A woman is slicing ginger.
+(z1 / slice-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / ginger))
+
+# ::snt-119 A man is dragging a dead deer.
+(z1 / drag-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / deer
+            :ARG1-of (z4 / die-01)))
+
+# ::snt-120 A man is preparing a snake for cooking.
+(z1 / prepare-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / snake)
+      :ARG3 (z4 / cook-01
+            :ARG0 z2))
+
+# ::snt-121 A woman is spreading mustard on a bread roll.
+(z1 / spread-03
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / mustard)
+      :ARG2 (z4 / roll
+            :mod (z5 / bread)))
+
+# ::snt-122 Someone touched the kitten chewing on a string.
+(z1 / touch-01
+      :ARG0 (z2 / someone)
+      :ARG1 (z3 / kitten
+            :ARG0-of (z4 / chew-01
+                  :ARG1 (z5 / string))))
+
+# ::snt-123 Meat is being put into a skillet.
+(z1 / put-01
+      :ARG1 (z2 / meat)
+      :ARG2 (z3 / skillet))
+
+# ::snt-124 A baby elephant is eating a small tree.
+(z1 / eat-01
+      :ARG0 (z2 / elephant
+            :mod (z3 / baby))
+      :ARG1 (z4 / tree
+            :mod (z5 / small)))
+
+# ::snt-125 A woman and man are dancing in the rain.
+(z1 / dance-01
+      :ARG0 (z2 / and
+            :op1 (z3 / woman)
+            :op2 (z4 / man))
+      :location (z5 / rain-01))
+
+# ::snt-126 Someone is drawing.
+(z1 / draw-01
+      :ARG0 (z2 / someone))
+
+# ::snt-127 A man is playing a guitar.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / guitar))
+
+# ::snt-128 Two men are fistfighting in a ring.
+(z1 / fight-01
+      :ARG0 (z2 / man
+            :quant 2)
+      :manner (z3 / fist)
+      :location (z4 / ring))
+
+# ::snt-129 A person wipes butter on a tray.
+(z1 / wipe-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / butter)
+      :ARG2 (z4 / tray))
+
+# ::snt-130 Two men are playing football.
+(z1 / play-01
+      :ARG0 (z2 / man
+            :quant 2)
+      :ARG1 (z3 / football))
+
+# ::snt-131 The man is playing the guitar.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / guitar))
+
+# ::snt-132 A man is peeling a potato.
+(z1 / peel-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / potato))
+
+# ::snt-133 A woman is stabbing a potato with a fork.
+(z1 / stab-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / potato)
+      :instrument (z4 / fork))
+
+# ::snt-134 A child is waking up.
+(z1 / wake-up-02
+      :ARG1 (z2 / child))
+
+# ::snt-135 A boy is playing a keyboard.
+(z1 / play-11
+      :ARG0 (z2 / boy)
+      :ARG2 (z3 / keyboard))
+
+# ::snt-136 A woman plays the flute.
+(z1 / play-11
+      :ARG0 (z2 / woman)
+      :ARG2 (z3 / flute))
+
+# ::snt-137 A woman is playing an electric guitar.
+(z1 / play-11
+      :ARG0 (z2 / woman)
+      :ARG2 (z3 / guitar
+            :mod (z4 / electric)))
+
+# ::snt-138 A man is playing a flute.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / flute))
+
+# ::snt-139 A group of people are sweeping water out of a house.
+(z1 / sweep-01
+      :ARG0 (z2 / group
+            :consist-of (z3 / person))
+      :ARG1 (z4 / water)
+      :ARG2 (z5 / out-06
+            :ARG1 z4
+            :ARG2 (z6 / house)))
+
+# ::snt-140 A man plays a guitar.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / guitar))
+
+# ::snt-141 A man and a woman is kissing each other.
+(z1 / kiss-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / woman))
+
+# ::snt-142 A woman is climbing a cliff.
+(z1 / climb-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / cliff))
+
+# ::snt-143 A polar bear is running towards a group of walruses.
+(z1 / run-02
+      :ARG0 (z2 / bear
+            :mod (z3 / pole))
+      :direction (z4 / group-01
+            :ARG1 (z5 / walrus)))
+
+# ::snt-144 A woman is cutting some fish.
+(z1 / cut-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / fish
+            :quant (z4 / some)))
+
+# ::snt-145 Someone is playing a piano.
+(z1 / play-11
+      :ARG0 (z2 / someone)
+      :ARG2 (z3 / piano))
+
+# ::snt-146 A man is pouring rice a roni into a pan.
+(z1 / pour-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / rice)
+      :ARG2 (z4 / roni)
+      :ARG3 (z5 / pan))
+
+# ::snt-147 A man is breaking wooden boards with his hand.
+(z1 / break-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / board
+            :consist-of (z4 / wood))
+      :instrument (z5 / hand
+            :part-of z2))
+
+# ::snt-148 A girl is playing guitar.
+(z1 / play-11
+      :ARG0 (z2 / girl)
+      :ARG1 (z3 / guitar))
+
+# ::snt-149 A man is praying.
+(z1 / pray-01
+      :ARG0 (z2 / man))
+
+# ::snt-150 A man is playing piano.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / piano))
+
+# ::snt-151 A woman is slicing an onion.
+(z1 / slice-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / onion))
+
+# ::snt-152 A man is riding a horse by a creek.
+(z1 / ride-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / horse)
+      :location (z4 / creek))
+
+# ::snt-153 A man is playing a guitar.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / guitar))
+
+# ::snt-154 A man is picking up a tree.
+(z1 / pick-up-04
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / tree))
+
+# ::snt-155 A person is peeling a potato.
+(z1 / peel-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / potato))
+
+# ::snt-156 A person is playing a piano.
+(z1 / play-11
+      :ARG0 (z2 / person)
+      :ARG2 (z3 / piano))
+
+# ::snt-157 A man is spitting.
+(z1 / spit-01
+      :ARG0 (z2 / man))
+
+# ::snt-158 A man is playing a musical keyboard.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / keyboard
+            :mod (z4 / musical)))
+
+# ::snt-159 A man is dancing.
+(z1 / dance-01
+      :ARG0 (z2 / man))
+
+# ::snt-160 A man plays a trumpet.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / trumpet))
+
+# ::snt-161 A woman is riding a horse.
+(z1 / ride-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / horse))
+
+# ::snt-162 A band is playing on stage.
+(z1 / play-11
+      :ARG0 (z2 / band)
+      :location (z3 / stage))
+
+# ::snt-163 A woman is playing a guitar and singing.
+(z1 / and
+      :op1 (z2 / play-11
+            :ARG0 (z3 / woman)
+            :ARG2 (z4 / guitar))
+      :op2 (z5 / sing-01
+            :ARG0 z3))
+
+# ::snt-164 The man is eating.
+(z1 / eat-01
+      :ARG0 (z2 / man))
+
+# ::snt-165 A little boy hits a golf ball.
+(z1 / hit-01
+      :ARG0 (z2 / boy
+            :mod (z3 / little))
+      :ARG1 (z4 / ball
+            :mod (z5 / golf-01)))
+
+# ::snt-166 A guy is taking off his sunglasses.
+(z1 / take-off-07
+      :ARG0 (z2 / guy)
+      :ARG1 (z3 / sunglasses
+            :poss z2))
+
+# ::snt-167 Someone is reading an email.
+(z1 / read-01
+      :ARG0 (z2 / someone)
+      :ARG1 (z3 / email))
+
+# ::snt-168 A person is slicing onions.
+(z1 / slice-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / onion))
+
+# ::snt-169 A girl is coming up on a car.
+(z1 / come-01
+      :ARG1 (z2 / girl)
+      :ARG4 (z3 / car))
+
+# ::snt-170 A man is playing drums.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / drum))
+
+# ::snt-171 Someone is slicing a onion.
+(z1 / slice-01
+      :ARG0 (z2 / someone)
+      :ARG1 (z3 / onion))
+
+# ::snt-172 A woman is dicing some peeled potatoes cut into thick strips.
+(z1 / dice-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / potato
+            :ARG1-of (z4 / peel-02)
+            :quant (z5 / some)
+            :ARG1-of (z6 / cut-01
+                  :ARG2 (z7 / strip
+                        :ARG1-of (z8 / thick-03)))))
+
+# ::snt-173 A little girl peddling a scooter.
+(z1 / peddle-01
+      :ARG0 (z2 / girl
+            :mod (z3 / little))
+      :ARG1 (z4 / scooter))
+
+# ::snt-174 A cat cleans itself.
+(z1 / clean-01
+      :ARG0 (z2 / cat
+            :ARG1-of z1))
+
+# ::snt-175 A man is kicking a soccer ball.
+(z1 / kick-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / ball
+            :mod (z4 / soccer)))
+
+# ::snt-176 A woman opens a window.
+(z1 / open-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / window))
+
+# ::snt-177 Three men are doing same dance in the street.
+(z1 / dance-01
+      :ARG0 (z2 / man
+            :quant 3)
+      :ARG1-of (z3 / same-01)
+      :location (z4 / street))
+
+# ::snt-178 The man is playing the guitar.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / guitar))
+
+# ::snt-179 A man is dancing.
+(z1 / dance-01
+      :ARG0 (z2 / man))
+
+# ::snt-180 A woman is exercising.
+(z1 / exercise-02
+      :ARG0 (z2 / woman))
+
+# ::snt-181 A boy is playing the violin onstage.
+(z1 / play-11
+      :ARG0 (z2 / boy)
+      :ARG1 (z3 / violin)
+      :location (z4 / onstage))
+
+# ::snt-182 The woman is measuring the other woman.
+(z1 / measure-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / woman
+            :mod (z4 / other)))
+
+# ::snt-183 A man is doing exercise.
+(z1 / exercise-02
+      :ARG0 (z2 / man))
+
+# ::snt-184 A dog is playing with a toy.
+(z1 / play-01
+      :ARG0 (z2 / dog)
+      :ARG1 (z3 / toy))
+
+# ::snt-185 A man is playing a piano.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / piano))
+
+# ::snt-186 A man is bowling.
+(z1 / bowl-01
+      :ARG0 (z2 / man))
+
+# ::snt-187 A woman is dancing near a fire.
+(z1 / dance-01
+      :ARG0 (z2 / woman)
+      :ARG1-of (z3 / near-02
+            :ARG2 (z4 / fire)))
+
+# ::snt-188 A man is making a bed.
+(z1 / make-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / bed))
+
+# ::snt-189 A person is riding a motorcycle.
+(z1 / ride-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / motorcycle))
+
+# ::snt-190 A man pours rice into a pot.
+(z1 / pour-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / rice)
+      :ARG2 (z4 / pot))
+
+# ::snt-191 A person is slicing some garlic.
+(z1 / slice-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / garlic
+            :quant (z4 / some)))
+
+# ::snt-192 A woman is slicing ginger.
+(z1 / slice-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / ginger))
+
+# ::snt-193 Men are playing soccer.
+(z1 / play-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / soccer))
+
+# ::snt-194 A person is scrubbing a zucchini.
+(z1 / scrub-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / zucchini))
+
+# ::snt-195 A panda bear is chewing on a stick.
+(z1 / chew-01
+      :ARG0 (z2 / bear
+            :mod (z3 / panda))
+      :ARG1 (z4 / stick))
+
+# ::snt-196 The people are lifting bags.
+(z1 / lift-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / bag))
+
+# ::snt-197 A man is talking on the phone.
+(z1 / talk-01
+      :ARG0 (z2 / man)
+      :medium (z3 / phone))
+
+# ::snt-198 A woman is braiding her hair.
+(z1 / braraid-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / hair
+            :part-of z2))
+
+# ::snt-199 The man is throwing knives at a tree.
+(z1 / throw-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / knife)
+      :ARG2 (z4 / tree))
+
+# ::snt-200 The woman is slicing tofu.
+(z1 / slice-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / tofu))
+
+# ::snt-201 A woman is folding paper.
+(z1 / fold-06
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / paper))
+
+# ::snt-202 Someone is folding a piece of paper.
+(z1 / fold-06
+      :ARG0 (z2 / someone)
+      :ARG1 (z3 / piece
+            :consist-of (z4 / paper)))
+
+# ::snt-203 A man is lifting weights.
+(z1 / lift-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / weight))
+
+# ::snt-204 A man is playing a cello.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / cello))
+
+# ::snt-205 The man is talking.
+(z1 / talk-01
+      :ARG0 (z2 / man))
+
+# ::snt-206 A man tries to feed a mouse to a snake.
+(z1 / try-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / feed-01
+            :ARG0 z2
+            :ARG1 (z4 / mouse)
+            :ARG2 (z5 / snake)))
+
+# ::snt-207 A man is playing the drums.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / drum))
+
+# ::snt-208 A man is playing a ukulele.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / ukulele))
+
+# ::snt-209 A kitten is drinking milk from a bowl.
+(z1 / drink-01
+      :ARG0 (z2 / kitten)
+      :ARG1 (z3 / milk
+            :source (z4 / bowl)))
+
+# ::snt-210 A man breaks cinder blocks on another man.
+(z1 / break-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / block
+            :mod (z4 / cinder))
+      :location (z5 / man
+            :mod (z6 / another)))
+
+# ::snt-211 A man is hitting a boy with flower vase.
+(z1 / hit-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / boy)
+      :ARG2 (z4 / vase
+            :mod (z5 / flower)))
+
+# ::snt-212 The man is mixing whipping cream.
+(z1 / mix-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / cream
+            :ARG1-of (z4 / whip-01)))
+
+# ::snt-213 A man is stirring juice.
+(z1 / stir-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / juice))
+
+# ::snt-214 Someone is slicing two uncooked racks of ribs apart.
+(z1 / slice-01
+      :ARG0 (z2 / someone)
+      :ARG1 (z3 / rack
+            :quant 2
+            :consist-of (z4 / rib)
+            :ARG1-of (z5 / cook-01
+                  :polarity -))
+      :ARG2 (z6 / apart))
+
+# ::snt-215 A man is kicking pots of water.
+(z1 / kick-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / pot
+            :consist-of (z4 / water)))
+
+# ::snt-216 Two little girls talk on the telephone.
+(z1 / talk-01
+      :ARG0 (z2 / girl
+            :quant 2
+            :mod (z3 / little))
+      :medium (z4 / telephone))
+
+# ::snt-217 A cat gets stuck on a moving ceiling fan.
+(z1 / stick-01
+      :ARG1 (z2 / cat)
+      :ARG2 (z3 / fan
+            :location (z4 / ceiling)
+            :ARG1-of (z5 / move-01)))
+
+# ::snt-218 The cat is drinking milk.
+(z1 / drink-01
+      :ARG0 (z2 / cat)
+      :ARG1 (z3 / milk))
+
+# ::snt-219 Rocky and Apollo Creed are running down the beach.
+(z1 / run-02
+      :ARG0 (z2 / and
+            :op1 (z3 / person
+                  :name (z4 / name
+                        :op1 "Rocky"))
+            :op2 (z5 / person
+                  :name (z6 / name
+                        :op1 "Apollo"
+                        :op2 "Creed")))
+      :ARG1 (z7 / beach)
+      :direction (z8 / down))
+
+# ::snt-220 A man is singing while playing the guitar.
+(z1 / sing-01
+      :ARG0 (z2 / man)
+      :time (z3 / play-11
+            :ARG0 z2
+            :ARG1 (z4 / guitar)))
+
+# ::snt-221 A boat sails along the water.
+(z1 / sail-01
+      :ARG0 (z2 / boat)
+      :path (z3 / along
+            :op1 (z4 / water)))
+
+# ::snt-222 An okapi is eating from a tree.
+(z1 / eat-01
+      :ARG0 (z2 / okapi)
+      :source (z3 / tree))
+
+# ::snt-223 Several kids jump up and down on a trampoline.
+(z1 / jump-03
+      :ARG0 (z2 / kid
+            :quant (z3 / several))
+      :destination (z4 / trampoline)
+      :path (z5 / and
+            :op1 (z6 / up)
+            :op2 (z7 / down)))
+
+# ::snt-224 A woman is pouring egg into a frying pan.
+(z1 / pour-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / egg)
+      :ARG2 (z4 / pan
+            :location-of (z5 / fry-01)))
+
+# ::snt-225 A woman is frying ground meat.
+(z1 / fry-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / meat
+            :ARG1-of (z4 / ground-02)))
+
+# ::snt-226 Three boys in karate costumes are fighting.
+(z1 / fight-01
+      :ARG0 (z2 / boy
+            :quant 3
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / costume
+                        :mod (z5 / karate)))))
+
+# ::snt-227 Swimmers are racing in a lake.
+(z1 / race-02
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / swim-01))
+      :location (z4 / lake))
+
+# ::snt-228 A person is boiling noodles.
+(z1 / boil-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / noodle))
+
+# ::snt-229 A person is slicing some onions.
+(z1 / slice-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / onion
+            :quant (z4 / some)))
+
+# ::snt-230 A man reels in a fish.
+(z1 / reel-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / fish))
+
+# ::snt-231 A woman is cutting an onion.
+(z1 / cut-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / onion))
+
+# ::snt-232 A lady mixed up a meat mixture in bowl.
+(z1 / mix-up-03
+      :ARG0 (z2 / lady)
+      :ARG1 (z3 / mixture
+            :consist-of (z4 / meat))
+      :location (z5 / bowl))
+
+# ::snt-233 A girl is applying makeup on her face.
+(z1 / apply-03
+      :ARG0 (z2 / girl)
+      :ARG1 (z3 / makeup)
+      :ARG2 (z4 / face
+            :part-of z2))
+
+# ::snt-234 A woman puts makeup on.
+(z1 / put-on-08
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / makeup))
+
+# ::snt-235 A cat plays in his water.
+(z1 / play-01
+      :ARG0 (z2 / cat)
+      :location (z3 / water
+            :poss (z4 / he)))
+
+# ::snt-236 A person is adding food in a pan.
+(z1 / add-02
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / food)
+      :ARG2 (z4 / pan))
+
+# ::snt-237 A man is smoking.
+(z1 / smoke-02
+      :ARG0 (z2 / man))
+
+# ::snt-238 A person is putting shredded cheese in a pot.
+(z1 / put-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / cheese
+            :ARG1-of (z4 / shred-01))
+      :ARG2 (z5 / pot))
+
+# ::snt-239 A man is erasing a chalk board.
+(z1 / erase-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / board
+            :mod (z4 / chalk)))
+
+# ::snt-240 The man is exercising.
+(z1 / exercise-02
+      :ARG0 (z2 / man))
+
+# ::snt-241 A chimp is kicking a target.
+(z1 / kick-01
+      :ARG0 (z2 / chimp)
+      :ARG1 (z3 / target))
+
+# ::snt-242 A man is doing exercise.
+(z1 / exercise-02
+      :ARG0 (z2 / man))
+
+# ::snt-243 The girl is carrying a baby.
+(z1 / carry-01
+      :ARG0 (z2 / girl)
+      :ARG1 (z3 / baby))
+
+# ::snt-244 Several swimmers jump into the water.
+(z1 / jump-03
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / swim-01)
+            :quant (z4 / several))
+      :destination (z5 / water))
+
+# ::snt-245 A man spins on a surf board.
+(z1 / spin-01
+      :ARG0 (z2 / man)
+      :manner (z3 / board
+            :mod (z4 / surf-01)))
+
+# ::snt-246 A young man is riding a skateboard and jumps onto a sidewalk then off at another curb.
+(z1 / and
+      :op1 (z2 / ride-01
+            :ARG0 (z3 / man
+                  :mod (z4 / young))
+            :ARG1 (z5 / skateboard))
+      :op2 (z6 / jump-03
+            :ARG0 z3
+            :destination (z7 / sidewalk)
+            :time (z8 / then
+                  :op1 (z9 / off
+                        :op1. (z10 / curb
+                              :mod. (z11 / another))))))
+
+# ::snt-247 A person dices up an orange pepper.
+(z1 / dice-up-02
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / pepper
+            :mod (z4 / orange)))
+
+# ::snt-248 Two men are dancing together.
+(z1 / dance-01
+      :ARG0 (z2 / man
+            :quant 2)
+      :mod (z3 / together))
+
+# ::snt-249 A man is reading an email.
+(z1 / read-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / email))
+
+# ::snt-250 The curious boys look in the shed.
+(z1 / look-01
+      :ARG0 (z2 / boy
+            :ARG1-of (z3 / curious-01))
+      :ARG1 (z4 / shed))
+
+# ::snt-251 A moped in front of steps of ruins.
+(z1 / moped
+      :location (z2 / in-front-of
+            :op1 (z3 / step
+                  :consist-of (z4 / ruin))))
+
+# ::snt-252 A man sleeps with a baby in his lap.
+(z1 / sleep-01
+      :ARG0 (z2 / man)
+      :accompanier (z3 / baby
+            :location (z4 / lap
+                  :part-of z2)))
+
+# ::snt-253 Two cats are looking at a window.
+(z1 / look-01
+      :ARG0 (z2 / cat
+            :quant 2)
+      :ARG1 (z3 / window))
+
+# ::snt-254 A person wearing a helmet rides a bike near a white structure.
+(z1 / ride-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / helmet)))
+      :ARG1 (z5 / bike)
+      :ARG1-of (z6 / near-02
+            :ARG2 (z7 / structure
+                  :ARG1-of (z8 / white-03))))
+
+# ::snt-255 A man with a bicycle at a coffee house.
+(z1 / man
+      :prep-with (z2 / bicycle)
+      :location (z3 / house
+            :mod (z4 / coffee)))
+
+# ::snt-256 A black and white cat is high up on tree branches.
+(z1 / cat
+      :ARG1-of (z2 / black-04)
+      :ARG1-of (z3 / white-03))
+
+# ::snt-257 A young blonde girl wearing a helmet sits with a red bicycle behind her.
+(z1 / sit-01
+      :ARG1 (z2 / girl
+            :mod (z3 / blonde)
+            :mod (z4 / young)
+            :ARG0-of (z5 / wear-01
+                  :ARG1 (z6 / helmet)))
+      :ARG2 (z7 / behind
+            :op1 z2)
+      :accompanier (z8 / bicycle
+            :ARG1-of (z9 / red-02)))
+
+# ::snt-258 Blue couch and twin bed in a living room.
+(z1 / and
+      :op1 (z2 / couch
+            :mod (z3 / blue))
+      :op2 (z4 / bed
+            :mod (z5 / twin))
+      :location (z6 / room
+            :mod (z7 / living)))
+
+# ::snt-259 The flock of sheep are spread out in the field.
+(z1 / spread-out-04
+      :ARG1 (z2 / flock
+            :consist-of (z3 / sheep))
+      :location (z4 / field))
+
+# ::snt-260 Two dogs and one cat sitting on couch.
+(z1 / sit-01
+      :ARG1 (z2 / and
+            :op1 (z3 / dog
+                  :quant 2)
+            :op2 (z4 / cat
+                  :quant 1))
+      :ARG2 (z5 / couch))
+
+# ::snt-261 A bicycle is parked by a shop.
+(z1 / park-01
+      :ARG0 (z2 / shop)
+      :ARG1 (z3 / bicycle))
+
+# ::snt-262 A orange and white cat laying on a blanket in a black leather chair.
+(z1 / cat
+      :mod (z2 / orange)
+      :ARG1-of (z3 / white-03)
+      :ARG1-of (z4 / lay-01
+            :ARG2 (z5 / blanket)
+            :location (z6 / chair
+                  :consist-of (z7 / leather
+                        :ARG1-of (z8 / black-04)))))
+
+# ::snt-263 Young couple sitting on a black couch.
+(z1 / sit-01
+      :ARG1 (z2 / couple
+            :mod (z3 / young))
+      :ARG2 (z4 / couch
+            :ARG1-of (z5 / black-04)))
+
+# ::snt-264 A group of black people in front of a building with a moped.
+(z1 / group-01
+      :ARG1 (z2 / person
+            :ARG1-of (z3 / black-05)))
+
+# ::snt-265 Elderly woman sitting on red patterned couch with her arm around younger woman.
+(z1 / sit-01
+      :ARG1 (z2 / woman
+            :mod (z3 / elderly))
+      :ARG2 (z4 / couch
+            :mod (z5 / pattern
+                  :ARG1-of (z6 / red-02)))
+      :manner (z7 / arm-01
+            :ARG1 z2
+            :ARG2 (z8 / woman
+                  :ARG1-of (z9 / have-degree-91
+                        :ARG2. (z10 / young)
+                        :ARG3. (z11 / more)))))
+
+# ::snt-266 A man riding on the back of an orange SUV.
+(z1 / man
+      :ARG0-of (z2 / ride-01
+            :ARG1 (z3 / back
+                  :part-of (z4 / vehicle
+                        :name (z5 / name
+                              :op1 "SUV")
+                        :mod (z6 / orange)))))
+
+# ::snt-267 Red and white bus driving down road.
+(z1 / drive-01
+      :ARG0 (z2 / bus
+            :ARG1-of (z3 / red-02)
+            :ARG1-of (z4 / white-03))
+      :ARG1 (z5 / road
+            :direction (z6 / down)))
+
+# ::snt-268 A cat laying on a red cushion looking at the camera.
+(z1 / cat
+      :ARG1-of (z2 / lay-01
+            :ARG2 (z3 / cushion
+                  :ARG1-of (z4 / red-02)))
+      :ARG0-of (z5 / look-01
+            :ARG1 (z6 / camera)))
+
+# ::snt-269 Two green and white trains sitting on the tracks.
+(z1 / sit-01
+      :ARG1 (z2 / train
+            :quant 2
+            :ARG1-of (z3 / green-02)
+            :ARG1-of (z4 / white-03))
+      :ARG2 (z5 / track))
+
+# ::snt-270 A grey cat lying on a wooden table.
+(z1 / cat
+      :ARG1-of (z2 / gray-02)
+      :ARG1-of (z3 / lie-07
+            :ARG2 (z4 / table
+                  :consist-of (z5 / wood))))
+
+# ::snt-271 A man sitting in a back yard playing the guitar.
+(z1 / man
+      :ARG1-of (z2 / sit-01
+            :ARG2 (z3 / yard
+                  :mod (z4 / back)))
+      :ARG0-of (z5 / play-11
+            :ARG1 (z6 / guitar)))
+
+# ::snt-272 A father napping in a chair with a baby on his lap.
+(z1 / nap-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / have-rel-role-91
+                  :ARG2 (z4 / father))
+            :accompanier (z5 / baby
+                  :location (z6 / lap
+                        :part-of z2)))
+      :location (z7 / chair))
+
+# ::snt-273 a close up head of an ostrich.
+(z1 / head
+      :part-of (z2 / ostrich)
+      :ARG1-of (z3 / close-10))
+
+# ::snt-274 Green and white bird perched on tree branch.
+(z1 / perch-01
+      :ARG1 (z2 / bird
+            :ARG1-of (z3 / green-02)
+            :ARG1-of (z4 / white-03))
+      :ARG2 (z5 / branch
+            :part-of (z6 / tree)))
+
+# ::snt-275 A man in a top hat rides a white horse.
+(z1 / ride-01
+      :ARG0 (z2 / man
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / hat
+                        :mod (z5 / top))))
+      :ARG1 (z6 / horse
+            :ARG1-of (z7 / white-03)))
+
+# ::snt-276 A woman riding a brown horse.
+(z1 / woman
+      :ARG0-of (z2 / ride-01
+            :ARG1 (z3 / horse
+                  :mod (z4 / brown))))
+
+# ::snt-277 Two men standing in grass staring at a car.
+(z1 / stand-01
+      :ARG1 (z2 / man
+            :quant 2
+            :ARG0-of (z3 / stare-01
+                  :ARG1 (z4 / car)))
+      :ARG2 (z5 / grass))
+
+# ::snt-278 Two Indian women with two Indian girls near the water.
+(z1 / woman
+      :quant 2
+      :mod (z2 / ethnic-group
+            :name (z3 / name
+                  :op1 "Indian"))
+      :accompanier (z4 / girl
+            :quant 2
+            :mod z2)
+      :ARG1-of (z5 / near-02
+            :ARG2 (z6 / water)))
+
+# ::snt-279 A table is set with wine and dishes for two people.
+(z1 / set-01
+      :ARG1 (z2 / table)
+      :ARG2 (z3 / and
+            :op1 (z4 / wine)
+            :op2 (z5 / dish))
+      :beneficiary (z6 / person
+            :quant 2))
+
+# ::snt-280 A moped in front of ruins.
+(z1 / moped
+      :location (z2 / in-front-of
+            :op1 (z3 / ruin)))
+
+# ::snt-281 A person driving a cart pulled by a bicycle.
+(z1 / drive-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / cart
+            :ARG1-of (z4 / pull-01
+                  :ARG0 (z5 / bicycle))))
+
+# ::snt-282 A dog sniffing the bottom of a door.
+(z1 / sniff-01
+      :ARG0 (z2 / dog)
+      :ARG1 (z3 / bottom
+            :part-of (z4 / door)))
+
+# ::snt-283 a small bird sitting on a branch in winter.
+(z1 / bird
+      :mod (z2 / small)
+      :ARG1-of (z3 / sit-01
+            :ARG2 (z4 / branch)
+            :time (z5 / date-entity
+                  :season (z6 / winter))))
+
+# ::snt-284 A yellow bird is eating fruit on a wire grate.
+(z1 / eat-01
+      :ARG0 (z2 / bird
+            :ARG1-of (z3 / yellow-02))
+      :ARG1 (z4 / fruit)
+      :location (z5 / grate
+            :mod (z6 / wire)))
+
+# ::snt-285 A brown duck and white duck stand on the grass.
+(z1 / stand-01
+      :ARG1 (z2 / and
+            :op1 (z3 / duck
+                  :mod (z4 / brown))
+            :op2 (z5 / duck
+                  :ARG1-of (z6 / white-03)))
+      :ARG2 (z7 / grass))
+
+# ::snt-286 A black and white cat and dog on a striped couch.
+(z1 / and
+      :op1 (z2 / cat)
+      :op2 (z3 / dog)
+      :ARG1-of (z4 / black-04)
+      :mod (z5 / white)
+      :location (z6 / couch
+            :ARG1-of (z7 / stripe-01)))
+
+# ::snt-287 A man wearing black formal wear and a black top hat is riding a white show horse.
+(z1 / ride-01
+      :ARG0 (z2 / man
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / and
+                        :op1 (z5 / thing
+                              :ARG1-of (z6 / wear-01
+                                    :mod (z7 / formal))
+                              :ARG1-of (z8 / black-04
+                                    :ARG1 z9))
+                        :op2 (z9 / hat
+                              :mod. (z10 / top))))))
+
+# ::snt-288 A small brown birds is eating from a bird feeder hanging from a tree.
+(z1 / eat-01
+      :ARG0 (z2 / bird
+            :mod (z3 / brown)
+            :mod (z4 / small))
+      :source (z5 / feeder
+            :mod (z6 / bird)
+            :ARG1-of (z7 / hang-01
+                  :ARG2 (z8 / tree))))
+
+# ::snt-289 This a picture of the countryside with a large city in the background.
+(z1 / picture
+      :mod (z2 / countryside)
+      :ARG0-of (z3 / have-03
+            :ARG1 (z4 / city
+                  :mod (z5 / large)
+                  :location (z6 / background)))
+      :domain (z7 / this))
+
+# ::snt-290 Blue and red plane in mid-air flight.
+(z1 / fly-01
+      :ARG2 (z2 / and
+            :op1 (z3 / plane
+                  :ARG1-of (z4 / blue-01))
+            :op2 (z5 / plane
+                  :ARG1-of (z6 / red-02)))
+      :path (z7 / air
+            :mod (z8 / mid)))
+
+# ::snt-291 Three men posing in a tent.
+(z1 / pose-01
+      :ARG0 (z2 / man
+            :quant 3)
+      :location (z3 / tent))
+
+# ::snt-292 A close-up of a gray cat with green eyes.
+(z1 / close-up-07
+      :ARG1 (z2 / cat
+            :ARG1-of (z3 / gray-02)
+            :part (z4 / eye
+                  :ARG1-of (z5 / green-02))))
+
+# ::snt-293 A train is at a train station.
+(z1 / train
+      :location (z2 / station
+            :mod (z3 / train)))
+
+# ::snt-294 The train heads down the tracks and along the hedge.
+(z1 / head-02
+      :ARG0 (z2 / train)
+      :ARG1 (z3 / and
+            :op1 (z4 / down
+                  :op1 (z5 / track))
+            :op2 (z6 / along
+                  :op1 (z7 / hedge))))
+
+# ::snt-295 a little girl is laughing at the camera.
+(z1 / laugh-01
+      :ARG0 (z2 / girl
+            :mod (z3 / little))
+      :ARG2 (z4 / camera))
+
+# ::snt-296 Three young women standing in a room together.
+(z1 / stand-01
+      :ARG1 (z2 / woman
+            :quant 3
+            :mod (z3 / young))
+      :ARG2 (z4 / room)
+      :mod (z5 / together))
+
+# ::snt-297 A white bird with long orange legs standing by a lake.
+(z1 / stand-01
+      :ARG1 (z2 / bird
+            :ARG1-of (z3 / white-03)
+            :part (z4 / leg
+                  :ARG1-of (z5 / long-03)
+                  :mod (z6 / orange)))
+      :ARG2 (z7 / by
+            :op1 (z8 / lake)))
+
+# ::snt-298 A red train driving through a snow covered city.
+(z1 / drive-01
+      :ARG0 (z2 / train
+            :ARG1-of (z3 / red-02))
+      :ARG1 (z4 / city
+            :ARG1-of (z5 / cover-02
+                  :ARG2 (z6 / snow))))
+
+# ::snt-299 Three bicyclists crossing a bridge in a city.
+(z1 / cross-02
+      :ARG0 (z2 / bicyclist
+            :quant 3)
+      :ARG1 (z3 / bridge
+            :location (z4 / city)))
+
+# ::snt-300 A red and white bus drives down an England street.
+(z1 / drive-01
+      :ARG0 (z2 / bus
+            :ARG1-of (z3 / red-02)
+            :ARG1-of (z4 / white-03))
+      :ARG1 (z5 / down
+            :op1 (z6 / street
+                  :mod (z7 / country
+                        :name (z8 / name
+                              :op1 "England")))))
+
+# ::snt-301 The birds are swimming in the water.
+(z1 / swim-01
+      :ARG0 (z2 / bird)
+      :ARG1 (z3 / water))
+
+# ::snt-302 A black dog looking at the camera.
+(z1 / look-01
+      :ARG0 (z2 / dog
+            :ARG1-of (z3 / black-04))
+      :ARG1 (z4 / camera))
+
+# ::snt-303 A group of horses grazing in a field.
+(z1 / graze-01
+      :ARG0 (z2 / group
+            :consist-of (z3 / horse))
+      :location (z4 / field))
+
+# ::snt-304 Several people on motorcycles in a market square.
+(z1 / person
+      :quant (z2 / several)
+      :prep-on (z3 / motorcycle)
+      :location (z4 / square
+            :mod (z5 / market)))
+
+# ::snt-305 Three sheep on a dirt road viewed from a passenger vehicle.
+(z1 / be-located-at-91
+      :ARG1 (z2 / sheep
+            :quant 3)
+      :ARG2 (z3 / road
+            :mod (z4 / dirt)
+            :ARG1-of (z5 / view-01
+                  :source (z6 / vehicle
+                        :mod (z7 / passenger)))))
+
+# ::snt-306 Group of people posing with two men dressed as Elvis.
+(z1 / group-01
+      :ARG1 (z2 / person
+            :ARG0-of (z3 / pose-01
+                  :accompanier (z4 / man
+                        :quant 2
+                        :ARG1-of (z5 / dress-01
+                              :ARG2 (z6 / person
+                                    :name (z7 / name
+                                          :op1 "Elvis")))))))
+
+# ::snt-307 Parrot pushing a small shopping cart.
+(z1 / parrot-01
+      :ARG0-of (z2 / push-01
+            :ARG1 (z3 / cart
+                  :purpose (z4 / shop-01)
+                  :mod (z5 / small))))
+
+# ::snt-308 Man in yellow canoe paddling through water.
+(z1 / man
+      :ARG0-of (z2 / paddle-01
+            :ARG1 (z3 / canoe
+                  :ARG1-of (z4 / yellow-02))
+            :path (z5 / water)))
+
+# ::snt-309 Beer bottles lined up on the floor.
+(z1 / line-up-02
+      :ARG1 (z2 / bottle
+            :mod (z3 / beer))
+      :location (z4 / floor))
+
+# ::snt-310 Two women sitting outside laughing.
+(z1 / sit-01
+      :ARG1 (z2 / woman
+            :quant 2)
+      :ARG2 (z3 / outside)
+      :manner (z4 / laugh-01
+            :ARG0 z2))
+
+# ::snt-311 A steam engine and train moving toward the camera.
+(z1 / move-01
+      :ARG1 (z2 / and
+            :op1 (z3 / engine
+                  :mod (z4 / steam))
+            :op2 (z5 / train))
+      :ARG2 (z6 / camera))
+
+# ::snt-312 A brown and white cow in a field looking into the camera.
+(z1 / look-01
+      :ARG0 (z2 / and
+            :op1 (z3 / cow
+                  :ARG1-of (z4 / brown-01))
+            :op2 (z5 / cow
+                  :ARG1-of (z6 / white-03)))
+      :ARG1 (z7 / camera)
+      :location (z8 / field))
+
+# ::snt-313 Black and white cow standing near pile of snow.
+(z1 / stand-01
+      :ARG1 (z2 / cow
+            :ARG1-of (z3 / black-04)
+            :ARG1-of (z4 / white-03))
+      :ARG2 (z5 / near-02
+            :ARG1 z2
+            :ARG2 (z6 / pile-01
+                  :ARG1 (z7 / snow))))
+
+# ::snt-314 Home office space with bright green walls and artwork.
+(z1 / space
+      :mod (z2 / office)
+      :location (z3 / home)
+      :ARG0-of (z4 / have-03
+            :ARG1 (z5 / and
+                  :op1 (z6 / wall
+                        :ARG1-of (z7 / green-02)
+                        :ARG1-of (z8 / bright-02))
+                  :op2 (z9 / art))))
+
+# ::snt-315 A black and white photo of a man driving a car and someone with a motorcycle.
+(z1 / photograph-01
+      :ARG1 (z2 / and
+            :op1 (z3 / man
+                  :ARG0-of (z4 / drive-01
+                        :ARG1 (z5 / car)))
+            :op2 (z6 / someone
+                  :ARG0-of (z7 / have-03
+                        :ARG1 (z8 / motorcycle))))
+      :mod (z9 / black-and-white))
+
+# ::snt-316 Three people are by the water with yellow canoes.
+(z1 / be-located-at-91
+      :ARG1 (z2 / person
+            :quant 3
+            :ARG0-of (z3 / have-03
+                  :ARG1 (z4 / canoe
+                        :ARG1-of (z5 / yellow-02))))
+      :ARG2 (z6 / water))
+
+# ::snt-317 A girl in a riding hat on a horse.
+(z1 / girl
+      :ARG0-of (z2 / wear-01
+            :ARG1 (z3 / hat
+                  :instrument-of (z4 / ride-01)))
+      :location (z5 / horse))
+
+# ::snt-318 A man dressed in a pale scarf with a stick.
+(z1 / man
+      :ARG1-of (z2 / dress-01
+            :ARG2 (z3 / scarf
+                  :ARG1-of (z4 / pale-03)))
+      :accompanier (z5 / stick))
+
+# ::snt-319 A very retro living room with a television in it.
+(z1 / room
+      :mod (z2 / living)
+      :mod (z3 / retro
+            :degree (z4 / very))
+      :ARG0-of (z5 / have-03
+            :ARG1 (z6 / television)))
+
+# ::snt-320 A girl in a riding hat on a horse.
+(z1 / girl
+      :ARG0-of (z2 / wear-01
+            :ARG1 (z3 / hat
+                  :instrument-of (z4 / ride-01)))
+      :location (z5 / horse))
+
+# ::snt-321 A car is pulling off the side of the road onto the street.
+(z1 / pull-01
+      :ARG0 (z2 / car)
+      :ARG2 (z3 / side
+            :part-of (z4 / road))
+      :destination (z5 / street))
+
+# ::snt-322 The man is sitting cross legged wearing a cloak and holding a stick.
+(z1 / sit-01
+      :ARG1 (z2 / man
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / cloak))
+            :ARG0-of (z5 / hold-01
+                  :ARG1 (z6 / stick))))
+
+# ::snt-323 Two black and white dogs at the bottom of stairs.
+(z1 / dog
+      :quant 2
+      :ARG1-of (z2 / black-04)
+      :ARG1-of (z3 / white-03)
+      :location (z4 / bottom
+            :part-of (z5 / stair)))
+
+# ::snt-324 An old fashioned wooden sailing ship in the ocean.
+(z1 / ship
+      :ARG0-of (z2 / sail-01)
+      :mod (z3 / wood)
+      :mod (z4 / fashion
+            :mod (z5 / old))
+      :location (z6 / ocean))
+
+# ::snt-325 A man sitting cross legged on the grass, with a tree in the background.
+(z1 / man
+      :ARG1-of (z2 / sit-01
+            :ARG2 (z3 / grass)
+            :manner (z4 / crosslegged)
+            :accompanier (z5 / tree
+                  :location (z6 / background))))
+
+# ::snt-326 Two cats sitting on a couch looking out the window.
+(z1 / and
+      :op1 (z2 / sit-01
+            :ARG1 (z3 / cat
+                  :quant 2)
+            :ARG2 (z4 / couch))
+      :op2 (z5 / look-01
+            :ARG0 z3
+            :ARG1 (z6 / window)))
+
+# ::snt-327 Three goats are being rounded up by a dog.
+(z1 / round-up-02
+      :ARG0 (z2 / dog)
+      :ARG1 (z3 / goat
+            :quant 3))
+
+# ::snt-328 A tan puppy on a carpeted floor.
+(z1 / puppy
+      :ARG1-of (z2 / tan-02)
+      :location (z3 / floor
+            :mod (z4 / carpet)))
+
+# ::snt-329 A black dog standing in a grassy area.
+(z1 / stand-01
+      :ARG1 (z2 / dog
+            :ARG1-of (z3 / black-05))
+      :ARG2 (z4 / area
+            :mod (z5 / grass)))
+
+# ::snt-330 Train in a station.
+(z1 / train
+      :location (z2 / station))
+
+# ::snt-331 A blue bird standing on a lawn.
+(z1 / stand-01
+      :ARG1 (z2 / bird
+            :mod (z3 / blue))
+      :ARG2 (z4 / lawn))
+
+# ::snt-332 An empty office cubicle.
+(z1 / cubicle
+      :location (z2 / office)
+      :ARG1-of (z3 / empty-02))
+
+# ::snt-333 A man and woman sit at a table in a restaurant.
+(z1 / sit-01
+      :ARG1 (z2 / and
+            :op1 (z3 / man)
+            :op2 (z4 / woman))
+      :ARG2 (z5 / table
+            :location (z6 / restaurant)))
+
+# ::snt-334 A young man wearing a striped shirt is holding two bicycles.
+(z1 / hold-01
+      :ARG0 (z2 / man
+            :mod (z3 / young)
+            :ARG0-of (z4 / wear-01
+                  :ARG1 (z5 / shirt
+                        :ARG1-of (z6 / stripe-01))))
+      :ARG1 (z7 / bicycle
+            :quant 2))
+
+# ::snt-335 A television, upholstered chair, and coffee stable in a bright room.
+(z1 / stable-03
+      :ARG1 (z2 / and
+            :op1 (z3 / television)
+            :op2 (z4 / chair
+                  :ARG1-of (z5 / seat-01
+                        :ARG2 (z6 / upholstered-01)))
+            :op3 (z7 / coffee))
+      :location (z8 / room
+            :ARG1-of (z9 / bright-02)))
+
+# ::snt-336 Two cats sitting on a couch looking out the window.
+(z1 / and
+      :op1 (z2 / sit-01
+            :ARG1 (z3 / cat
+                  :quant 2)
+            :ARG2 (z4 / couch))
+      :op2 (z5 / look-01
+            :ARG0 z3
+            :ARG1 (z6 / window)))
+
+# ::snt-337 The small dog is wearing a sweater and looking up at the camera.
+(z1 / and
+      :op1 (z2 / wear-01
+            :ARG0 (z3 / dog
+                  :mod (z4 / small))
+            :ARG1 (z5 / sweater))
+      :op2 (z6 / look-01
+            :ARG0 z3
+            :ARG1 (z7 / camera)
+            :direction (z8 / up)))
+
+# ::snt-338 Two men standing in grass staring at a car.
+(z1 / stand-01
+      :ARG1 (z2 / man
+            :quant 2
+            :ARG0-of (z3 / stare-01
+                  :ARG1 (z4 / car)))
+      :ARG2 (z5 / grass))
+
+# ::snt-339 A woman stands in front of a building in the snow.
+(z1 / stand-01
+      :ARG1 (z2 / woman)
+      :ARG2 (z3 / in-front-of
+            :op1 (z4 / building))
+      :location (z5 / snow))
+
+# ::snt-340 Home office space with bright green walls and artwork.
+(z1 / space
+      :mod (z2 / office)
+      :location (z3 / home)
+      :ARG0-of (z4 / have-03
+            :ARG1 (z5 / and
+                  :op1 (z6 / wall
+                        :ARG1-of (z7 / green-02)
+                        :ARG1-of (z8 / bright-02))
+                  :op2 (z9 / art))))
+
+# ::snt-341 A green car parked at a saloon.
+(z1 / car
+      :ARG1-of (z2 / green-02)
+      :ARG1-of (z3 / park-01
+            :ARG2 (z4 / saloon)))
+
+# ::snt-342 Group of people sitting around a restaurant dining table.
+(z1 / sit-01
+      :ARG1 (z2 / group
+            :consist-of (z3 / person))
+      :ARG2 (z4 / around
+            :op1 (z5 / table
+                  :location (z6 / restaurant)
+                  :location-of (z7 / dine-01))))
+
+# ::snt-343 Two ducks are standing by the water.
+(z1 / stand-01
+      :ARG1 (z2 / duck
+            :quant 2)
+      :ARG2 (z3 / by
+            :op1 (z4 / water)))
+
+# ::snt-344 A black and white cow in a pen with hay.
+(z1 / cow
+      :ARG1-of (z2 / black-04)
+      :ARG1-of (z3 / white-03)
+      :location (z4 / pen
+            :prep-with (z5 / hay)))
+
+# ::snt-345 A man and woman are posing for the camera.
+(z1 / pose-01
+      :ARG0 (z2 / and
+            :op1 (z3 / man)
+            :op2 (z4 / woman))
+      :ARG2 (z5 / camera))
+
+# ::snt-346 A green and white cargo plane taking of from an airport.
+(z1 / take-01
+      :ARG1 (z2 / plane
+            :mod (z3 / cargo)
+            :ARG1-of (z4 / green-02)
+            :ARG1-of (z5 / white-03))
+      :ARG3 (z6 / airport))
+
+# ::snt-347 A yellow school bus parked in a field.
+(z1 / park-01
+      :ARG1 (z2 / bus
+            :mod (z3 / school)
+            :ARG1-of (z4 / yellow-02))
+      :ARG2 (z5 / field))
+
+# ::snt-348 An elderly man works on his laptop at home.
+(z1 / work-01
+      :ARG0 (z2 / man
+            :mod (z3 / elderly))
+      :instrument (z4 / laptop
+            :poss z2)
+      :location (z5 / home))
+
+# ::snt-349 The cat is sitting on a bag of cat food.
+(z1 / sit-01
+      :ARG1 (z2 / cat)
+      :ARG2 (z3 / bag
+            :consist-of (z4 / food
+                  :mod z2)))
+
+# ::snt-350 A large pile of wooden items piled high.
+(z1 / pile-01
+      :ARG1 (z2 / item
+            :consist-of (z3 / wood)
+            :quant (z4 / large))
+      :ARG2 (z5 / high))
+
+# ::snt-351 A woman riding a brown horse.
+(z1 / woman
+      :ARG0-of (z2 / ride-01
+            :ARG1 (z3 / horse
+                  :mod (z4 / brown))))
+
+# ::snt-352 Black and white photo of a girl on a sofa.
+(z1 / photo
+      :mod (z2 / black-and-white)
+      :topic (z3 / girl
+            :location (z4 / sofa)))
+
+# ::snt-353 A black dog stands next to materials at a construction site.
+(z1 / stand-01
+      :ARG1 (z2 / dog
+            :ARG1-of (z3 / black-04))
+      :ARG2 (z4 / next-to
+            :op1 (z5 / material))
+      :location (z6 / site
+            :location-of (z7 / construct-01)))
+
+# ::snt-354 Two women sitting in chairs in a shop.
+(z1 / sit-01
+      :ARG1 (z2 / woman
+            :quant 2)
+      :ARG2 (z3 / chair)
+      :location (z4 / shop))
+
+# ::snt-355 A women painting a chair with a dining room in the background.
+(z1 / woman
+      :ARG0-of (z2 / paint-02
+            :ARG1 (z3 / chair)
+            :accompanier (z4 / room
+                  :location-of (z5 / dine-01)
+                  :location (z6 / background))))
+
+# ::snt-356 A cat sleeping on the coach with a pillow behind it.
+(z1 / cat
+      :ARG0-of (z2 / sleep-01
+            :location (z3 / coach))
+      :ARG0-of (z4 / have-03
+            :ARG1 (z5 / pillow
+                  :location (z6 / behind
+                        :op1 z3))))
+
+# ::snt-357 Two motorbikes racing on a dirt course.
+(z1 / race-02
+      :ARG0 (z2 / motorcycle
+            :quant 2)
+      :ARG1 (z3 / course
+            :mod (z4 / dirt)))
+
+# ::snt-358 A young woman is riding a Bay hose in a dirt riding ring.
+(z1 / ride-01
+      :ARG0 (z2 / woman
+            :mod (z3 / young))
+      :ARG1 (z4 / hose
+            :mod (z5 / bay))
+      :location (z6 / ring
+            :location-of (z7 / ride-01
+                  :ARG0 z2
+                  :ARG1 (z8 / dirt))))
+
+# ::snt-359 A gray cat laying on a brown table.
+(z1 / cat
+      :ARG1-of (z2 / gray-02)
+      :ARG1-of (z3 / lay-01
+            :ARG2 (z4 / table
+                  :ARG1-of (z5 / brown-01))))
+
+# ::snt-360 Motorcycle parked next to a car outside.
+(z1 / motorcycle
+      :ARG1-of (z2 / park-01
+            :ARG2 (z3 / next-to
+                  :op1 (z4 / car
+                        :location (z5 / outside)))))
+
+# ::snt-361 A pile of used wooden building materials with a chair on top.
+(z1 / pile
+      :consist-of (z2 / material
+            :ARG2-of (z3 / build-01)
+            :consist-of (z4 / wood)
+            :ARG1-of (z5 / use-01))
+      :ARG0-of (z6 / have-03
+            :ARG1 (z7 / chair
+                  :location (z8 / top))))
+
+# ::snt-362 A passenger train waiting at the city train station.
+(z1 / train
+      :mod (z2 / passenger)
+      :ARG1-of (z3 / wait-01
+            :ARG2 (z4 / station
+                  :mod (z5 / train)
+                  :mod (z6 / city))))
+
+# ::snt-363 A black train moves down the tracks.
+(z1 / move-01
+      :ARG1 (z2 / train
+            :ARG1-of (z3 / black-05))
+      :ARG2 (z4 / down
+            :op1 (z5 / track)))
+
+# ::snt-364 A Philips flatscreen TV is shown with its two remote controls.
+(z1 / show-01
+      :ARG1 (z2 / television
+            :mod (z3 / flat-screen)
+            :mod (z4 / company
+                  :name (z5 / name
+                        :op1 "Philips"))
+            :accompanier (z6 / control
+                  :quant 2
+                  :mod (z7 / remote)
+                  :poss z2)))
+
+# ::snt-365 A cruise ship is in front of a docking area.
+(z1 / be-located-at-91
+      :ARG1 (z2 / ship
+            :mod (z3 / cruise))
+      :ARG2 (z4 / in-front-of
+            :op1 (z5 / area
+                  :location-of (z6 / dock-01))))
+
+# ::snt-366 A black and white cow standing in hay looks back at the camera.
+(z1 / look-01
+      :ARG0 (z2 / cow
+            :ARG1-of (z3 / black-04)
+            :ARG1-of (z4 / white-03)
+            :ARG1-of (z5 / stand-01
+                  :ARG2 (z6 / hay)))
+      :ARG1 (z7 / camera)
+      :direction (z8 / back))
+
+# ::snt-367 Four people rowing down a river.
+(z1 / row-01
+      :ARG0 (z2 / person
+            :quant 4)
+      :ARG1 (z3 / river)
+      :direction (z4 / down))
+
+# ::snt-368 A dark brown horse standing in a field.
+(z1 / stand-01
+      :ARG1 (z2 / horse
+            :ARG1-of (z3 / brown-02
+                  :ARG1-of (z4 / dark-02)))
+      :ARG2 (z5 / field))
+
+# ::snt-369 Two men talking in front of a plane.
+(z1 / talk-01
+      :ARG0 (z2 / man
+            :quant 2)
+      :location (z3 / in-front-of
+            :op1 (z4 / plane)))
+
+# ::snt-370 two cats, one brown and one white laying on a bed with a blue blanket.
+(z1 / lay-01
+      :ARG1 (z2 / cat
+            :quant 2
+            :ARG2-of (z3 / include-91
+                  :ARG1 (z4 / and
+                        :op1 (z5 / cat
+                              :quant 1
+                              :ARG1-of (z6 / brown-01))
+                        :op2 (z7 / cat
+                              :quant 1
+                              :ARG1-of (z8 / white-03))))))
+
+# ::snt-371 The train sits at the train station.
+(z1 / sit-01
+      :ARG1 (z2 / train)
+      :ARG2 (z3 / station
+            :mod z2))
+
+# ::snt-372 Two animals sitting on a rock.
+(z1 / sit-01
+      :ARG1 (z2 / animal
+            :quant 2)
+      :ARG2 (z3 / rock))
+
+# ::snt-373 A black and white cow looking through the fence.
+(z1 / look-01
+      :ARG0 (z2 / cow
+            :mod (z3 / black-and-white))
+      :ARG1 (z4 / through
+            :op1 (z5 / fence)))
+
+# ::snt-374 Two women in a clothing store.
+(z1 / woman
+      :quant 2
+      :location (z2 / store
+            :mod (z3 / clothing)))
+
+# ::snt-375 Older gentleman looking at red motorcycle.
+(z1 / look-01
+      :ARG0 (z2 / gentleman
+            :ARG1-of (z3 / have-degree-91
+                  :ARG2 (z4 / old)
+                  :ARG3 (z5 / more)))
+      :ARG1 (z6 / motorcycle
+            :ARG1-of (z7 / red-02)))
+
+# ::snt-376 Black and white cows grazing in a pen.
+(z1 / graze-01
+      :ARG0 (z2 / and
+            :op1 (z3 / cow
+                  :ARG1-of (z4 / black-05))
+            :op2 (z5 / cow
+                  :ARG1-of (z6 / white-03)))
+      :location (z7 / pen))
+
+# ::snt-377 A small camouflaged airplane parked in the grass.
+(z1 / airplane
+      :ARG1-of (z2 / camouflage-01)
+      :mod (z3 / small)
+      :ARG1-of (z4 / park-01
+            :ARG2 (z5 / grass)))
+
+# ::snt-378 A black and white photo of a love seat.
+(z1 / photo
+      :mod (z2 / black-and-white)
+      :topic (z3 / seat
+            :mod (z4 / love)))
+
+# ::snt-379 Black bird standing on concrete.
+(z1 / stand-01
+      :ARG1 (z2 / bird
+            :ARG1-of (z3 / black-05))
+      :ARG2 (z4 / concrete))
+
+# ::snt-380 Crowd of people walking past a giant mushroom.
+(z1 / walk-01
+      :ARG0 (z2 / crowd
+            :consist-of (z3 / person))
+      :ARG2 (z4 / past
+            :op1 (z5 / mushroom
+                  :mod (z6 / giant))))
+
+# ::snt-381 A sheep beside a road and a lake.
+(z1 / sheep
+      :location (z2 / beside
+            :op1 (z3 / and
+                  :op1 (z4 / road)
+                  :op2 (z5 / lake))))
+
+# ::snt-382 A group of people sit at a table in an Italian restaurant.
+(z1 / sit-01
+      :ARG1 (z2 / group
+            :consist-of (z3 / person))
+      :ARG2 (z4 / table)
+      :location (z5 / restaurant
+            :mod (z6 / country
+                  :name (z7 / name
+                        :op1 "Italy"))))
+
+# ::snt-383 Tan cows look closely at the camera.
+(z1 / look-01
+      :ARG0 (z2 / cow
+            :mod (z3 / tan))
+      :ARG1 (z4 / camera)
+      :ARG1-of (z5 / close-10))
+
+# ::snt-384 Older woman holding newborn baby.
+(z1 / hold-01
+      :ARG0 (z2 / woman
+            :ARG1-of (z3 / have-degree-91
+                  :ARG2 (z4 / old)
+                  :ARG3 (z5 / more)))
+      :ARG1 (z6 / baby
+            :ARG1-of (z7 / bear-02
+                  :ARG1-of (z8 / new-01))))
+
+# ::snt-385 Two dogs play in the grass.
+(z1 / play-01
+      :ARG0 (z2 / dog
+            :quant 2)
+      :location (z3 / grass))
+
+# ::snt-386 Three people sit at a picnic table outside of a building painted like a union jack.
+(z1 / sit-01
+      :ARG1 (z2 / person
+            :quant 3)
+      :ARG2 (z3 / table
+            :mod (z4 / picnic)
+            :location (z5 / outside
+                  :op1 (z6 / building))
+            :ARG1-of (z7 / paint-02
+                  :ARG2 (z8 / jack
+                        :mod (z9 / union)))))
+
+# ::snt-387 A dog swims through the water.
+(z1 / swim-01
+      :ARG0 (z2 / dog)
+      :ARG1 (z3 / water))
+
+# ::snt-388 A young laughing girl and a boy are playing on a big drum.
+(z1 / play-11
+      :ARG0 (z2 / and
+            :op1 (z3 / girl
+                  :mod (z4 / young)
+                  :ARG0-of (z5 / laugh-01))
+            :op2 (z6 / boy
+                  :mod z4))
+      :ARG2 (z7 / drum
+            :mod (z8 / big)))
+
+# ::snt-389 The brown dog runs on the snow with a white ball in his mouth.
+(z1 / run-02
+      :ARG0 (z2 / dog
+            :mod (z3 / brown))
+      :ARG1 (z4 / snow)
+      :manner (z5 / have-03
+            :ARG0 z2
+            :ARG1 (z6 / ball
+                  :ARG1-of (z7 / white-03)
+                  :location (z8 / mouth
+                        :part-of z2))))
+
+# ::snt-390 A bird flies across the water.
+(z1 / fly-01
+      :ARG0 (z2 / bird)
+      :path (z3 / across
+            :op1 (z4 / water)))
+
+# ::snt-391 A dog is running through a pond.
+(z1 / run-02
+      :ARG0 (z2 / dog)
+      :path (z3 / pond))
+
+# ::snt-392 A man and a woman watch two dogs.
+(z1 / watch-01
+      :ARG0 (z2 / and
+            :op1 (z3 / man)
+            :op2 (z4 / woman))
+      :ARG1 (z5 / dog
+            :quant 2))
+
+# ::snt-393 A man sits by a dock looking at the water.
+(z1 / sit-01
+      :ARG1 (z2 / man
+            :ARG0-of (z3 / look-01
+                  :ARG1 (z4 / water)))
+      :ARG2 (z5 / dock))
+
+# ::snt-394 A brown and white dog is running through the snow.
+(z1 / run-02
+      :ARG0 (z2 / and
+            :op1 (z3 / dog
+                  :ARG1-of (z4 / brown-01))
+            :op2 (z5 / dog
+                  :ARG1-of (z6 / white-03)))
+      :ARG1 (z7 / through
+            :op1 (z8 / snow)))
+
+# ::snt-395 A man and a woman are standing in front of a building.
+(z1 / stand-01
+      :ARG1 (z2 / and
+            :op1 (z3 / man)
+            :op2 (z4 / woman))
+      :ARG2 (z5 / in-front-of
+            :op1 (z6 / building)))
+
+# ::snt-396 Three dolphins are jumping out of a pool in front of a crowd of people.
+(z1 / jump-03
+      :ARG0 (z2 / dolphin
+            :quant 3)
+      :direction (z3 / out-of
+            :op1 (z4 / pool))
+      :location (z5 / in-front-of
+            :op1 (z6 / crowd
+                  :consist-of (z7 / person))))
+
+# ::snt-397 The dog is running through a field.
+(z1 / run-02
+      :ARG0 (z2 / dog)
+      :path (z3 / field))
+
+# ::snt-398 A black and white dog is jumping into the water.
+(z1 / jump-03
+      :ARG0 (z2 / dog
+            :mod (z3 / black-and-white))
+      :destination (z4 / water))
+
+# ::snt-399 A tan and white dog retrieving a ball on a gravel path.
+(z1 / retrieve-01
+      :ARG0 (z2 / dog
+            :ARG1-of (z3 / tan-02)
+            :ARG1-of (z4 / white-03))
+      :ARG1 (z5 / ball)
+      :location (z6 / path
+            :mod (z7 / gravel)))
+
+# ::snt-400 A brown and white dog is walking up snowy steps.
+(z1 / walk-01
+      :ARG0 (z2 / dog
+            :mod (z3 / brown)
+            :ARG1-of (z4 / white-02))
+      :ARG2 (z5 / up-03
+            :ARG2 (z6 / step
+                  :mod (z7 / snowy))))
+
+# ::snt-401 A woman in a black and orange jacket throws a stick for a brown and black dog to fetch.
+(z1 / throw-01
+      :ARG0 (z2 / woman
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / and
+                        :op1 (z5 / jacket
+                              :ARG1-of (z6 / black-04))
+                        :op2 (z7 / jacket
+                              :mod (z8 / orange)))))
+      :ARG1 (z9 / stick)
+      :purpose. (z10 / fetch-01
+            :ARG0. (z11 / dog
+                  :mod. (z12 / brown)
+                  :ARG1-of. (z13 / black-04))
+            :ARG1 z9))
+
+# ::snt-402 A dog running across the snow with a snowball in it's mouth.
+(z1 / dog
+      :ARG0-of (z2 / run-02
+            :path (z3 / across
+                  :op1 (z4 / snow)))
+      :ARG0-of (z5 / have-03
+            :ARG1 (z6 / snowball
+                  :location (z7 / mouth
+                        :part-of z1))))
+
+# ::snt-403 A small boy is building with some wooden blocks.
+(z1 / build-01
+      :ARG0 (z2 / boy
+            :mod (z3 / small))
+      :instrument (z4 / block
+            :mod (z5 / wood)
+            :quant (z6 / some)))
+
+# ::snt-404 A man and a woman walk with a white dog on a leash.
+(z1 / walk-01
+      :ARG0 (z2 / and
+            :op1 (z3 / man)
+            :op2 (z4 / woman))
+      :accompanier (z5 / dog
+            :ARG1-of (z6 / white-02)
+            :ARG1-of (z7 / leash-01)))
+
+# ::snt-405 A young boy wearing a red winter coat is eating and holding up a candy bar.
+(z1 / and
+      :op1 (z2 / eat-01
+            :ARG0 (z3 / boy
+                  :mod (z4 / young)
+                  :ARG0-of (z5 / wear-01
+                        :ARG1 (z6 / coat
+                              :mod (z7 / winter)
+                              :ARG1-of (z8 / red-02)))))
+      :op2 (z9 / hold-01
+            :ARG0 z3
+            :ARG1. (z10 / bar
+                  :mod. (z11 / candy))))
+
+# ::snt-406 Two racing dogs run in the mud.
+(z1 / run-02
+      :ARG0 (z2 / dog
+            :quant 2
+            :ARG0-of (z3 / race-01))
+      :ARG1 (z4 / mud))
+
+# ::snt-407 A young boy jumping into a pool that says "no diving".
+(z1 / jump-03
+      :ARG0 (z2 / boy
+            :mod (z3 / young))
+      :destination (z4 / pool
+            :ARG0-of (z5 / say-01
+                  :ARG1 (z6 / dive-01
+                        :polarity -))))
+
+# ::snt-408 Three dogs running in the dirt.
+(z1 / dog
+      :quant 3
+      :ARG0-of (z2 / run-02
+            :ARG1 (z3 / dirt)))
+
+# ::snt-409 Four children on stools in a diner.
+(z1 / child
+      :quant 4
+      :location (z2 / stool
+            :location (z3 / diner)))
+
+# ::snt-410 Boy and white dog running in grassy field.
+(z1 / run-02
+      :ARG0 (z2 / and
+            :op1 (z3 / boy)
+            :op2 (z4 / dog
+                  :ARG1-of (z5 / white-02)))
+      :location (z6 / field
+            :mod (z7 / grass)))
+
+# ::snt-411 Two boys playing a game of flag football.
+(z1 / play-01
+      :ARG0 (z2 / boy
+            :quant 2)
+      :ARG1 (z3 / game
+            :mod (z4 / football
+                  :mod (z5 / flag))))
+
+# ::snt-412 The black and white dog has its mouth wide open.
+(z1 / open-01
+      :ARG0 (z2 / dog
+            :mod (z3 / black-and-white))
+      :ARG1 (z4 / mouth
+            :part-of z2)
+      :ARG1-of (z5 / wide-02))
+
+# ::snt-413 One white boy and one black boy stand with arms around each other.
+(z1 / stand-01
+      :ARG1 (z2 / boy
+            :quant 1
+            :ARG1-of (z3 / white-02))
+      :ARG2 (z4 / boy
+            :quant 1
+            :ARG1-of (z5 / black-05))
+      :manner (z6 / arm-01
+            :ARG1 z2
+            :ARG2 z4))
+
+# ::snt-414 Girl playing in a puddle with her bare feet.
+(z1 / girl
+      :ARG0-of (z2 / play-01
+            :location (z3 / puddle)
+            :instrument (z4 / foot
+                  :ARG1-of (z5 / bare-02)))
+      :part z4)
+
+# ::snt-415 Two children splashing in the water.
+(z1 / splash-01
+      :ARG1 (z2 / child
+            :quant 2)
+      :ARG2 (z3 / water))
+
+# ::snt-416 A man in a suit dances with a young girl in front of an audience.
+(z1 / dance-01
+      :ARG0 (z2 / man
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / suit))
+            :accompanier (z5 / girl
+                  :mod (z6 / young)))
+      :location (z7 / in-front-of
+            :op1 (z8 / audience)))
+
+# ::snt-417 Three children playing on a floor with toys.
+(z1 / play-01
+      :ARG0 (z2 / child
+            :quant 3)
+      :ARG1 (z3 / toy)
+      :location (z4 / floor))
+
+# ::snt-418 The two dogs are playing in the yard.
+(z1 / play-01
+      :ARG0 (z2 / dog
+            :quant 2)
+      :location (z3 / yard))
+
+# ::snt-419 The number 2 greyhound dog is running around a track.
+(z1 / run-02
+      :ARG0 (z2 / dog
+            :mod (z3 / greyhound)
+            :ord (z4 / ordinal-entity
+                  :value 2))
+      :path (z5 / around
+            :op1 (z6 / track)))
+
+# ::snt-420 four children are playing on a trampoline.
+(z1 / play-01
+      :ARG0 (z2 / child
+            :quant 4)
+      :location (z3 / trampoline))
+
+# ::snt-421 A black and tan dog standing in a field near trees.
+(z1 / stand-01
+      :ARG1 (z2 / dog
+            :ARG1-of (z3 / black-04)
+            :mod (z4 / tan))
+      :ARG2 (z5 / field
+            :ARG1-of (z6 / near-02
+                  :ARG2 (z7 / tree))))
+
+# ::snt-422 A black dog running into the water.
+(z1 / run-02
+      :ARG0 (z2 / dog
+            :ARG1-of (z3 / black-04))
+      :destination (z4 / water))
+
+# ::snt-423 a man and woman walking past a record shop.
+(z1 / walk-01
+      :ARG0 (z2 / and
+            :op1 (z3 / man)
+            :op2 (z4 / woman))
+      :ARG2 (z5 / past
+            :op1 (z6 / shop
+                  :mod (z7 / record))))
+
+# ::snt-424 Two dogs play in the grass.
+(z1 / play-01
+      :ARG0 (z2 / dog
+            :quant 2)
+      :location (z3 / grass))
+
+# ::snt-425 Three children wrestle on a floral carpet.
+(z1 / wrestle-01
+      :ARG0 (z2 / child
+            :quant 3)
+      :location (z3 / carpet
+            :mod (z4 / floral)))
+
+# ::snt-426 A boy in red jumping into a sandbox.
+(z1 / jump-03
+      :ARG0 (z2 / boy
+            :ARG1-of (z3 / red-02))
+      :destination (z4 / sandbox))
+
+# ::snt-427 a dog jumps into the water.
+(z1 / jump-03
+      :ARG0 (z2 / dog)
+      :destination (z3 / water))
+
+# ::snt-428 A wet, blond dog carries a stick on the shore.
+(z1 / carry-01
+      :ARG0 (z2 / dog
+            :ARG1-of (z3 / wet-01)
+            :mod (z4 / blonde))
+      :ARG1 (z5 / stick)
+      :location (z6 / shore))
+
+# ::snt-429 A man and a dog on rocks on a beach.
+(z1 / and
+      :op1 (z2 / man)
+      :op2 (z3 / dog)
+      :location (z4 / rock
+            :location (z5 / beach)))
+
+# ::snt-430 Large group of people standing outside of a building.
+(z1 / stand-01
+      :ARG1 (z2 / group
+            :mod (z3 / large)
+            :consist-of (z4 / person))
+      :ARG2 (z5 / outside
+            :op1 (z6 / building)))
+
+# ::snt-431 Two dogs are running in the field.
+(z1 / run-02
+      :ARG0 (z2 / dog
+            :quant 2)
+      :location (z3 / field))
+
+# ::snt-432 Two people are in bed.
+(z1 / be-located-at-91
+      :ARG1 (z2 / person
+            :quant 2)
+      :ARG2 (z3 / bed))
+
+# ::snt-433 A light brown dog runs down a path happily.
+(z1 / run-02
+      :ARG0 (z2 / dog
+            :ARG1-of (z3 / brown-02
+                  :ARG1-of (z4 / light-07)))
+      :ARG1 (z5 / down
+            :op1 (z6 / path))
+      :ARG1-of (z7 / happy-01))
+
+# ::snt-434 A red haired women in black is posing for a man while resting on a tree.
+(z1 / pose-01
+      :ARG0 (z2 / woman
+            :part (z3 / hair
+                  :ARG1-of (z4 / red-02))
+            :ARG0-of (z5 / wear-01
+                  :ARG1 (z6 / thing
+                        :ARG1-of (z7 / black-04))))
+      :ARG2 (z8 / man)
+      :time (z9 / rest-01
+            :ARG1 z2
+            :ARG2. (z10 / tree)))
+
+# ::snt-435 Two black dogs are jumping and playing with a yellow tennis ball in the snow.
+(z1 / and
+      :op1 (z2 / jump-03
+            :ARG0 (z3 / dog
+                  :quant 2
+                  :ARG1-of (z4 / black-05))
+            :instrument (z5 / ball
+                  :mod (z6 / tennis)
+                  :ARG1-of (z7 / yellow-02)))
+      :op2 (z8 / play-01
+            :ARG0 z3
+            :instrument z5)
+      :location (z9 / snow))
+
+# ::snt-436 A black and white dog is jumping over a hurdle.
+(z1 / jump-03
+      :ARG0 (z2 / dog
+            :ARG1-of (z3 / black-04)
+            :ARG1-of (z4 / white-03))
+      :path (z5 / over
+            :op1 (z6 / hurdle)))
+
+# ::snt-437 Two brown dogs runs through the water.
+(z1 / run-02
+      :ARG0 (z2 / dog
+            :quant 2
+            :mod (z3 / brown))
+      :path (z4 / water))
+
+# ::snt-438 A black dog is jumping out of water.
+(z1 / jump-03
+      :ARG0 (z2 / dog
+            :ARG1-of (z3 / black-04))
+      :direction (z4 / out-of
+            :op1 (z5 / water)))
+
+# ::snt-439 A man climbing a rockface.
+(z1 / climb-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / rockface))
+
+# ::snt-440 Woman playing tennis and hitting the ball.
+(z1 / woman
+      :ARG0-of (z2 / play-01
+            :ARG1 (z3 / tennis))
+      :ARG0-of (z4 / hit-01
+            :ARG1 (z5 / ball)))
+
+# ::snt-441 A young boy with his hair standing up, is sliding down a blue slide.
+(z1 / slide-01
+      :ARG1 (z2 / boy
+            :mod (z3 / young)
+            :ARG0-of (z4 / have-03
+                  :ARG1 (z5 / hair
+                        :part-of z2
+                        :ARG1-of (z6 / stand-up-07))))
+      :ARG2 (z7 / down
+            :op1 (z8 / slide
+                  :mod (z9 / blue))))
+
+# ::snt-442 A dog standing in the water.
+(z1 / stand-01
+      :ARG1 (z2 / dog)
+      :ARG2 (z3 / water))
+
+# ::snt-443 A surfer is riding on a breaking wave.
+(z1 / ride-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / surf-01))
+      :ARG1 (z4 / wave
+            :ARG1-of (z5 / break-01)))
+
+# ::snt-444 Two dogs are running through the grass near a house and trees.
+(z1 / run-02
+      :ARG0 (z2 / dog
+            :quant 2)
+      :path (z3 / grass
+            :ARG1-of (z4 / near-02
+                  :ARG2 (z5 / and
+                        :op1 (z6 / house)
+                        :op2 (z7 / tree)))))
+
+# ::snt-445 A brown and white dog is running across a brown field.
+(z1 / run-02
+      :ARG0 (z2 / and
+            :op1 (z3 / dog
+                  :mod (z4 / brown))
+            :op2 (z5 / dog
+                  :ARG1-of (z6 / white-02)))
+      :path (z7 / across
+            :op1 (z8 / field
+                  :mod z4)))
+
+# ::snt-446 A black dog standing in the grass near a volleyball.
+(z1 / stand-01
+      :ARG1 (z2 / dog
+            :ARG1-of (z3 / black-04))
+      :ARG2 (z4 / grass
+            :ARG1-of (z5 / near-02
+                  :ARG2 (z6 / volleyball))))
+
+# ::snt-447 A white dog with light brown markings has a stick in his mouth and his paws in the snow.
+(z1 / and
+      :op1 (z2 / have-03
+            :ARG0 (z3 / dog
+                  :ARG1-of (z4 / white-03)
+                  :ARG0-of (z5 / have-03
+                        :ARG1 (z6 / stripe
+                              :ARG1-of (z7 / light-07)
+                              :mod (z8 / brown)))))
+      :ARG1 (z9 / stick
+            :location. (z10 / mouth
+                  :part-of z3)))
+
+# ::snt-448 A man in a wet suit is throwing a baby wearing a wet suit up into the air.
+(z1 / throw-01
+      :ARG0 (z2 / man
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / suit
+                        :ARG1-of (z5 / wet-01))))
+      :ARG1 (z6 / baby
+            :ARG0-of (z7 / wear-01
+                  :ARG1 z4))
+      :ARG2 (z8 / air))
+
+# ::snt-449 A black and white dog is running through the grass.
+(z1 / run-02
+      :ARG0 (z2 / dog
+            :ARG1-of (z3 / black-04)
+            :ARG1-of (z4 / white-03))
+      :path (z5 / grass))
+
+# ::snt-450 A harnessed dog leaps over a log as another dog follows behind.
+(z1 / leap-01
+      :ARG0 (z2 / dog
+            :ARG1-of (z3 / harness-01))
+      :path (z4 / over
+            :op1 (z5 / log))
+      :time (z6 / follow-01
+            :ARG1 (z7 / dog
+                  :mod (z8 / another))
+            :ARG2 z2
+            :direction (z9 / behind)))
+
+# ::snt-451 A dog running on the grass.
+(z1 / dog
+      :ARG0-of (z2 / run-02
+            :ARG1 (z3 / grass)))
+
+# ::snt-452 Many football players sitting on the ground.
+(z1 / sit-01
+      :ARG1 (z2 / person
+            :ARG0-of (z3 / play-01
+                  :ARG1 (z4 / football))
+            :quant (z5 / many))
+      :ARG2 (z6 / ground))
+
+# ::snt-453 A little boy and a little girl playing together outside.
+(z1 / play-01
+      :ARG0 (z2 / and
+            :op1 (z3 / boy
+                  :mod (z4 / little))
+            :op2 (z5 / girl
+                  :mod z4))
+      :location (z6 / outside)
+      :mod (z7 / together))
+
+# ::snt-454 The surfer does a flip off of a wave.
+(z1 / flip-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / surf-01))
+      :ARG1 (z4 / wave))
+
+# ::snt-455 A female DJ holds up a Michael Jackson album.
+(z1 / hold-up-10
+      :ARG0 (z2 / female
+            :ARG0-of (z3 / record-01
+                  :mod (z4 / female)))
+      :ARG1 (z5 / album
+            :mod (z6 / person
+                  :name (z7 / name
+                        :op1 "Michael"
+                        :op2 "Jackson"))))
+
+# ::snt-456 two white standard poodles play with a toy in the snow.
+(z1 / play-01
+      :ARG0 (z2 / poodle
+            :quant 2
+            :ARG1-of (z3 / standard-02
+                  :ARG1-of (z4 / white-03)))
+      :ARG2 (z5 / toy)
+      :location (z6 / snow))
+
+# ::snt-457 Boy lies on stomach in grass.
+(z1 / lie-07
+      :ARG1 (z2 / boy)
+      :ARG2 (z3 / stomach)
+      :location (z4 / grass))
+
+# ::snt-458 A white dog runs along a rocky shoreline.
+(z1 / run-02
+      :ARG0 (z2 / dog
+            :ARG1-of (z3 / white-02))
+      :path (z4 / along
+            :op1 (z5 / shoreline
+                  :mod (z6 / rocky))))
+
+# ::snt-459 a black and white dog jumping in the air to catch a Frisbee.
+(z1 / dog
+      :ARG1-of (z2 / black-04)
+      :ARG1-of (z3 / white-03)
+      :ARG0-of (z4 / jump-03
+            :ARG2 (z5 / air)
+            :purpose (z6 / catch-01
+                  :ARG0 z1
+                  :ARG1 (z7 / frisbee))))
+
+# ::snt-460 The woman is holding the harness that the brown and white dog is wearing.
+(z1 / hold-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / harness
+            :ARG1-of (z4 / wear-01
+                  :ARG0 (z5 / dog
+                        :ARG1-of (z6 / brown-01)
+                        :ARG1-of (z7 / white-02)))))
+
+# ::snt-461 A girl is jumping.
+(z1 / jump-03
+      :ARG0 (z2 / girl))
+
+# ::snt-462 A young pitcher is throwing the baseball.
+(z1 / throw-01
+      :ARG0 (z2 / pitcher
+            :mod (z3 / young))
+      :ARG1 (z4 / baseball))
+
+# ::snt-463 Three children playing in snow.
+(z1 / play-01
+      :ARG0 (z2 / child
+            :quant 3)
+      :location (z3 / snow))
+
+# ::snt-464 Two people ride their bikes down a dirt road.
+(z1 / ride-01
+      :ARG0 (z2 / person
+            :quant 2)
+      :ARG1 (z3 / bike
+            :poss z2)
+      :direction (z4 / down
+            :op1 (z5 / road
+                  :mod (z6 / dirt))))
+
+# ::snt-465 A brown dog is running through the field.
+(z1 / run-02
+      :ARG0 (z2 / dog
+            :mod (z3 / brown))
+      :path (z4 / field))
+
+# ::snt-466 A dog is standing in the sand.
+(z1 / stand-01
+      :ARG1 (z2 / dog)
+      :ARG2 (z3 / sand))
+
+# ::snt-467 Four girls in swimsuits are playing volleyball at the beach.
+(z1 / play-01
+      :ARG0 (z2 / girl
+            :quant 4
+            :prep-in (z3 / swimsuit))
+      :ARG1 (z4 / volleyball)
+      :location (z5 / beach))
+
+# ::snt-468 A blonde haired toddler swinging on a tire swing.
+(z1 / toddler
+      :ARG0-of (z2 / have-03
+            :ARG1 (z3 / hair
+                  :mod (z4 / blonde)))
+      :ARG0-of (z5 / swing-02
+            :ARG1 (z6 / swing
+                  :mod (z7 / tire))))
+
+# ::snt-469 A child wearing blue and white shorts is jumping in the surf.
+(z1 / jump-03
+      :ARG0 (z2 / child
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / and
+                        :op1 (z5 / shorts
+                              :mod (z6 / blue))
+                        :op2 (z7 / shorts
+                              :ARG1-of (z8 / white-03))))))
+
+# ::snt-470 Two dogs running on the shore.
+(z1 / dog
+      :quant 2
+      :ARG0-of (z2 / run-02
+            :ARG1 (z3 / shore)))
+
+# ::snt-471 A yellow car speeds along a snowy field.
+(z1 / speed-01
+      :ARG1 (z2 / car
+            :ARG1-of (z3 / yellow-02))
+      :path (z4 / along
+            :op1 (z5 / field
+                  :ARG1-of (z6 / snowy-02))))
+
+# ::snt-472 Two dogs playing in snow.
+(z1 / play-01
+      :ARG0 (z2 / dog
+            :quant 2)
+      :location (z3 / snow))
+
+# ::snt-473 One boy is pushing another boy on a swing.
+(z1 / push-01
+      :ARG0 (z2 / boy
+            :quant 1)
+      :ARG1 (z3 / boy
+            :mod (z4 / another))
+      :ARG2 (z5 / swing))
+
+# ::snt-474 A pitcher on a mound throws a baseball.
+(z1 / throw-01
+      :ARG0 (z2 / pitcher
+            :location (z3 / mound))
+      :ARG1 (z4 / baseball))
+
+# ::snt-475 A little girl is riding a toy tricycle on springs.
+(z1 / ride-01
+      :ARG0 (z2 / girl
+            :mod (z3 / little))
+      :ARG1 (z4 / tricycle
+            :mod (z5 / toy))
+      :manner (z6 / spring))
+
+# ::snt-476 A woman is sitting in the water.
+(z1 / sit-01
+      :ARG1 (z2 / woman)
+      :ARG2 (z3 / water))
+
+# ::snt-477 A tan girl in a floral bikini is swimming in dark blue waters.
+(z1 / swim-01
+      :ARG0 (z2 / girl
+            :ARG1-of (z3 / tan-02)
+            :ARG0-of (z4 / wear-01
+                  :ARG1 (z5 / bikini
+                        :mod (z6 / floral))))
+      :ARG1 (z7 / water
+            :ARG1-of (z8 / dark-02)
+            :mod (z9 / blue)))
+
+# ::snt-478 a grey dog swimming through a river with a stick in his mouth.
+(z1 / dog
+      :ARG1-of (z2 / gray-02)
+      :ARG0-of (z3 / swim-01
+            :ARG1 (z4 / river)
+            :instrument (z5 / stick
+                  :location (z6 / mouth
+                        :part-of z1))))
+
+# ::snt-479 A woman in a blue bathing suit is jumping off a dock into a lake.
+(z1 / jump-03
+      :ARG0 (z2 / woman
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / bathing-suit
+                        :mod (z5 / blue))))
+      :source (z6 / dock)
+      :destination (z7 / lake))
+
+# ::snt-480 Two black dogs are playing on the grass.
+(z1 / play-01
+      :ARG0 (z2 / dog
+            :quant 2
+            :ARG1-of (z3 / black-05))
+      :location (z4 / grass))
+
+# ::snt-481 Two puppies playing with a plastic bag.
+(z1 / play-01
+      :ARG0 (z2 / puppy
+            :quant 2)
+      :ARG2 (z3 / bag
+            :consist-of (z4 / plastic)))
+
+# ::snt-482 A man in a black suit is surfing along a crashing wave.
+(z1 / surf-01
+      :ARG0 (z2 / man
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / suit
+                        :ARG1-of (z5 / black-04))))
+      :ARG1 (z6 / along
+            :op1 (z7 / wave
+                  :ARG1-of (z8 / crash-01))))
+
+# ::snt-483 Three little girls are sitting on the grass.
+(z1 / sit-01
+      :ARG1 (z2 / girl
+            :quant 3
+            :mod (z3 / little))
+      :ARG2 (z4 / grass))
+
+# ::snt-484 A brown dog runs towards the camera on a dirt trail with mountains in the background.
+(z1 / run-02
+      :ARG0 (z2 / dog
+            :ARG1-of (z3 / brown-01))
+      :direction (z4 / camera)
+      :location (z5 / trail
+            :mod (z6 / dirt))
+      :accompanier (z7 / mountain
+            :location (z8 / background)))
+
+# ::snt-485 Dog is jumping down a ramp.
+(z1 / jump-03
+      :ARG0 (z2 / dog)
+      :direction (z3 / down
+            :op1 (z4 / ramp)))
+
+# ::snt-486 The dog plays in the park.
+(z1 / play-01
+      :ARG0 (z2 / dog)
+      :location (z3 / park))
+
+# ::snt-487 Four dogs stand in the snow.
+(z1 / stand-01
+      :ARG1 (z2 / dog
+            :quant 4)
+      :ARG2 (z3 / snow))
+
+# ::snt-488 Brown and black dogs on snow, showing teeth and barking at each other.
+(z1 / and
+      :op1 (z2 / dog
+            :name (z3 / name
+                  :op1 "Brown"))
+      :op2 (z4 / dog
+            :ARG1-of (z5 / black-04))
+      :location (z6 / snow)
+      :ARG0-of (z7 / show-01
+            :ARG1 (z8 / tooth))
+      :ARG0-of (z9 / bark-01
+            :ARG2 z2))
+
+# ::snt-489 A man running on a track.
+(z1 / man
+      :ARG0-of (z2 / run-02
+            :ARG1 (z3 / track)))
+
+# ::snt-490 A light colored dog runs through the grass.
+(z1 / run-02
+      :ARG0 (z2 / dog
+            :ARG1-of (z3 / color-01
+                  :ARG2 (z4 / light)))
+      :path (z5 / grass))
+
+# ::snt-491 Child holding an object that is on fire.
+(z1 / hold-01
+      :ARG0 (z2 / child)
+      :ARG1 (z3 / object
+            :ARG1-of (z4 / on-fire-08)))
+
+# ::snt-492 A small white dog climbs over a log.
+(z1 / climb-01
+      :ARG0 (z2 / dog
+            :mod (z3 / small)
+            :ARG1-of (z4 / white-02))
+      :ARG1 (z5 / over
+            :op1 (z6 / log)))
+
+# ::snt-493 The dogs play in the snow on hind legs.
+(z1 / play-01
+      :ARG0 (z2 / dog)
+      :location (z3 / snow)
+      :manner (z4 / leg
+            :mod (z5 / hind)))
+
+# ::snt-494 A boy skateboards down the railing of some graffiti stairs.
+(z1 / skateboard-01
+      :ARG0 (z2 / boy)
+      :direction (z3 / down
+            :op1 (z4 / railing
+                  :part-of (z5 / stair
+                        :mod (z6 / graffiti)
+                        :quant (z7 / some)))))
+
+# ::snt-495 A black and white dog runs through the water.
+(z1 / run-02
+      :ARG0 (z2 / dog
+            :mod (z3 / black-and-white))
+      :path (z4 / water))
+
+# ::snt-496 A girl is running on a desert path.
+(z1 / run-02
+      :ARG0 (z2 / girl)
+      :location (z3 / path
+            :mod (z4 / desert)))
+
+# ::snt-497 A man steers a blue boat past brightly colored houses.
+(z1 / steer-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / boat
+            :mod (z4 / blue))
+      :path (z5 / past
+            :op1 (z6 / house
+                  :ARG1-of (z7 / color-01
+                        :ARG1-of (z8 / bright-02)))))
+
+# ::snt-498 A woman wearing large sunglasses holds newspapers in both hands.
+(z1 / hold-01
+      :ARG0 (z2 / woman
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / sunglasses
+                        :mod (z5 / large))))
+      :ARG1 (z6 / newspaper)
+      :ARG2 (z7 / hand
+            :mod (z8 / both)))
+
+# ::snt-499 A deer jumps a fence.
+(z1 / jump-03
+      :ARG0 (z2 / deer)
+      :ARG1 (z3 / fence))
+
+# ::snt-500 A person is on a baseball team.
+(z1 / have-org-role-91
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / team
+            :mod (z4 / baseball)))
+
+# ::snt-501 A bike is next to a couple women.
+(z1 / bike
+      :location (z2 / next-to
+            :op1 (z3 / woman
+                  :quant (z4 / couple))))
+
+# ::snt-502 The group is eating while taking in a breathtaking view.
+(z1 / eat-01
+      :ARG0 (z2 / group)
+      :time (z3 / take-in-23
+            :ARG0 z2
+            :ARG1 (z4 / view-01
+                  :ARG0 z2
+                  :ARG0-of (z5 / astonish-01))))
+
+# ::snt-503 The boy is raising his hand.
+(z1 / raise-01
+      :ARG0 (z2 / boy)
+      :ARG1 (z3 / hand
+            :part-of z2))
+
+# ::snt-504 A man with a gray beard is being shaved in front of a lecture hall.
+(z1 / shave-01
+      :ARG1 (z2 / man
+            :ARG0-of (z3 / have-03
+                  :ARG1 (z4 / beard
+                        :ARG1-of (z5 / gray-02))))
+      :location (z6 / in-front-of
+            :op1 (z7 / hall
+                  :mod (z8 / lecture-01))))
+
+# ::snt-505 A young person deep in thought.
+(z1 / person
+      :mod (z2 / young)
+      :ARG0-of (z3 / think-01
+            :ARG1-of (z4 / deep-02)))
+
+# ::snt-506 A man is performing labor.
+(z1 / perform-02
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / labor))
+
+# ::snt-507 Two men wearing traditional clothing is standing outside.
+(z1 / stand-01
+      :ARG1 (z2 / man
+            :quant 2
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / clothing
+                        :mod (z5 / traditional))))
+      :ARG2 (z6 / outside))
+
+# ::snt-508 a man wearing a gray hat fishing out of a fishing boat.
+(z1 / fish-01
+      :ARG0 (z2 / man
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / hat
+                        :ARG1-of (z5 / gray-02))))
+      :location (z6 / boat
+            :purpose (z7 / fish-01)))
+
+# ::snt-509 A little girl in an orange striped outfit is airborne whilst bouncing on a bed.
+(z1 / airborne
+      :domain (z2 / girl
+            :mod (z3 / little)
+            :ARG0-of (z4 / wear-01
+                  :ARG1 (z5 / outfit
+                        :ARG1-of (z6 / stripe-01
+                              :ARG2 (z7 / orange)))))
+      :time (z8 / bounce-01
+            :ARG1 z2
+            :location (z9 / bed)))
+
+# ::snt-510 A person is watching people ski down the hill.
+(z1 / watch-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / ski-01
+            :ARG0 (z4 / person)
+            :ARG1 (z5 / hill)
+            :direction (z6 / down)))
+
+# ::snt-511 The yard has a dog.
+(z1 / have-03
+      :ARG0 (z2 / yard)
+      :ARG1 (z3 / dog))
+
+# ::snt-512 Three women cook.
+(z1 / cook-01
+      :ARG0 (z2 / woman
+            :quant 3))
+
+# ::snt-513 The woman is kneeling next to a cat.
+(z1 / kneel-01
+      :ARG0 (z2 / woman)
+      :location (z3 / next-to
+            :op1 (z4 / cat)))
+
+# ::snt-514 Three guys playing a pro game of basketball.
+(z1 / play-01
+      :ARG0 (z2 / guy
+            :quant 3)
+      :ARG1 (z3 / game
+            :mod (z4 / pro)
+            :mod (z5 / basketball)))
+
+# ::snt-515 The boys are earning their next belt in karate.
+(z1 / earn-01
+      :ARG0 (z2 / boy)
+      :ARG1 (z3 / belt
+            :mod (z4 / next)
+            :poss z2
+            :topic (z5 / karate)))
+
+# ::snt-516 A woman is digging in the sand.
+(z1 / dig-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / sand))
+
+# ::snt-517 A woman drives a golf cart.
+(z1 / drive-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / cart
+            :purpose (z4 / golf-01)))
+
+# ::snt-518 A person filming the outdoors.
+(z1 / person
+      :ARG0-of (z2 / film-01
+            :ARG1 (z3 / outdoors)))
+
+# ::snt-519 A human riding a skateboard.
+(z1 / ride-01
+      :ARG0 (z2 / human)
+      :ARG1 (z3 / skateboard))
+
+# ::snt-520 A woman in a plaid outfit is looking through a bag of produce.
+(z1 / look-01
+      :ARG0 (z2 / woman
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / outfit
+                        :mod (z5 / political-party
+                              :name (z6 / name
+                                    :op1 "Plaid")))))
+      :ARG1 (z7 / bag
+            :consist-of (z8 / produce)))
+
+# ::snt-521 The tennis player hit the ball into outer space and broke the death star.
+(z1 / and
+      :op1 (z2 / hit-01
+            :ARG0 (z3 / person
+                  :ARG0-of (z4 / play-01
+                        :ARG1 (z5 / tennis)))
+            :ARG1 (z6 / ball)
+            :destination (z7 / space
+                  :mod (z8 / outer)))
+      :op2 (z9 / break-01
+            :ARG0 z3
+            :ARG1. (z10 / star
+                  :mod. (z11 / die-01))))
+
+# ::snt-522 A boy climbs a forest hill.
+(z1 / climb-01
+      :ARG0 (z2 / boy)
+      :ARG1 (z3 / hill
+            :mod (z4 / forest)))
+
+# ::snt-523 Blond boy jumping onto deck.
+(z1 / jump-03
+      :ARG0 (z2 / boy
+            :ARG1-of (z3 / blonde-02))
+      :destination (z4 / deck))
+
+# ::snt-524 A man uses a chainsaw to sculpt a phallic ice sculpture.
+(z1 / use-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / chainsaw)
+      :ARG2 (z4 / sculpt-01
+            :ARG0 z2
+            :ARG1 (z5 / ice
+                  :mod (z6 / phallic))))
+
+# ::snt-525 A group of male construction workers repair railroad tracks on a cloudy day.
+(z1 / repair-01
+      :ARG0 (z2 / group
+            :consist-of (z3 / person
+                  :ARG0-of (z4 / work-01
+                        :ARG1 (z5 / construct-01))
+                  :mod (z6 / male)))
+      :ARG1 (z7 / track
+            :mod (z8 / railroad))
+      :time (z9 / day
+            :ARG1-of. (z10 / cloudy-03)))
+
+# ::snt-526 The girl has something on her head.
+(z1 / have-03
+      :ARG0 (z2 / girl)
+      :ARG1 (z3 / something
+            :location (z4 / head
+                  :part-of z2)))
+
+# ::snt-527 People making a structure out of cards.
+(z1 / make-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / structure)
+      :ARG2 (z4 / card))
+
+# ::snt-528 There are four people outside.
+(z1 / person
+      :quant 4
+      :location (z2 / outside))
+
+# ::snt-529 Girls are holding hands in blue clothes.
+(z1 / hold-01
+      :ARG0 (z2 / girl)
+      :ARG1 (z3 / hand
+            :part-of z2)
+      :manner (z4 / clothe-01
+            :ARG1 z2
+            :ARG2 (z5 / blue)))
+
+# ::snt-530 A man is demonstrating how to work with clay while at least two people observe.
+(z1 / demonstrate-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / work-01
+            :ARG0 z2
+            :ARG1 (z4 / clay))
+      :time (z5 / observe-01
+            :ARG0 (z6 / person
+                  :quant (z7 / at-least
+                        :op1 2))))
+
+# ::snt-531 A dog has a sweater on.
+(z1 / wear-01
+      :ARG0 (z2 / dog)
+      :ARG1 (z3 / sweater))
+
+# ::snt-532 Sculptor applying concrete to large statue of human figure standing with no head.
+(z1 / apply-03
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / ulpt-01))
+      :ARG1 (z4 / concrete)
+      :ARG2 (z5 / statue
+            :mod (z6 / large)
+            :consist-of (z7 / figure
+                  :mod (z8 / human)
+                  :ARG0-of (z9 / stand-01)
+                  :ARG0-of. (z10 / have-03
+                        :polarity -
+                        :ARG1. (z11 / head)))))
+
+# ::snt-533 A boy with dark hair is in water and is looking up.
+(z1 / and
+      :op1 (z2 / be-located-at-91
+            :ARG1 (z3 / boy
+                  :part (z4 / hair
+                        :ARG1-of (z5 / dark-02)))
+            :ARG2 (z6 / water))
+      :op2 (z7 / look-up-05
+            :ARG0 z3))
+
+# ::snt-534 A pole is behind a person that is playing peekaboo with a child.
+(z1 / pole
+      :location (z2 / behind
+            :op1 (z3 / person
+                  :ARG0-of (z4 / play-01
+                        :ARG1 (z5 / peekaboo)
+                        :accompanier (z6 / child)))))
+
+# ::snt-535 A woman is about to paint.
+(z1 / paint-02
+      :ARG0 (z2 / woman)
+      :time (z3 / about-to))
+
+# ::snt-536 a man working at the steel mill.
+(z1 / man
+      :ARG0-of (z2 / work-01
+            :ARG2 (z3 / mill
+                  :mod (z4 / steel))))
+
+# ::snt-537 The young woman is flirting with the young boy.
+(z1 / flirt-01
+      :ARG0 (z2 / woman
+            :mod (z3 / young))
+      :ARG1 (z4 / boy
+            :mod (z5 / young)))
+
+# ::snt-538 the men are about to score in a water polo tournament.
+(z1 / score-01
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / tournament
+            :mod (z4 / polo
+                  :mod (z5 / water)))
+      :time (z6 / about-to))
+
+# ::snt-539 A man eats popcorn while watching cartoons late one night.
+(z1 / eat-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / popcorn)
+      :time (z4 / watch-01
+            :ARG0 z2
+            :ARG1 (z5 / cartoon)
+            :time (z6 / late
+                  :op1 (z7 / date-entity
+                        :dayperiod (z8 / night)
+                        :mod (z9 / one)))))
+
+# ::snt-540 Three men sit on a bench.
+(z1 / sit-01
+      :ARG1 (z2 / man
+            :quant 3)
+      :ARG2 (z3 / bench))
+
+# ::snt-541 The road is long.
+(z1 / road
+      :ARG1-of (z2 / long-03))
+
+# ::snt-542 a young man wearing a white t-shirt and green and black shorts standing on a stump.
+(z1 / stand-01
+      :ARG1 (z2 / man
+            :mod (z3 / young)
+            :ARG0-of (z4 / wear-01
+                  :ARG1 (z5 / and
+                        :op1 (z6 / t-shirt
+                              :ARG1-of (z7 / white-03))
+                        :op2 (z8 / and
+                              :op1 (z9 / shorts
+                                    :ARG1-of. (z10 / green-02))
+                              :op2. (z11 / shorts
+                                    :ARG1-of. (z12 / black-04)))))))
+
+# ::snt-543 A dog under the stairs.
+(z1 / dog
+      :location (z2 / under
+            :op1 (z3 / stair)))
+
+# ::snt-544 Two women give a demonstration at a Renaissance Fair.
+(z1 / demonstrate-01
+      :ARG0 (z2 / woman
+            :quant 2)
+      :location (z3 / event
+            :name (z4 / name
+                  :op1 "Renaissance"
+                  :op2 "Fair")))
+
+# ::snt-545 Some guy sitting on a couch watching television.
+(z1 / sit-01
+      :ARG1 (z2 / guy
+            :mod (z3 / some))
+      :ARG2 (z4 / couch)
+      :purpose (z5 / watch-01
+            :ARG0 z2
+            :ARG1 (z6 / television)))
+
+# ::snt-546 A woman is posing for a Christmas card.
+(z1 / pose-01
+      :ARG0 (z2 / woman)
+      :ARG2 (z3 / card
+            :mod (z4 / festival
+                  :name (z5 / name
+                        :op1 "Christmas"))))
+
+# ::snt-547 A man is working on his farm.
+(z1 / work-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / farm
+            :poss z2))
+
+# ::snt-548 A girl is talking to her dad on a cellphone.
+(z1 / talk-01
+      :ARG0 (z2 / girl)
+      :ARG2 (z3 / person
+            :ARG0-of (z4 / have-rel-role-91
+                  :ARG1 z2
+                  :ARG2 (z5 / dad)))
+      :medium (z6 / cellphone))
+
+# ::snt-549 One person wields an umbrella.
+(z1 / wield-01
+      :ARG0 (z2 / person
+            :quant 1)
+      :ARG1 (z3 / umbrella))
+
+# ::snt-550 A group of teenagers jumping and having a good time.
+(z1 / group-01
+      :ARG1 (z2 / teenager
+            :ARG0-of (z3 / jump-03)
+            :ARG0-of (z4 / have-06
+                  :ARG1 (z5 / time
+                        :ARG1-of (z6 / good-02)))))
+
+# ::snt-551 A man is playing his guitar at Joe's Cafe.
+(z1 / play-11
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / guitar
+            :poss z2)
+      :location (z4 / cafe
+            :name (z5 / name
+                  :op1 "Joe's"
+                  :op2 "Cafe")))
+
+# ::snt-552 Someone is on a blanket.
+(z1 / blanket-01
+      :ARG1 (z2 / someone))
+
+# ::snt-553 The man has a orange shirt.
+(z1 / have-03
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / shirt
+            :mod (z4 / orange)))
+
+# ::snt-554 The two kids look at the products sold inside the subway shop.
+(z1 / look-01
+      :ARG0 (z2 / kid
+            :quant 2)
+      :ARG1 (z3 / product
+            :ARG1-of (z4 / sell-01
+                  :location (z5 / inside
+                        :op1 (z6 / shop
+                              :mod (z7 / subway))))))
+
+# ::snt-555 The baby boy wants his mother.
+(z1 / want-01
+      :ARG0 (z2 / boy
+            :ARG0-of (z3 / have-rel-role-91
+                  :ARG1 (z4 / he)
+                  :ARG2 (z5 / mother))
+            :mod (z6 / baby)))
+
+# ::snt-556 A boy is very close to a girl.
+(z1 / close-13
+      :ARG1 (z2 / boy)
+      :ARG2 (z3 / girl)
+      :degree (z4 / very))
+
+# ::snt-557 Six children are cleaning a room.
+(z1 / clean-01
+      :ARG0 (z2 / child
+            :quant 6)
+      :ARG1 (z3 / room))
+
+# ::snt-558 There is a cook preparing food.
+(z1 / cook-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / food))
+
+# ::snt-559 Two men are helping a boy.
+(z1 / help-01
+      :ARG0 (z2 / man
+            :quant 2)
+      :ARG1 (z3 / boy))
+
+# ::snt-560 Two skiing people are doing cross country skiing.
+(z1 / ski-01
+      :ARG0 (z2 / person
+            :quant 2
+            :ARG0-of (z3 / ski-01))
+      :mod (z4 / cross-country))
+
+# ::snt-561 A dog taking a poop in the street.
+(z1 / poo-01
+      :ARG0 (z2 / dog)
+      :location (z3 / street))
+
+# ::snt-562 A kid is talking in class.
+(z1 / talk-01
+      :ARG0 (z2 / kid)
+      :location (z3 / class))
+
+# ::snt-563 The women are trying to sell something to the individual.
+(z1 / try-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / sell-01
+            :ARG0 z2
+            :ARG1 (z4 / something)
+            :ARG2 (z5 / individual)))
+
+# ::snt-564 People are waiting for the fireworks to start.
+(z1 / wait-01
+      :ARG1 (z2 / person)
+      :ARG2 (z3 / start-01
+            :ARG1 (z4 / firework)))
+
+# ::snt-565 A dog prepares to herd three sheep with horns.
+(z1 / prepare-02
+      :ARG0 (z2 / dog)
+      :ARG2 (z3 / herd-01
+            :ARG0 z2
+            :ARG1 (z4 / sheep
+                  :quant 3
+                  :ARG0-of (z5 / have-03
+                        :ARG1 (z6 / horn)))))
+
+# ::snt-566 People gathered in a room.
+(z1 / gather-03
+      :ARG0 (z2 / person)
+      :location (z3 / room))
+
+# ::snt-567 The woman in overalls paints a picture for her wall.
+(z1 / paint-02
+      :ARG0 (z2 / woman
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / overall)))
+      :ARG1 (z5 / picture)
+      :ARG2 (z6 / wall
+            :poss z2))
+
+# ::snt-568 Adding aspirin to the water could kill the plant.
+(z1 / possible-01
+      :ARG1 (z2 / kill-01
+            :ARG0 (z3 / add-02
+                  :ARG1 (z4 / aspirin)
+                  :ARG2 (z5 / water))
+            :ARG1 (z6 / plant)))
+
+# ::snt-569 The woman is wearing yellow.
+(z1 / wear-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / yellow))
+
+# ::snt-570 A man is doing a stunt on his bicycle.
+(z1 / man
+      :ARG0-of (z2 / stunt-01
+            :location (z3 / bicycle
+                  :poss z1)))
+
+# ::snt-571 Ten people riding ATVs.
+(z1 / ride-01
+      :ARG0 (z2 / person
+            :quant 10)
+      :ARG1 (z3 / vehicle
+            :name (z4 / name
+                  :op1 "ATV")))
+
+# ::snt-572 A yellow vested person is doing road work.
+(z1 / work-01
+      :ARG0 (z2 / person
+            :ARG1-of (z3 / vest-01)
+            :ARG1-of (z4 / yellow-02))
+      :ARG1 (z5 / road))
+
+# ::snt-573 Two workers are sitting next to pipes eating lunch.
+(z1 / sit-01
+      :ARG1 (z2 / person
+            :quant 2
+            :ARG0-of (z3 / work-01)
+            :ARG0-of (z4 / lunch-01))
+      :ARG2 (z5 / next-to
+            :op1 (z6 / pipe)))
+
+# ::snt-574 A group of people living in the desert.
+(z1 / live-01
+      :ARG0 (z2 / group
+            :consist-of (z3 / person))
+      :location (z4 / desert))
+
+# ::snt-575 Two kids are swimming.
+(z1 / swim-01
+      :ARG0 (z2 / kid
+            :quant 2))
+
+# ::snt-576 people getting their dirty clothes cleaned.
+(z1 / get-04
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / clean-01
+            :ARG1 (z4 / clothes
+                  :ARG1-of (z5 / dirty-02)
+                  :poss z2)))
+
+# ::snt-577 The children are holding musical instruments.
+(z1 / hold-01
+      :ARG0 (z2 / child)
+      :ARG1 (z3 / instrument
+            :mod (z4 / music)))
+
+# ::snt-578 A group of people are wearing police uniforms conducting an arrest.
+(z1 / wear-01
+      :ARG0 (z2 / group
+            :consist-of (z3 / person))
+      :ARG1 (z4 / uniform
+            :mod (z5 / police))
+      :purpose (z6 / arrest-01
+            :ARG0 z2))
+
+# ::snt-579 the man is planning to shoot a wedding.
+(z1 / plan-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / shoot-02
+            :ARG0 z2
+            :ARG2 (z4 / wed-01)))
+
+# ::snt-580 The child's bike got wet.
+(z1 / wet-01
+      :ARG1 (z2 / bike
+            :poss (z3 / child)))
+
+# ::snt-581 A soldier walks a dog.
+(z1 / walk-01
+      :ARG0 (z2 / soldier)
+      :ARG1 (z3 / dog))
+
+# ::snt-582 A shirtless woman is operating a lawn mower.
+(z1 / operate-01
+      :ARG0 (z2 / woman
+            :ARG0-of (z3 / have-03
+                  :polarity -
+                  :ARG1 (z4 / shirt)))
+      :ARG1 (z5 / mow-01
+            :ARG0 z2
+            :ARG1 (z6 / lawn)))
+
+# ::snt-583 The two officers are driving.
+(z1 / drive-01
+      :ARG0 (z2 / person
+            :quant 2
+            :ARG0-of (z3 / have-org-role-91
+                  :ARG2 (z4 / officer))))
+
+# ::snt-584 The lady looks sad because no one is buying her wares.
+(z1 / look-02
+      :ARG0 (z2 / lady)
+      :ARG1 (z3 / sad-02
+            :ARG0 (z4 / buy-01
+                  :ARG0 (z5 / no-one)
+                  :ARG1 (z6 / wares
+                        :poss z2))
+            :ARG1 z2))
+
+# ::snt-585 A flock of birds hovered over the sandy beach.
+(z1 / hover-01
+      :ARG1 (z2 / flock
+            :consist-of (z3 / bird))
+      :ARG2 (z4 / beach
+            :mod (z5 / sand)))
+
+# ::snt-586 people walk home.
+(z1 / walk-01
+      :ARG0 (z2 / person)
+      :ARG2 (z3 / home))
+
+# ::snt-587 A man is laughing with a woman.
+(z1 / laugh-01
+      :ARG0 (z2 / man
+            :accompanier (z3 / woman)))
+
+# ::snt-588 He is about to run into the boat.
+(z1 / run-02
+      :ARG0 (z2 / he)
+      :destination (z3 / boat)
+      :time (z4 / about-to))
+
+# ::snt-589 Two cows are in a field.
+(z1 / field
+      :location-of (z2 / cow
+            :quant 2))
+
+# ::snt-590 A wet child enjoys the summer.
+(z1 / enjoy-01
+      :ARG0 (z2 / child
+            :ARG1-of (z3 / wet-01))
+      :ARG1 (z4 / date-entity
+            :season (z5 / summer)))
+
+# ::snt-591 The girl has a driver's license.
+(z1 / license-01
+      :ARG1 (z2 / drive-01
+            :ARG0 (z3 / girl
+                  :ARG2-of z1)))
+
+# ::snt-592 People on motorcycles wearing racing gear ride around a racetrack.
+(z1 / ride-01
+      :ARG0 (z2 / person
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / gear
+                        :mod (z5 / race))))
+      :ARG1 (z6 / motorcycle))
+
+# ::snt-593 A man is standing on the ground with a paintbrush.
+(z1 / stand-01
+      :ARG0 (z2 / man)
+      :ARG2 (z3 / ground)
+      :instrument (z4 / brush
+            :instrument-of (z5 / paint-02)))
+
+# ::snt-594 The kids are at the theater watching a movie.
+(z1 / be-located-at-91
+      :ARG1 (z2 / kid
+            :ARG0-of (z3 / watch-01
+                  :ARG1 (z4 / movie)))
+      :ARG2 (z5 / theater))
+
+# ::snt-595 Two women walk down the sidewalk to the store.
+(z1 / walk-01
+      :ARG0 (z2 / woman
+            :quant 2)
+      :ARG2 (z3 / store)
+      :direction (z4 / down
+            :op1 (z5 / sidewalk)))
+
+# ::snt-596 A man has his son on his back.
+(z1 / have-03
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / person
+            :ARG0-of (z4 / have-rel-role-91
+                  :ARG1 z2
+                  :ARG2 (z5 / son)))
+      :location (z6 / back
+            :part-of z2))
+
+# ::snt-597 A group of dark skinned people are walking past barbed wire.
+(z1 / walk-01
+      :ARG0 (z2 / group
+            :consist-of (z3 / person
+                  :part (z4 / skin
+                        :ARG1-of (z5 / dark-02))))
+      :ARG2 (z6 / past
+            :op1 (z7 / wire
+                  :ARG1-of (z8 / barb-01))))
+
+# ::snt-598 Zombies parading around eating brains.
+(z1 / zombie
+      :ARG1-of (z2 / parade-02
+            :ARG2 (z3 / around)
+            :manner (z4 / eat-01
+                  :ARG0 z1
+                  :ARG1 (z5 / brain))))
+
+# ::snt-599 A group of people are sitting at at a beach on towels watching the Blue Angels.
+(z1 / sit-01
+      :ARG1 (z2 / group
+            :consist-of (z3 / person))
+      :ARG2 (z4 / beach)
+      :manner (z5 / towel)
+      :purpose (z6 / watch-01
+            :ARG0 z2
+            :ARG1 (z7 / broadcast-program
+                  :name (z8 / name
+                        :op1 "Blue"
+                        :op2 "Angels"))))
+
+# ::snt-600 Three people are meeting for coffee.
+(z1 / meet-03
+      :ARG0 (z2 / person
+            :quant 3)
+      :purpose (z3 / coffee))
+
+# ::snt-601 A young girl with dirt on her face and a red child's bike is in the background.
+(z1 / be-located-at-91
+      :ARG1 (z2 / and
+            :op1 (z3 / girl
+                  :mod (z4 / young)
+                  :part (z5 / face
+                        :part-of z3)
+                  :part (z6 / dirt))
+            :op2 (z7 / bike
+                  :poss (z8 / child
+                        :ARG1-of (z9 / red-02))))
+      :ARG2. (z10 / background))
+
+# ::snt-602 A line of scooters are parking in the middle of a street.
+(z1 / park-01
+      :ARG1 (z2 / line
+            :consist-of (z3 / scooter))
+      :ARG2 (z4 / middle
+            :part-of (z5 / street)))
+
+# ::snt-603 A man holding a cat.
+(z1 / hold-01
+      :ARG0 (z2 / man)
+      :ARG1 (z3 / cat))
+
+# ::snt-604 The cats are running through the grass.
+(z1 / run-02
+      :ARG0 (z2 / cat)
+      :path (z3 / grass))
+
+# ::snt-605 The two boys are playing kick ball back and forth to each other.
+(z1 / play-01
+      :ARG0 (z2 / boy
+            :quant 2)
+      :ARG1 (z3 / ball
+            :mod (z4 / kick))
+      :path (z5 / and
+            :op1 (z6 / back)
+            :op2 (z7 / forth)))
+
+# ::snt-606 Two girls are running.
+(z1 / run-02
+      :ARG0 (z2 / girl
+            :quant 2))
+
+# ::snt-607 A little girl in a white blouse and blue pants frolics on the grass.
+(z1 / frolic-01
+      :ARG0 (z2 / girl
+            :mod (z3 / little)
+            :ARG0-of (z4 / wear-01
+                  :ARG1 (z5 / and
+                        :op1 (z6 / blouse
+                              :ARG1-of (z7 / white-03))
+                        :op2 (z8 / pants
+                              :mod (z9 / blue))))))
+
+# ::snt-608 A man in a white shirt and hat playing a guitar.
+(z1 / man
+      :ARG0-of (z2 / wear-01
+            :ARG1 (z3 / and
+                  :op1 (z4 / shirt
+                        :ARG1-of (z5 / white-03))
+                  :op2 (z6 / hat
+                        :ARG1-of z5)))
+      :ARG0-of (z7 / play-11
+            :ARG1 (z8 / guitar)))
+
+# ::snt-609 A black hooded man is using a large magnifying glass to look at a booklet.
+(z1 / use-01
+      :ARG0 (z2 / man
+            :part (z3 / hood
+                  :ARG1-of (z4 / black-05)))
+      :ARG1 (z5 / magnifying-glass
+            :mod (z6 / large))
+      :ARG2 (z7 / look-01
+            :ARG0 z2
+            :ARG1 (z8 / booklet)))
+
+# ::snt-610 the people are running a marathon.
+(z1 / run-02
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / marathon))
+
+# ::snt-611 A group of people are nervous about crossing the water.
+(z1 / nervous-01
+      :ARG1 (z2 / group
+            :consist-of (z3 / person))
+      :ARG2 (z4 / cross-02
+            :ARG0 z2
+            :ARG1 (z5 / water)))
+
+# ::snt-612 A group of kids are having a jumping contest.
+(z1 / contest-02
+      :ARG0 (z2 / group-01
+            :ARG1 (z3 / kid))
+      :ARG2 (z4 / jump-03
+            :ARG0 z3))
+
+# ::snt-613 The person is wearing a fedora.
+(z1 / wear-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / fedora))
+
+# ::snt-614 A woman and a man embrace while watching a horror movie.
+(z1 / embrace-01
+      :ARG0 (z2 / woman)
+      :ARG1 (z3 / man)
+      :time (z4 / watch-01
+            :ARG0 z2
+            :ARG1 (z5 / movie
+                  :mod (z6 / horror))))
+
+# ::snt-615 A man in a blue dress shirt.
+(z1 / man
+      :ARG0-of (z2 / wear-01
+            :ARG1 (z3 / shirt
+                  :mod (z4 / dress)
+                  :mod (z5 / blue))))
+
+# ::snt-616 A couple is playing the game of Life.
+(z1 / play-01
+      :ARG0 (z2 / couple)
+      :ARG1 (z3 / game
+            :mod (z4 / life)))
+
+# ::snt-617 The head of a child with dark glasses is in focus.
+(z1 / focus-01
+      :ARG1 (z2 / head
+            :part-of (z3 / child
+                  :ARG0-of (z4 / have-03
+                        :ARG1 (z5 / glasses
+                              :ARG1-of (z6 / dark-02))))))
+
+# ::snt-618 A maintenance guy is repairing a net on a tennis court.
+(z1 / repair-01
+      :ARG0 (z2 / guy
+            :ARG0-of (z3 / maintain-01))
+      :ARG1 (z4 / net)
+      :location (z5 / court
+            :mod (z6 / tennis)))
+
+# ::snt-619 A kid sits on a soccer ball outside.
+(z1 / sit-01
+      :ARG1 (z2 / kid)
+      :ARG2 (z3 / ball
+            :mod (z4 / soccer))
+      :location (z5 / outside))
+
+# ::snt-620 A man in a brown coat rubs his nose.
+(z1 / rub-01
+      :ARG0 (z2 / man
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / coat
+                        :ARG1-of (z5 / brown-01))))
+      :ARG1 (z6 / nose
+            :part-of z2))
+
+# ::snt-621 The dog is chasing the geese.
+(z1 / chase-01
+      :ARG0 (z2 / dog)
+      :ARG1 (z3 / goose))
+
+# ::snt-622 Small child playing with letter P.
+(z1 / play-01
+      :ARG0 (z2 / child
+            :mod (z3 / small))
+      :ARG1 (z4 / letter
+            :mod "P"))
+
+# ::snt-623 A brown dog is jumping.
+(z1 / jump-03
+      :ARG0 (z2 / dog
+            :mod (z3 / brown)))
+
+# ::snt-624 A group of teenagers in red shirts are smiling.
+(z1 / smile-01
+      :ARG0 (z2 / group
+            :consist-of (z3 / teenager
+                  :ARG0-of (z4 / wear-01
+                        :ARG1 (z5 / shirt
+                              :ARG1-of (z6 / red-02))))))
+
