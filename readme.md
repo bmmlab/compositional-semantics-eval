@@ -26,7 +26,7 @@ The files in the main directory contain all code necessary for producing the res
 - Data-model: Contains embeddings, parses, and similarity data for each computational model.
 - Figures: Contains images of the figures from the paper.
 
-## Simple workflow to vew results
+## Simple workflow to view results
 A simplified workflow to reproduce the key analysis is as follows:
 1. Download experimental datasets from Data-model folder.
 2. Download sentence parses, embeddings, and similarities from the Data-experiment folder.
