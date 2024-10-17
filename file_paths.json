@@ -1,0 +1,22 @@
+{
+"path_root":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\",
+"embeddings_path":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Analysis Results\\Sentence Embeddings\\",
+"sims_path":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Analysis Results\\Sentence Similarities\\",
+"parses_path":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Analysis Results\\Sentence Parses\\",
+"stop_words_path":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Frames and Structured Data\\FrameNet\\nltk_data\\corpora\\stopwords\\english.txt",
+"pca_path":"D:\\My Code\\Python\\2022_06 Compositional Semantics Paper\\Data-model\\STS3k PCA Comparisons\\",
+
+"neuro_root":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Neuroimaging Data\\",
+"data_pairs_path":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Sentence Similarity Data\\Sentence Similarities Final\\",
+
+"Wehbe_neuro-stim":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Neuroimaging Data\\2014 Wehbe\\Stimuli\\Chapter_9_sentences_final.txt",
+"Anderson_neuro-stim":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Neuroimaging Data\\2017 Anderson\\Stimuli\\stimuli_final.txt",
+"Pereira243_neuro-stim":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Neuroimaging Data\\2018 Pereira\\Stimuli\\Pereira243_neuro_sents_final.txt",
+"Pereira384_neuro-stim":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Neuroimaging Data\\2018 Pereira\\Stimuli\\Pereira384_neuro_sents_final.txt",
+"Alice_neuro-stim":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Neuroimaging Data\\2020 Alice\\Stimuli\\Alice_neuro_sents_final.txt",
+"Zhang_neuro-stim":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Neuroimaging Data\\2020 Zhang\\Stimuli\\Zhang_neuro_sents_final.txt",
+"Zhang_neuro_8s-stim":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Neuroimaging Data\\2020 Zhang\\Stimuli\\Zhang_neuro_sents_final.txt",
+"Zhang_neuro_rev-stim":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Neuroimaging Data\\2020 Zhang\\Stimuli\\Zhang_neuro_sents_reversed.txt",
+"Fodor2024-final108_neuro-stim":"D:\\Study and Projects\\School Work\\Year 25 - PhD\\Data\\Neuroimaging Data\\2024 Fodor Dataset\\1 - Stimuli\\Fodor2024-final108_neuro_sents_final.txt"
+}
+

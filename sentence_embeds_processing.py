@@ -5,10 +5,6 @@ import numpy as np
 import re
 import json
 
-# file containing path directories
-with open("D:\\My Code\\Python\\2023_02 fMRI RSA Analysis\\file_paths.json", "r") as file:
-    file_paths_dict = json.load(file)
-
 # Define dictionaries of available sentence datasets
 available_pair_datasets = ['GS2011_processed', 'KS2013_processed', 'Fodor_pilot_2022', 'STS131_processed', 'SICK_relatedness', 'STR_processed',
                            'STSb_captions_test', 'STSb_forums_test', 'STSb_headlines_test', 'STSb_test', 'STS3k_all']
@@ -18,6 +14,19 @@ available_nonpaired_datasets = ['Wehbe_neuro', 'Anderson_neuro', 'Pereira243_neu
                                 'Acunzo_neuro','Fodor2024-final108_neuro']
 keys = np.arange(len(available_nonpaired_datasets))
 available_nonpaired_datasets = dict(zip(keys, available_nonpaired_datasets))
+
+# List of computational models for analysis
+model_name_dict = {'mean-CN':'mean_norml', 'random':'mean_random', 'mean-glove':'glove6b_norml', 'mult-CN':'mult_mod_norml', 'conv-CN':'conv_mod_norml',
+                   'infersent':'infersent_norml', 'USE':'universal_norml', 'ernie12':'ernie_12_norml', 'ernie5':'ernie_5_norml',
+                   'sentbert':'sentbert_mpnet_norml', 'openai':'openai_norml', 'defsent':'defsent_cls_norml', 'UAE':'UAE_norml', 'amrbart':'amrbart_norml', 
+                   'AMR-CN':'AMR', 'smatch':'smatch', 'WLKW':'WLK_Wasser', 'S3B-glb':'S3BERT-global', 'S3B-frm':'S3BERT-frames', 'S3B-srl':'S3BERT-srl', 'S3B-wlk':'S3BERT-score_wwlk',
+                   'GPT4-rate':'GPT4_rated', 'human':'Prolific_rated', 'sent_min':'min_sent_length', 'length_diff':'sent_length_diff', 'time_diff':'time_diffs',
+                   'VN-CN-fix':'parse-GPT4_embed-conceptnet_weights-fixed_align-0_norml_fixedparms_basic',
+                   'VN-CN-str':'parse-GPT4_embed-conceptnet_weights-struct_align-0_norml_fixedparms_basic',
+                   'VN-sent-fix':'parse-GPT4_embed-sentbert_weights-fixed_align-0_norml_fixedparms_basic',
+                   'VN-sent-str':'parse-GPT4_embed-sentbert_weights-struct_align-0_norml_fixedparms_basic',
+                   'VN-def-fix':'parse-GPT4_embed-defsent_cls_weights-fixed_align-0_norml_fixedparms_basic',
+                   'VN-def-str':'parse-GPT4_embed-defsent_cls_weights-struct_align-0_norml_fixedparms_basic'}
 
 # Function to load sentences or pairs of sentences from text file
 def load_sentences(file_path: str, pairs: bool):
