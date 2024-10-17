@@ -3,6 +3,21 @@
 
 import numpy as np
 import re
+import json
+
+# file containing path directories
+with open("D:\\My Code\\Python\\2023_02 fMRI RSA Analysis\\file_paths.json", "r") as file:
+    file_paths_dict = json.load(file)
+
+# Define dictionaries of available sentence datasets
+available_pair_datasets = ['GS2011_processed', 'KS2013_processed', 'Fodor_pilot_2022', 'STS131_processed', 'SICK_relatedness', 'STR_processed',
+                           'STSb_captions_test', 'STSb_forums_test', 'STSb_headlines_test', 'STSb_test', 'STS3k_all']
+keys = np.arange(len(available_pair_datasets))
+available_pair_datasets = dict(zip(keys, available_pair_datasets))
+available_nonpaired_datasets = ['Wehbe_neuro', 'Anderson_neuro', 'Pereira243_neuro', 'Pereira384_neuro', 'Alice_neuro', 'Zhang_neuro', 'Zhang_neuro_8s',
+                                'Acunzo_neuro','Fodor2024-final108_neuro']
+keys = np.arange(len(available_nonpaired_datasets))
+available_nonpaired_datasets = dict(zip(keys, available_nonpaired_datasets))
 
 # Function to load sentences or pairs of sentences from text file
 def load_sentences(file_path: str, pairs: bool):
@@ -64,7 +79,7 @@ def import_word_model(model_path: str):
     for line in lines:
         word_list = line.split()
         word = word_list[0]
-        embedding_list = [float(x) for x in word_list[1:-1]] # store embeddings
+        embedding_list = [float(x) for x in word_list[1:]] # store embeddings
         embedding_np = np.array(embedding_list)
         model_dict[word] = embedding_np
         
@@ -204,13 +219,12 @@ def get_token_embeds(embeddings_matrix: np.ndarray, lemmatizer: object, token_li
 
 
 # Loads a set of sentence similarities, with the right code depending on whether it is a paired or non-paired list
-def load_set_of_sentences(dataset_name: str, data_pairs_path: str, data_nonpaired_path: str, pairs: bool):
+def load_set_of_sentences(dataset_name: str, stimulus_path: str, pairs: bool):
     """ Loads a full set of sentence similarities
 
     Args:
         dataset_name (str): name of dataset to load
-        data_pairs_path (str): path to paired sentence files
-        data_nonpaired_path (str): path to non-paired sentence files
+        stimulus_path (str): path to paired sentence files
         pairs (bool): load sentence pairs or a list of sentences
 
     Returns:
@@ -220,15 +234,12 @@ def load_set_of_sentences(dataset_name: str, data_pairs_path: str, data_nonpaire
     # paired data
     if pairs==True:
         try:
-            sentences_dict = load_sentences(data_pairs_path+dataset_name+'.csv', pairs)
+            sentences_dict = load_sentences(stimulus_path+dataset_name+'.csv', pairs)
         except FileNotFoundError:
-            sentences_dict = load_sentences(data_pairs_path+dataset_name+'.txt', pairs)
+            sentences_dict = load_sentences(stimulus_path+dataset_name+'.txt', pairs)
     # non-paired data
     elif pairs==False:
-        try:
-            sentences_dict = load_sentences(data_nonpaired_path+dataset_name+'.csv', pairs)
-        except FileNotFoundError:
-            sentences_dict = load_sentences(data_nonpaired_path+dataset_name+'.txt', pairs) 
+        sentences_dict = load_sentences(stimulus_path, pairs)
     return sentences_dict
 
 
@@ -243,9 +254,8 @@ def normalise_embeddings(embeddings: np.ndarray):
         np.ndarray: standardised embeddings
     """
     mean_np = np.mean(embeddings, axis=0)
-    std_np = np.std(embeddings, axis=1)
-    new_mean_np = np.transpose(embeddings - mean_np)
-    new_embeddings = np.transpose(new_mean_np/std_np)
+    std_np = np.std(embeddings, axis=0)
+    new_embeddings = (embeddings - mean_np)/(std_np+0.001)
     return new_embeddings
 
 
@@ -362,25 +372,27 @@ def load_model_sims(all_files, full_dataset_name, sims_path):
 
 
 # make adjustments to dataset name to get file to load, as some have idiosyncratic naming issues
-def fix_sentence_dataset_name(dataset):
+def fix_sentence_dataset_name(dataset, pairs):
     """ Make adjustments to dataset names for loading files.
 
     Args:
         dataset (str): dataset filename
+        pairs (boolean): whether the dataset is paired (behavioural) or unpaired (neuro)
 
     Returns:
         str: model name
     """
-    if dataset.split('\\')[2] == 'Fodor2023-final240' or dataset.split('\\')[2] == 'Fodor2023-final192' or dataset.split('\\')[2] == 'Fodor2023-final96':
-        full_dataset_name = dataset.split('\\')[2]
-    elif dataset == 'STS3k_all_rand' or dataset == 'STS3k_all_expr_501': # Need to rename the STSk variants
-        full_dataset_name = 'STS3k_all'
-    elif dataset.split('\\')[2]=='stimuli_243sentences':
-        full_dataset_name = dataset.split('\\')[0].split(' ')[1]+'-243_neuro'
-    elif dataset.split('\\')[2]=='stimuli_384sentences':
-        full_dataset_name = dataset.split('\\')[0].split(' ')[1]+'-384_neuro'
+    
+    
+    if pairs==True:
+        if dataset == 'STS3k_all_rand' or dataset == 'STS3k_all_expr_501': # Need to rename the STSk variants
+            full_dataset_name = 'STS3k_all'
+        
+    elif dataset.split('-')[0]=='Fodor2023' and len(dataset.split('-'))>2:
+        full_dataset_name = dataset.split('-')[0]+'-'+dataset.split('-')[1]+'_neuro' # fix name for Fodor2023 dataset
+    
     else:
-        full_dataset_name = dataset.split('\\')[0].split(' ')[1]+'_neuro'
+        full_dataset_name = dataset
     
     return full_dataset_name
 
@@ -397,17 +409,4 @@ def load_openai_key(key_path):
     """
     with open(key_path, encoding='utf-8') as file: # load openai embeddings key from file
         key = [line.rstrip('\n') for line in file]
-    return key[0],key[1] # key, org
-
-
-# Define dictionaries of available sentence datasets
-available_pair_datasets = ['GS2011_processed', 'KS2013_processed', 'Fodor_pilot_2022', 'STS131_processed', 'SICK_relatedness',
-                           'STSb_captions_test', 'STSb_forums_test', 'STSb_headlines_test', 'STSb_test', 'STS3k_all']
-keys = np.arange(len(available_pair_datasets))
-available_pair_datasets = dict(zip(keys, available_pair_datasets))
-available_nonpaired_datasets = ['2014 Wehbe\Stimuli\\Chapter_9_sentences_final', '2017 Anderson\\Stimuli\\stimuli_final',
-                                '2018 Pereira\\Stimuli\\stimuli_243sentences', '2018 Pereira\\Stimuli\\stimuli_384sentences', '2020 Alice Dataset\\Stimuli\\stimuli_sentences_final',
-                                '2020 Zhang\\Stimuli\\test_sentences_final',
-                                '2023 Fodor Dataset\\Stimuli\\Fodor2023-final240','2023 Fodor Dataset\\Stimuli\\Fodor2023-final192', '2023 Fodor Dataset\\Stimuli\\Fodor2023-final96']
-keys = np.arange(len(available_nonpaired_datasets))
-available_nonpaired_datasets = dict(zip(keys, available_nonpaired_datasets))
+    return key[0] # key, org
